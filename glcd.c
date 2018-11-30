@@ -206,78 +206,78 @@ const unsigned char logo [] = {
 //================================
 
 
-const unsigned char Font3x6[65][3]={	
-0x00,0x00,0x00, /* Espace	0x20 */         
-0x00,0x5C,0x00, /* ! */                         
-0x0C,0x00,0x0C, /* " */                         
-0x7C,0x28,0x7C, /* # */                         
-0x7C,0x44,0x7C, /* 0x */                        
-0x24,0x10,0x48, /* % */                         
-0x28,0x54,0x08, /* & */                         
-0x00,0x0C,0x00, /* ' */                         
-0x38,0x44,0x00, /* ( */                         
-0x44,0x38,0x00, /* ) */                         
-0x20,0x10,0x08, /* // */                        
-0x10,0x38,0x10, /* + */                         
-0x80,0x40,0x00, /* , */                         
-0x10,0x10,0x10, /* - */                         
-0x00,0x40,0x00, /* . */                         
-0x20,0x10,0x08, /* / */    
-0x38,0x44,0x38, /* 0	0x30 */                     
-0x00,0x7C,0x00, /* 1 */                         
-0x64,0x54,0x48, /* 2 */                         
-0x44,0x54,0x28, /* 3 */                         
-0x1C,0x10,0x7C, /* 4 */                         
-0x4C,0x54,0x24, /* 5 */                         
-0x38,0x54,0x20, /* 6 */                         
-0x04,0x74,0x0C, /* 7 */                         
-0x28,0x54,0x28, /* 8 */                         
-0x08,0x54,0x38, /* 9 */                         
-0x00,0x50,0x00, /* : */                         
-0x80,0x50,0x00, /* ; */                         
-0x10,0x28,0x44, /* < */                         
-0x28,0x28,0x28, /* = */                  
-0x44,0x28,0x10, /* > */                        
-0x04,0x54,0x08, /* ? */                         
-0x38,0x4C,0x5C, /* @	0x40 */                          
-0x78,0x14,0x78, /* A */                         
-0x7C,0x54,0x28, /* B */                         
-0x38,0x44,0x44, /* C */                         
-0x7C,0x44,0x38, /* D */                         
-0x7C,0x54,0x44, /* E */                         
-0x7C,0x14,0x04, /* F */                         
-0x38,0x44,0x34, /* G */                         
-0x7C,0x10,0x7C, /* H */                         
-0x00,0x7C,0x00, /* I */                         
-0x20,0x40,0x3C, /* J */                         
-0x7C,0x10,0x6C, /* K */                         
-0x7C,0x40,0x40, /* L */                         
-0x7C,0x08,0x7C, /* M */                         
-0x7C,0x04,0x7C, /* N */                         
-0x7C,0x44,0x7C, /* O */                         
-0x7C,0x14,0x08, /* P	0x50 */                 
-0x38,0x44,0x78, /* Q */                         
-0x7C,0x14,0x68, /* R */                         
-0x48,0x54,0x24, /* S */                         
-0x04,0x7C,0x04, /* T */                         
-0x7C,0x40,0x7C, /* U */                         
-0x3C,0x40,0x3C, /* V */                         
-0x7C,0x20,0x7C, /* W */                         
-0x6C,0x10,0x6C, /* X */                         
-0x1C,0x60,0x1C, /* Y */                         
-0x64,0x54,0x4C, /* Z */                         
-0x7C,0x44,0x00, /* [ */                         
-0x08,0x10,0x20, /* \ */                         
-0x44,0x7C,0x00, /* ] */                         
-0x08,0x04,0x08, /* ^ */                         
-0x80,0x80,0x80, /* _ */                         
-0x04,0x08,0x00 /* `	0x60 */    
+const unsigned char Font3x6[65][3]={
+0x00,0x00,0x00, /* Espace	0x20 */
+0x00,0x5C,0x00, /* ! */
+0x0C,0x00,0x0C, /* " */
+0x7C,0x28,0x7C, /* # */
+0x7C,0x44,0x7C, /* 0x */
+0x24,0x10,0x48, /* % */
+0x28,0x54,0x08, /* & */
+0x00,0x0C,0x00, /* ' */
+0x38,0x44,0x00, /* ( */
+0x44,0x38,0x00, /* ) */
+0x20,0x10,0x08, /* // */
+0x10,0x38,0x10, /* + */
+0x80,0x40,0x00, /* , */
+0x10,0x10,0x10, /* - */
+0x00,0x40,0x00, /* . */
+0x20,0x10,0x08, /* / */
+0x38,0x44,0x38, /* 0	0x30 */
+0x00,0x7C,0x00, /* 1 */
+0x64,0x54,0x48, /* 2 */
+0x44,0x54,0x28, /* 3 */
+0x1C,0x10,0x7C, /* 4 */
+0x4C,0x54,0x24, /* 5 */
+0x38,0x54,0x20, /* 6 */
+0x04,0x74,0x0C, /* 7 */
+0x28,0x54,0x28, /* 8 */
+0x08,0x54,0x38, /* 9 */
+0x00,0x50,0x00, /* : */
+0x80,0x50,0x00, /* ; */
+0x10,0x28,0x44, /* < */
+0x28,0x28,0x28, /* = */
+0x44,0x28,0x10, /* > */
+0x04,0x54,0x08, /* ? */
+0x38,0x4C,0x5C, /* @	0x40 */
+0x78,0x14,0x78, /* A */
+0x7C,0x54,0x28, /* B */
+0x38,0x44,0x44, /* C */
+0x7C,0x44,0x38, /* D */
+0x7C,0x54,0x44, /* E */
+0x7C,0x14,0x04, /* F */
+0x38,0x44,0x34, /* G */
+0x7C,0x10,0x7C, /* H */
+0x00,0x7C,0x00, /* I */
+0x20,0x40,0x3C, /* J */
+0x7C,0x10,0x6C, /* K */
+0x7C,0x40,0x40, /* L */
+0x7C,0x08,0x7C, /* M */
+0x7C,0x04,0x7C, /* N */
+0x7C,0x44,0x7C, /* O */
+0x7C,0x14,0x08, /* P	0x50 */
+0x38,0x44,0x78, /* Q */
+0x7C,0x14,0x68, /* R */
+0x48,0x54,0x24, /* S */
+0x04,0x7C,0x04, /* T */
+0x7C,0x40,0x7C, /* U */
+0x3C,0x40,0x3C, /* V */
+0x7C,0x20,0x7C, /* W */
+0x6C,0x10,0x6C, /* X */
+0x1C,0x60,0x1C, /* Y */
+0x64,0x54,0x4C, /* Z */
+0x7C,0x44,0x00, /* [ */
+0x08,0x10,0x20, /* \ */
+0x44,0x7C,0x00, /* ] */
+0x08,0x04,0x08, /* ^ */
+0x80,0x80,0x80, /* _ */
+0x04,0x08,0x00 /* `	0x60 */
 	};
 
 //================================
 //8x8 Font packed two per definition
 //================================
-	
+
 const unsigned char Font8x8[2048] =
 {
 			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		0
@@ -309,7 +309,7 @@ const unsigned char Font8x8[2048] =
 			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		26
 			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		27
 			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		28
-			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		29	
+			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		29
 			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		30
 			0,   0,   0,   0,   0,   0,   0,   0, 	//' '		31
 			0,   0,   0,   0,   0,   0,   0,   0, 	//'SP'		32
@@ -534,10 +534,10 @@ void glcd_Init(unsigned char mode)
 {
 
 	// Reset the display
-	PORTD = 0x00;					
-	GLCD_RST = 0;					
-	__delay_us(50); //Delay10TCYx(15);				
-	GLCD_RST = 1;				
+	PORTD = 0x00;
+	GLCD_RST = 0;
+	__delay_us(50); //Delay10TCYx(15);
+	GLCD_RST = 1;
 
 	GLCD_E=0;
 	GLCD_CS1=0;
@@ -550,7 +550,7 @@ void glcd_Init(unsigned char mode)
    	glcd_WriteByte(GLCD_LEFT,  0x40);    // Place l'adresse de colonne à 0
    	glcd_WriteByte(GLCD_RIGHT, 0x40);
    	glcd_WriteByte(GLCD_LEFT,  0xB8);    // Place l'adresse de la page à 0
-   	glcd_WriteByte(GLCD_RIGHT, 0xB8);	
+   	glcd_WriteByte(GLCD_RIGHT, 0xB8);
 
 	if(mode == GLCD_ON)
   {
@@ -562,7 +562,7 @@ void glcd_Init(unsigned char mode)
       glcd_WriteByte(GLCD_LEFT,  0x3E); // Eteint le GLCD
       glcd_WriteByte(GLCD_RIGHT, 0x3E);
    }
-	
+
 	glcd_FillScreen(0);                // CLearScreen !
 
 }
@@ -581,7 +581,7 @@ void glcd_WriteByte(unsigned char side, unsigned char data)
 	{
 		GLCD_CS2 = 0;
       	GLCD_CS2 = 1;
-	}	
+	}
 
 	GLCD_DATA_TRIS=0;			//Port D en sortie
 	GLCD_RW=0;					// Positionnement du bit pour écriture
@@ -593,9 +593,9 @@ void glcd_WriteByte(unsigned char side, unsigned char data)
 	GLCD_E = 1;					//Passage de E de 0 à 1
 	__delay_us(1); //Delay1TCY(); 				//délai 833ns revu a 500ns
 	GLCD_E = 0;					//Passage de E de 1 à 0
-	__delay_us(1); //Delay1TCY(); 				//délai 833ns revu a 500ns							
+	__delay_us(1); //Delay1TCY(); 				//délai 833ns revu a 500ns
 								// Le GLCD récupère les données !
-								
+
 	GLCD_CS1 = 0;
 	GLCD_CS2 = 0;				// relachement des ChipSelect
 }
@@ -607,7 +607,7 @@ void glcd_WriteByte(unsigned char side, unsigned char data)
 void glcd_FillScreen(unsigned char color)
 {
 unsigned char i, j;
-								
+
 	for(i = 0; i < 8; i ++)							// Boucle sur les pages verticales
 	{
 		GLCD_RS=0; 									// Positionnement du bit pour instruction (adressage)
@@ -616,13 +616,13 @@ unsigned char i, j;
       	glcd_WriteByte(GLCD_LEFT, i | 0b10111000);  // Envoi la position verticale (page 0)
       	glcd_WriteByte(GLCD_RIGHT, i | 0b10111000);
       	GLCD_RS=1;                                  // Positionnement du bit pour transfert de données
-		
+
 			for(j = 0; j < 64; j++)					// Boucle sur les colonnes
 			{
 			 glcd_WriteByte(GLCD_LEFT, 0xFF*color);  // Allume ou éteint les pixels
-         	 glcd_WriteByte(GLCD_RIGHT, 0xFF*color); 
+         	 glcd_WriteByte(GLCD_RIGHT, 0xFF*color);
 			}
-		
+
 	}
 }
 //************************************************************************
@@ -630,48 +630,51 @@ unsigned char i, j;
 //************************************************************************
 void glcd_Image()
 {
-    int itest=1000; // position vaisseau
-    int invader1=5; //position invader
+    int itest=1000;
+    int invader1=5;
     int invader2=252;
     int invader3=123;
     int invader4=133;
-    int retour1=0; // condition d'aller retour des invader
+
+    int retour1=0;
+    int decalage=0;
     int retour2=0;
     int retour3=0;
     int retour4=0;
-    int missile; //position du missile du vaisseau
+    int missile;
     int tir=0;
     int compteur=0;
     int posvictoire=418;
     int tir2=0;
     int tir3=0;
-    int missile2=0; // missile envoyé par l'invader 2
-             
-    
+    int missile2=0;
+    int decalagevaisseau=0;
+
+
     //placement invader1
     accueil[invader1]=0x3C;
     accueil[invader1-1]=accueil[invader1+1]=0xB4;
     accueil[invader1-2]=accueil[invader1+2]=0xCA;
     accueil[invader1-3]=accueil[invader1+3]=0x19;
-    
+
     //placement invader2
     accueil[invader2]=0x3C;
     accueil[invader2-1]=accueil[invader2+1]=0xB4;
     accueil[invader2-2]=accueil[invader2+2]=0xCA;
     accueil[invader2-3]=accueil[invader2+3]=0x19;
-    
+
     //placement invader3
     accueil[invader3]=0x3C;
     accueil[invader3-1]=accueil[invader3+1]=0xB4;
     accueil[invader3-2]=accueil[invader3+2]=0xCA;
     accueil[invader3-3]=accueil[invader3+3]=0x19;
-    
+
     //placement invader4
     accueil[invader4]=0x3C;
     accueil[invader4-1]=accueil[invader4+1]=0xB4;
     accueil[invader4-2]=accueil[invader4+2]=0xCA;
     accueil[invader4-3]=accueil[invader4+3]=0x19;
-    
+
     //Placement Vaisseau
     accueil[itest]=0xFF;
     accueil[itest-1]=accueil[itest+1]=0xFC;
@@ -679,7 +682,7 @@ void glcd_Image()
     while(1)
     {
  	unsigned char cs;
-	int ptr=0;	// pointeur display    
+	int ptr=0;	// pointeur display
 
 	unsigned char i, j;
 
@@ -693,7 +696,7 @@ void glcd_Image()
     		glcd_WriteByte(cs, 0x40);		// Adresse horizontal 0
  			glcd_WriteByte(cs, i | 0xB8);	// Adresse de la page 0+i
    			GLCD_RS=1;						// Envoi de donnée
-			
+
 			// Boucle sur les octets horizontaux
 			for(j = 0; j < 64; ++j)
 			{
@@ -706,8 +709,8 @@ void glcd_Image()
 			}
 		}
 	}
-  
-     GLCD_CS1=0;   
+
+     GLCD_CS1=0;
      GLCD_CS2=0;
      if(invader4==189)
      {
@@ -719,7 +722,7 @@ void glcd_Image()
      }
      if(retour4==0)
      {
-        accueil[invader4+4]=accueil[invader4+3]; 
+        accueil[invader4+4]=accueil[invader4+3];
         accueil[invader4+3]=accueil[invader4+2];
         accueil[invader4+2]=accueil[invader4+1];
         accueil[invader4+1]=accueil[invader4];
@@ -752,7 +755,7 @@ void glcd_Image()
      }
      if(retour3==1)
      {
-        accueil[invader3+4]=accueil[invader3+3]; 
+        accueil[invader3+4]=accueil[invader3+3];
         accueil[invader3+3]=accueil[invader3+2];
         accueil[invader3+2]=accueil[invader3+1];
         accueil[invader3+1]=accueil[invader3];
@@ -785,7 +788,7 @@ void glcd_Image()
      }
      if(retour2==1)
      {
-        accueil[invader2+4]=accueil[invader2+3]; 
+        accueil[invader2+4]=accueil[invader2+3];
         accueil[invader2+3]=accueil[invader2+2];
         accueil[invader2+2]=accueil[invader2+1];
         accueil[invader2+1]=accueil[invader2];
@@ -818,7 +821,7 @@ void glcd_Image()
      }
      if(retour1==0)
      {
-        accueil[invader1+4]=accueil[invader1+3]; 
+        accueil[invader1+4]=accueil[invader1+3];
         accueil[invader1+3]=accueil[invader1+2];
         accueil[invader1+2]=accueil[invader1+1];
         accueil[invader1+1]=accueil[invader1];
@@ -840,16 +843,16 @@ void glcd_Image()
         accueil[invader1+3]=0x00;
         invader1--;
      }
-     
+
      if(accueil[invader1]==0x00 && accueil[invader1+3]==0x00 && accueil[invader1+2]==0x00 && accueil[invader1+1]==0x00 && accueil[invader1-1]==0x00 && accueil[invader1-2]==0x00 && accueil[invader1-3]==0x00)
      {
-         if(accueil[invader2]==accueil[invader2+3]==accueil[invader2+2]==accueil[invader2+1]==accueil[invader2-1]==accueil[invader2-2]==accueil[invader2-3]==0x00)
+         if(accueil[invader2]==0x00 && accueil[invader2+3]==0x00 && accueil[invader2+2]==0x00 && accueil[invader2+1]==0x00 && accueil[invader2-1]==0x00 && accueil[invader2-2]==0x00 && accueil[invader2-3]==0x00)
         {
-              if(accueil[invader3]==accueil[invader3+3]==accueil[invader3+2]==accueil[invader3+1]==accueil[invader3-1]==accueil[invader3-2]==accueil[invader3-3]==0x00)
+              if(accueil[invader3]==0x00 && accueil[invader3+3]==0x00 && accueil[invader3+2]==0x00 && accueil[invader3+1]==0x00 && accueil[invader3-1]==0x00 && accueil[invader3-2]==0x00 && accueil[invader3-3]==0x00)
                {
-                   if(accueil[invader4]==accueil[invader4+3]==accueil[invader4+2]==accueil[invader4+1]==accueil[invader4-1]==accueil[invader4-2]==accueil[invader4-3]==0x00)
+                   if(accueil[invader4]==0x00 && accueil[invader4+3]==0x00 && accueil[invader4+2]==0x00 && accueil[invader4+1]==0x00 && accueil[invader4-1]==0x00 && accueil[invader4-2]==0x00 && accueil[invader4-3]==0x00)
                     {
-              
+
                             for(compteur=0;compteur<1024;compteur++)
                             {
                               accueil[compteur]=0x00;
@@ -903,20 +906,30 @@ void glcd_Image()
      tir2++;
      if(tir3==1)
      {
+         if(accueil[invader2]==0x00 && accueil[invader2+3]==0x00 && accueil[invader2+2]==0x00 && accueil[invader2+1]==0x00 &&  accueil[invader2-1]==0x00 &&  accueil[invader2-2]==0x00 && accueil[invader2-3]==0x00)
+        {
+        }
+         else
+         {
          accueil[missile2+128]=0xFF;
          accueil[missile2+128+1]=0xFF;
-                 
+         if(decalage==1)
+         {
          accueil[missile2]=0x00;
          accueil[missile2+1]=0x00;
+         }
+         decalage=1;
          missile2=missile2+128;
+         }
          if(missile2>896)
          {
              accueil[missile2]=0x00;
              accueil[missile2+1]=0x00;
              tir3=0;
+             decalage=0;
          }
-         
-         
+
+
      }
      if(PORTBbits.RB6==1)
      {
@@ -930,12 +943,16 @@ void glcd_Image()
          accueil[missile-128+1]=0xFF;
          accueil[missile-128+2]=0xFF;
          accueil[missile-128-2]=0xFF;
-         
-         accueil[missile]=0x00;
-         accueil[missile+1]=0x00;
-         accueil[missile-1]=0x00;
-         accueil[missile+2]=0x00;
-         accueil[missile-2]=0x00;
+
+         if(decalagevaisseau==1)
+         {
+            accueil[missile]=0x00;
+            accueil[missile+1]=0x00;
+            accueil[missile-1]=0x00;
+            accueil[missile+2]=0x00;
+            accueil[missile-2]=0x00;
+         }
+         decalagevaisseau=1;
          missile=missile-128;
          if(missile<129)
          {
@@ -945,11 +962,53 @@ void glcd_Image()
              accueil[missile+2]=0x00;
              accueil[missile-2]=0x00;
              tir=0;
+             decalagevaisseau=0;
          }
-         accueil[itest]=0xFF;
+
+        accueil[itest]=0xFF;
         accueil[itest-1]=accueil[itest+1]=0xFC;
         accueil[itest-2]=accueil[itest+2]=0xF0;
      }
+     /*
+     if(accueil[itest]==0x00 && accueil[itest-1]==0x00 && accueil[itest+1]==0x00 && accueil[itest+2]==0x00 && accueil[itest-2]==0x00)
+     {
+         for(compteur=0;compteur<1024;compteur++)
+                            {
+                              accueil[compteur]=0x00;
+                            }
+
+                            //Lettre P
+                           accueil[posvictoire+7]=0xFF;
+                           accueil[posvictoire+8]=accueil[posvictoire+9]=0x11;
+                           accueil[posvictoire+10]=0x1F;
+
+                           //Lettre E
+                           accueil[posvictoire+14]=0xFF;
+                           accueil[posvictoire+15]=accueil[posvictoire+16]=accueil[posvictoire+17]=0x91;
+
+                            //Lettre R
+                           accueil[posvictoire+21]=0xFF;
+                           accueil[posvictoire+22]=0x11;
+                           accueil[posvictoire+23]=0x31;
+                           accueil[posvictoire+24]=0x4A;
+                           accueil[posvictoire+25]=0x84;
+
+
+                           //Lettre D
+                            accueil[posvictoire+29]=0xFF;
+                            accueil[posvictoire+30]=0x42;
+                            accueil[posvictoire+31]=0x24;
+                            accueil[posvictoire+32]=0x18;
+
+
+
+                            //Lettre U
+                            accueil[posvictoire+36]=accueil[posvictoire+43]=0x1F;
+                            accueil[posvictoire+37]=accueil[posvictoire+42]=0x20;
+                            accueil[posvictoire+38]=accueil[posvictoire+41]=0x40;
+                            accueil[posvictoire+39]=accueil[posvictoire+40]=0x80;
+
+     }*/
      if(PORTEbits.RE0==1)
      {
          if(itest<1021)
@@ -960,12 +1019,12 @@ void glcd_Image()
             accueil[itest]=accueil[itest-1];
             accueil[itest-1]=accueil[itest-2];
             accueil[itest-2]=0x00;
-         
+
             itest++;
          }
      }
      if(PORTEbits.RE1==1)
-     {   
+     {
          if(itest>896)
          {
             accueil[itest-3]=accueil[itest-2];
@@ -984,42 +1043,42 @@ void glcd_Image()
              case 0x00:
              accueil[itest]=0x01;
              break;
-             
+
              case 0x01:
              accueil[itest]=0x02;
              break;
-             
+
              case 0x02:
              accueil[itest]=0x04;
              break;
-             
+
              case 0x04:
              accueil[itest]=0x08;
              break;
-             
+
              case 0x08:
              accueil[itest]=0x10;
              break;
-             
+
              case 0x10:
              accueil[itest]=0x20;
              break;
-             
+
              case 0x20:
              accueil[itest]=0x40;
              break;
-             
+
              case 0x40:
              accueil[itest]=0x80;
-             
+
              case 0x80:
              accueil[itest]=0x00;
              itest=itest+128;
              accueil[itest]=0x01;
              break;
-             
+
          }
-         
+
      }
      if(PORTBbits.RB7==1)
      {
@@ -1028,42 +1087,42 @@ void glcd_Image()
              case 0x00:
              accueil[itest]=0x80;
              break;
-             
+
              case 0x80:
              accueil[itest]=0x40;
              break;
-             
+
              case 0x40:
              accueil[itest]=0x20;
              break;
-             
+
              case 0x20:
              accueil[itest]=0x10;
              break;
-             
+
              case 0x10:
              accueil[itest]=0x08;
              break;
-             
+
              case 0x08:
              accueil[itest]=0x04;
              break;
-             
+
              case 0x04:
              accueil[itest]=0x02;
              break;
-             
+
              case 0x02:
              accueil[itest]=0x01;
-             
+
              case 0x01:
              accueil[itest]=0x00;
              itest=itest-128;
              accueil[itest]=0x80;
              break;
-             
+
          }
-         
+
      }
     }
 }
@@ -1073,7 +1132,7 @@ void glcd_Image()
 unsigned char glcd_ReadByte(unsigned char side)
 {
 unsigned char data;
-	
+
 	if(side)
 	{                   // Sélection du coté pour l'écriture
      	GLCD_CS1 = 1;
@@ -1083,24 +1142,24 @@ unsigned char data;
 	{
 		GLCD_CS2 = 0;
       	GLCD_CS2 = 1;
-	}	
+	}
 
 	GLCD_DATA_TRIS = 0xFF;	//Port D en entrée
 	GLCD_RW = 1;			// Positionnement du bit pour lecture
-	
+
 	// Delay10TCYx (10); 		//délai 8,33ms
-	
+
 	GLCD_E = 1;				//Passage de E de 0 à 1
 	__delay_us(1); //Delay1TCY(); 				//délai 833ns revu a 500ns
-	
+
 	data = RD_DATA;			// Récupération des données
 	GLCD_E = 0;				//Passage de E de 1 à 0
 	__delay_us(1); //Delay1TCY(); 				//délai 833ns revu a 500ns
-	
+
 	GLCD_CS1 = 0;
 	GLCD_CS2 = 0;				// relachement des ChipSelect
 
-	return data;	
+	return data;
 }
 
 //************************************************************************
@@ -1117,28 +1176,28 @@ void glcd_PlotPixel(unsigned char xpos, unsigned char ypos, unsigned char color)
       	side = GLCD_RIGHT;
    	}
    	GLCD_RS=0;                        			 // Positionnement du bit pour instruction (adressage)
-	
+
 	xpos &=0b01111111;								// force à 0 le MSB
 	xpos |=0b01000000;								// Positionne à 1 le bit 6.
 	glcd_WriteByte(side, (xpos));                  	// Envoi la position horizontale
 	glcd_WriteByte(side, (((ypos/8)) & 0xBF) | 0xB8);   // Envoi la position verticale (page)
-	
-	GLCD_RS=1;                        				// Positionnement du bit pour récupération de données
-	
-	glcd_ReadByte(side);                         	// On doit lire 2 fois pour obtenir les données
-	data = glcd_ReadByte(side);                  	//  à l'adresse intialisée 
-	
-	GLCD_RS=0;                        			 	// Positionnement du bit pour instruction (adressage)
-	
-	glcd_WriteByte(side, xpos);                 	// reinitialise la position horizontale, incrementer lors de la lecture	
 
-	if(color)    
+	GLCD_RS=1;                        				// Positionnement du bit pour récupération de données
+
+	glcd_ReadByte(side);                         	// On doit lire 2 fois pour obtenir les données
+	data = glcd_ReadByte(side);                  	//  à l'adresse intialisée
+
+	GLCD_RS=0;                        			 	// Positionnement du bit pour instruction (adressage)
+
+	glcd_WriteByte(side, xpos);                 	// reinitialise la position horizontale, incrementer lors de la lecture
+
+	if(color)
 		data=(data)|(1<<(ypos%8));					//Allume le pixel sans modifier les autres
-	else                           
+	else
 		data =(data)&(~(1<<(ypos%8)));				//Eteint le pixel sans modifier les autres
-		
+
 	GLCD_RS=1;  			       					// Positionnement du bit pour envoi de données
-	
+
 	glcd_WriteByte(side, data);   					// On écrit les données
 }
 
@@ -1159,7 +1218,7 @@ void glcd_SetCursor(unsigned char xpos,unsigned char ypos)
    	{
       xpos -= 64;								// xpos est la position relative au controleur G ou D
       side = GLCD_RIGHT;
-   	}	
+   	}
 
 	GLCD_RS=0; 									//Placement du bit pour envoi instruction (adressage)
 		glcd_WriteByte(side, 0x40 | xpos);		//Envoi de l'adresse horizontale
@@ -1174,26 +1233,26 @@ void glcd_SetCursor(unsigned char xpos,unsigned char ypos)
 void glcd_WriteChar8X8(unsigned char ch, unsigned char color)
 {
 	unsigned char i,xpos;
-	unsigned char side = GLCD_LEFT;  	// On initialise sur le coté gauche	
+	unsigned char side = GLCD_LEFT;  	// On initialise sur le coté gauche
 	unsigned int chr;
-	
+
 	if (ch=='\n')						// détection CR
 	{
 		x=0;
 		y++;
-		return;	
+		return;
 	}
-	
+
 	if(x > 63)           			// Si ce n'est pas le côté gauche, c'est le droit
    	   	{
 		side = GLCD_RIGHT;
-		xpos=x-64;					// x désigne la position absolue, 
+		xpos=x-64;					// x désigne la position absolue,
 		}							//xpos est la position / au controleur doit ou gauche
-	else		
+	else
    		xpos=x;						//Lorsque l'on est à gauche x=xpos
-		
+
 	chr = (int)ch*8;				//Positionnement de chr au début du caractère (8 bytes par caractère)
-	
+
 	for(i = 0; i < 8; i++)			//on balaye les 8 colonnes du caractère
 	{
 	// if((xpos+i) > 63)             	// Si le caractère se trouve entre les deux moitiés, on traite !
@@ -1212,7 +1271,7 @@ void glcd_WriteChar8X8(unsigned char ch, unsigned char color)
 		glcd_WriteByte(side,~(Font8x8[chr+i]));
 	xpos++;
 	}
-	x+=8;	
+	x+=8;
 }
 
 
@@ -1222,25 +1281,25 @@ void glcd_WriteChar8X8(unsigned char ch, unsigned char color)
 void glcd_WriteChar3x6(unsigned char ch, unsigned char color)
 {
 	unsigned char i,xpos;
-	unsigned char side = GLCD_LEFT;  	// On initialise sur le coté gauche	
-	
+	unsigned char side = GLCD_LEFT;  	// On initialise sur le coté gauche
+
 	if (ch=='\n')						// détection CR
 	{
 		x=0;
 		y++;
-		return;	
+		return;
 	}
-	
+
 	if(x > 63)           			// Si ce n'est pas le côté gauche, c'est le droit
    	   	{
 		side = GLCD_RIGHT;
-		xpos=x-64;					// x désigne la position absolue, 
+		xpos=x-64;					// x désigne la position absolue,
 		}							//xpos est la position / au controleur doit ou gauche
-	else		
+	else
    		xpos=x;						//Lorsque l'on est à gauche x=xpos
-		
+
 	ch -= 32;
-	
+
 	for(i = 0; i < 3; i++)			//on balaye les 8 colonnes du caractère
 	{
 		if(xpos > 63)
@@ -1258,19 +1317,19 @@ void glcd_WriteChar3x6(unsigned char ch, unsigned char color)
 			glcd_WriteByte(side,~(Font3x6[ch][i]));
 		xpos++;
 	}
-	x+=5;	
+	x+=5;
 }
 
 //************************************************************************
 // void glcd_WriteString(unsigned char str[])
 //************************************************************************
 void glcd_WriteString(unsigned char str[],unsigned char font,unsigned char color)
-{	
+{
 	while(*str)
 	{
 		if(font)
 			glcd_WriteChar8X8(*str, color);
-		else 
+		else
 			glcd_WriteChar3x6(*str, color);
 		str++;
 	}
