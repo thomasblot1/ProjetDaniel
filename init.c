@@ -7,13 +7,13 @@ void initMyPIC18F(void)
 	ADCON1 = 0x0F ;
 	ADCON0 = 0;
 
-	// set all ports as OUTPUTS
+	// set all ports as OUTPUTS only the screen will be considered as output
 	TRISA = 0x00;
 	TRISB = 0x00;
 	TRISC = 0x00;
 	TRISD = 0x00;
 	TRISE = 0x00;
-
+// thomas travaille sur le tris pour el port e et le port b des boutons 
 	// set port by port on "all zeros"
 	PORTA = 0x00;
 	PORTB = 0x00;
@@ -25,4 +25,3 @@ void initMyPIC18F(void)
 
 }
 // make sure to have an empty LAST line in any *.c file (just hit an Enter)!
-
