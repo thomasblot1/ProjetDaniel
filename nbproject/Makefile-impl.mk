@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ProjetMicrocontroleurSpaceInvader.X
+PROJECTNAME=ProjetDaniel
 
 # Active Configuration
 DEFAULTCONF=default
