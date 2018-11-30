@@ -1,4 +1,4 @@
-// INCLUDES
+ // INCLUDES
 #include "glcd.h"
 
 unsigned char accueil[]={
@@ -938,32 +938,84 @@ void glcd_Image()
      }
      if(tir==1)
      {
-         accueil[missile-128]=0xFF;
-         accueil[missile-128-1]=0xFF;
-         accueil[missile-128+1]=0xFF;
-         accueil[missile-128+2]=0xFF;
-         accueil[missile-128-2]=0xFF;
+			 if(missile<129)
+		  	 {
+					  accueil[missile]=0x00;
+					  accueil[missile+1]=0x00;
+					  accueil[missile-1]=0x00;
+					  tir=0;
+					  decalagevaisseau=0;
+		  	 }
+
+			 	 if (accueil[missile-128]==0x00 && accueil[missile-129]==0x00 && accueil[missile-127]==0x00)
+				 {
+         		accueil[missile-128]=0xFF;
+         		accueil[missile-128-1]=0xFF;
+         		accueil[missile-128+1]=0xFF;
+			   }
+
+				 else if (accueil[missile-128]==0xFF && accueil[missile-129]==0xFF && accueil[missile-127]==0xFF)
+				 {
+         		accueil[missile-128]=0x00;
+         		accueil[missile-128-1]=0x00;
+         		accueil[missile-128+1]=0x00;
+						accueil[missile]=0x00;
+            accueil[missile+1]=0x00;
+            accueil[missile-1]=0x00;
+			   }
+
+				 else
+				 {
+					  if ((missile-128 <= invader1+3) && (missile-128 >= invader1-3))
+						{
+							 accueil[invader1] = 0x00;
+							 accueil[invader1+1] = 0x00;
+							 accueil[invader1+2] = 0x00;
+							 accueil[invader1+3] = 0x00;
+							 accueil[invader1-1] = 0x00;
+							 accueil[invader1-2] = 0x00;
+							 accueil[invader1-3] = 0x00;
+						}
+						if ((missile-128 <= invader2+3) && (missile-128 >= invader2-3))
+						{
+							 accueil[invader2] = 0x00;
+							 accueil[invader2+1] = 0x00;
+							 accueil[invader2+2] = 0x00;
+							 accueil[invader2+3] = 0x00;
+							 accueil[invader2-1] = 0x00;
+							 accueil[invader2-2] = 0x00;
+							 accueil[invader2-3] = 0x00;
+						}
+						if ((missile-128 <= invader3+3) && (missile-128 >= invader3-3))
+						{
+							 accueil[invader3] = 0x00;
+							 accueil[invader3+1] = 0x00;
+							 accueil[invader3+2] = 0x00;
+							 accueil[invader3+3] = 0x00;
+							 accueil[invader3-1] = 0x00;
+							 accueil[invader3-2] = 0x00;
+							 accueil[invader3-3] = 0x00;
+						}
+						if ((missile-128 <= invader4+3) && (missile-128 >= invader4-3))
+						{
+							 accueil[invader4] = 0x00;
+							 accueil[invader4+1] = 0x00;
+							 accueil[invader4+2] = 0x00;
+							 accueil[invader4+3] = 0x00;
+							 accueil[invader4-1] = 0x00;
+							 accueil[invader4-2] = 0x00;
+							 accueil[invader4-3] = 0x00;
+						}
+				 }
 
          if(decalagevaisseau==1)
          {
             accueil[missile]=0x00;
             accueil[missile+1]=0x00;
             accueil[missile-1]=0x00;
-            accueil[missile+2]=0x00;
-            accueil[missile-2]=0x00;
          }
          decalagevaisseau=1;
          missile=missile-128;
-         if(missile<129)
-         {
-             accueil[missile]=0x00;
-             accueil[missile+1]=0x00;
-             accueil[missile-1]=0x00;
-             accueil[missile+2]=0x00;
-             accueil[missile-2]=0x00;
-             tir=0;
-             decalagevaisseau=0;
-         }
 
         accueil[itest]=0xFF;
         accueil[itest-1]=accueil[itest+1]=0xFC;
