@@ -17,24 +17,26 @@ void main (void)
     initMyPIC18F();
     glcd_Init(GLCD_ON);
     glcd_Image();
-    
+
     //glcd_PlotPixel(2,2, 0xFF);
-    
+
     //glcd_SetCursor(59,10);
     //glcd_WriteString("BOPPE ",f8X8,1);
-    
+
     //glcd_SetCursor(54,30);
     //glcd_WriteString("RINGELSTEIN ",f8X8,1);
-    
+
     //glcd_SetCursor(56,50);
     //glcd_WriteString("BARALLE ",f8X8,1);
-    
+
+
+
+     
     while(1)
     {
-        
+
     }
 
 }// end of the main function
 
 // make sure to have an empty LAST line in any *.c file (just hit an Enter)!
-
