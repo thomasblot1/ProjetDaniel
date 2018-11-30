@@ -16,6 +16,10 @@ void main (void)
     // call the function that will init the PIC
     initMyPIC18F();
     glcd_Init(GLCD_ON);
+
+
+    glcd_Image();
+
     glcd_PlotPixel(2,2, 0xFF);
     glcd_SetCursor(51,10);
     glcd_WriteString("Space Invader",f8X8,1);
@@ -23,21 +27,6 @@ void main (void)
     glcd_WriteString("Let's PLAY",f8X8,1);
     glcd_SetCursor(48,50);
     glcd_WriteString("Made by Daniel, Gabriel et Thomas",f8X8,1);
-
-
-    glcd_Image();
-
-    //glcd_PlotPixel(2,2, 0xFF);
-
-    //glcd_SetCursor(59,10);
-    //glcd_WriteString("BOPPE ",f8X8,1);
-
-    //glcd_SetCursor(54,30);
-    //glcd_WriteString("RINGELSTEIN ",f8X8,1);
-
-    //glcd_SetCursor(56,50);
-    //glcd_WriteString("BARALLE ",f8X8,1);
-
 
 
 
