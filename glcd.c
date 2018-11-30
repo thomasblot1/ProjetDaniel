@@ -630,25 +630,25 @@ unsigned char i, j;
 //************************************************************************
 void glcd_Image()
 {
-    int itest=1000;
-    int invader1=5;
+    int itest=1000; //position du vaisseau
+    int invader1=5; //position invader
     int invader2=252;
     int invader3=123;
     int invader4=133;
 
-    int retour1=0;
-    int decalage=0;
+    int retour1=0; //condition aller retour invader
+    int decalage=0; //décallage pour sauvegarder l'invader
     int retour2=0;
     int retour3=0;
     int retour4=0;
-    int missile;
-    int tir=0;
-    int compteur=0;
-    int posvictoire=418;
-    int tir2=0;
-    int tir3=0;
-    int missile2=0;
-    int decalagevaisseau=0;
+    int missile; //position missile du vaisseau
+    int tir=0; //variable assigné au bouton de tir
+    int compteur=0; //variable d'incrémentation
+    int posvictoire=418; //position pour écrire victoire
+    int tir2=0; //compteur de tir pour l'invader
+    int tir3=0; //booléen pour le tir d'invader
+    int missile2=0; //pos missile invader
+    int decalagevaisseau=0; //décalage pour sauvegarder le vaisseau
 
 
     //placement invader1
