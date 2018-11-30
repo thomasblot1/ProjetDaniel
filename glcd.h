@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   glcd.h
 * Author: Adrian Chazottes
  *
@@ -10,7 +10,6 @@
 
 #define 	LCD_WIDTH			128
 #define 	LCD_HEIGHT			64
-
 #define 	GLCD_CS1			LATBbits.LATB0
 #define 	GLCD_CS2			LATBbits.LATB1
 #define 	GLCD_RS				LATBbits.LATB2
@@ -19,12 +18,12 @@
 #define 	GLCD_RST			LATBbits.LATB5
 
 #define 	GLCD_DATA_TRIS		TRISD
-#define 	WR_DATA				LATD		
-#define 	RD_DATA				PORTD	
+#define 	WR_DATA				LATD
+#define 	RD_DATA				PORTD
 
 #define 	GLCD_LEFT   	 	0
-#define 	GLCD_RIGHT  	 	1	
-	
+#define 	GLCD_RIGHT  	 	1
+
 #define 	GLCD_OFF			0
 #define 	GLCD_ON				1
 
@@ -123,4 +122,3 @@ const unsigned char poulet[1024]={255,255,255,255,255,255,255,255,255,255,255,25
 
 
 #endif	/* GLCD_H */
-
