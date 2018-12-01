@@ -6348,7 +6348,13 @@ void glcd_Image()
     int posvictoire=418;
     int tir2=0;
     int tir3=0;
+    int tir4=0;
+    int tir5=0;
+    int tir6=0;
     int missile2=0;
+    int missile3=0;
+    int missile4=0;
+    int missile5=0;
     int decalagevaisseau=0;
 
 
@@ -6594,6 +6600,38 @@ void glcd_Image()
          }
      }
 
+     if(tir2==75){
+         tir4=1;
+         tir2=0;
+         missile3=invader4;
+     }
+     if(tir4==1)
+     {
+         if(accueil[invader4]==0x00 && accueil[invader4+3]==0x00 && accueil[invader4+2]==0x00 && accueil[invader4]==0x00 && accueil[invader4-1]==0x00 && accueil[invader4-2]==0x00 && accueil[invader4-3]==0x00)
+        {
+        }
+         else
+         {
+         accueil[missile3+128]=0xFF;
+         accueil[missile3+128+1]=0xFF;
+         if(decalage==1)
+         {
+         accueil[missile3]=0x00;
+         accueil[missile3+1]=0x00;
+         }
+         decalage=1;
+         missile2=missile3+128;
+         }
+         if(missile3>896)
+         {
+             accueil[missile3]=0x00;
+             accueil[missile3+1]=0x00;
+             tir4=0;
+             decalage=0;
+         }
+
+
+     }
      if(tir2==100)
      {
          tir3=1;
