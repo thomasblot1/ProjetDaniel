@@ -20,18 +20,30 @@ void main (void)
     // call the function that will init the PIC
     initMyPIC18F();
     glcd_Init(GLCD_ON);
-
+        
         //glcd_PlotPixel(2,2, 0xFF);
         glcd_SetCursor(10,1);
-        glcd_WriteString("Space Invader",f8X8,1); 
-        __delay_ms(700);
-        glcd_SetCursor(10,3);
-        glcd_WriteString("Let's PLAY",f8X8,1);
+        glcd_WriteString("Space Invader",f8X8,1);
+        __delay_ms(500);
+        glcd_SetCursor(30,3);
+
         //glcd_SetCursor(53,60);
-        //glcd_WriteString("Made by Daniel, Gabriel et Thomas",f8X8,1);
-        __delay_ms(3000);
+        glcd_WriteString("Made by",f8X8,1);
+        glcd_SetCursor(10,5);
+        __delay_ms(20);
+        glcd_WriteString("Daniel,Gabriel",f8X8,1);
+        glcd_SetCursor(30,7);
+        glcd_WriteString("et Thomas",f8X8,1);
+
+        __delay_ms(600);
 
         glcd_Init(GLCD_OFF);
+        //on utilise la fonction quand on arrete pour clean le glcd
+        glcd_Init(GLCD_ON);
+        glcd_SetCursor(20,4);
+         glcd_WriteString("Let's PLAY",f8X8,1);
+         __delay_ms(400);
+         glcd_Init(GLCD_OFF);
         //on utilise la fonction quand on arrete pour clean le glcd
         glcd_Init(GLCD_ON);
     glcd_Image();
