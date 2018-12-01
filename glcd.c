@@ -644,15 +644,13 @@ void glcd_Image()
     int compteur=0; //variable d'incrémentation
     int posvictoire=418; //position pour écrire victoire
     int tir2=0; //compteur de tir pour l'invader
-    int tir3=0;
-    int tir4=0;
-    int tir5=0;
-    int tir6=0;//booléen pour le tir d'invader
-    int missile2=0;
-    int missile3=0;
-    int missile4=0;
-    int missile5=0;//pos missile invader
+    int tir3=0; //booléen pour le tir d'invader
+    int missile2=0; //pos missile invader
     int decalagevaisseau=0; //décalage pour sauvegarder le vaisseau
+		int invdep1 = 1; //condition de déplacement de l'invader 1
+		int invdep2 = 1; //condition de déplacement de l'invader 2
+		int invdep3 = 1; //condition de déplacement de l'invader 3
+		int invdep4 = 1; //condition de déplacement de l'invader 4
 
 
     //placement invader1
@@ -712,106 +710,114 @@ void glcd_Image()
      GLCD_CS1=0;
      GLCD_CS2=0;
 		 //deplacement des invaders
-     if(invader4==189)
-     {
-         retour4 = 1;
-     }
-     if(invader4==132)
-     {
-         retour4=0;
-     }
-     if(retour4==0)
-     {
-        accueil[invader4+4]=accueil[invader4+3];
-        accueil[invader4+3]=accueil[invader4+2];
-        accueil[invader4+2]=accueil[invader4+1];
-        accueil[invader4+1]=accueil[invader4];
-        accueil[invader4]=accueil[invader4-1];
-        accueil[invader4-1]=accueil[invader4-2];
-        accueil[invader4-2]=accueil[invader4-3];
-        accueil[invader4-3]=0x00;
-        invader4++;
-     }
-     else
-     {
-        accueil[invader4-4]=accueil[invader4-3];
-        accueil[invader4-3]=accueil[invader4-2];
-        accueil[invader4-2]=accueil[invader4-1];
-        accueil[invader4-1]=accueil[invader4];
-        accueil[invader4]=accueil[invader4+1];
-        accueil[invader4+1]=accueil[invader4+2];
-        accueil[invader4+2]=accueil[invader4+3];
-        accueil[invader4+3]=0x00;
-        invader4--;
-     }
+		 if (invdep4){
+		     if(invader4==189)
+		     {
+		         retour4 = 1;
+		     }
+		     if(invader4==132)
+		     {
+		         retour4=0;
+		     }
+		     if(retour4==0)
+		     {
+		        accueil[invader4+4]=accueil[invader4+3];
+		        accueil[invader4+3]=accueil[invader4+2];
+		        accueil[invader4+2]=accueil[invader4+1];
+		        accueil[invader4+1]=accueil[invader4];
+		        accueil[invader4]=accueil[invader4-1];
+		        accueil[invader4-1]=accueil[invader4-2];
+		        accueil[invader4-2]=accueil[invader4-3];
+		        accueil[invader4-3]=0x00;
+		        invader4++;
+		     }
+		     else
+		     {
+		        accueil[invader4-4]=accueil[invader4-3];
+		        accueil[invader4-3]=accueil[invader4-2];
+		        accueil[invader4-2]=accueil[invader4-1];
+		        accueil[invader4-1]=accueil[invader4];
+		        accueil[invader4]=accueil[invader4+1];
+		        accueil[invader4+1]=accueil[invader4+2];
+		        accueil[invader4+2]=accueil[invader4+3];
+		        accueil[invader4+3]=0x00;
+		        invader4--;
+		     }
+	 	}
      //////////////////////////////////////////////////////////////
-     if(invader3==68)
-     {
-         retour3 = 1;
-     }
-     if(invader3==124)
-     {
-         retour3=0;
-     }
-     if(retour3==1)
-     {
-        accueil[invader3+4]=accueil[invader3+3];
-        accueil[invader3+3]=accueil[invader3+2];
-        accueil[invader3+2]=accueil[invader3+1];
-        accueil[invader3+1]=accueil[invader3];
-        accueil[invader3]=accueil[invader3-1];
-        accueil[invader3-1]=accueil[invader3-2];
-        accueil[invader3-2]=accueil[invader3-3];
-        accueil[invader3-3]=0x00;
-        invader3++;
-     }
-     else
-     {
-        accueil[invader3-4]=accueil[invader3-3];
-        accueil[invader3-3]=accueil[invader3-2];
-        accueil[invader3-2]=accueil[invader3-1];
-        accueil[invader3-1]=accueil[invader3];
-        accueil[invader3]=accueil[invader3+1];
-        accueil[invader3+1]=accueil[invader3+2];
-        accueil[invader3+2]=accueil[invader3+3];
-        accueil[invader3+3]=0x00;
-        invader3--;
-     }
+
+		 if(invdep3){
+			 if(invader3==68)
+	     {
+	         retour3 = 1;
+	     }
+	     if(invader3==124)
+	     {
+	         retour3=0;
+	     }
+	     if(retour3==1)
+	     {
+	        accueil[invader3+4]=accueil[invader3+3];
+	        accueil[invader3+3]=accueil[invader3+2];
+	        accueil[invader3+2]=accueil[invader3+1];
+	        accueil[invader3+1]=accueil[invader3];
+	        accueil[invader3]=accueil[invader3-1];
+	        accueil[invader3-1]=accueil[invader3-2];
+	        accueil[invader3-2]=accueil[invader3-3];
+	        accueil[invader3-3]=0x00;
+	        invader3++;
+	     }
+	     else
+	     {
+	        accueil[invader3-4]=accueil[invader3-3];
+	        accueil[invader3-3]=accueil[invader3-2];
+	        accueil[invader3-2]=accueil[invader3-1];
+	        accueil[invader3-1]=accueil[invader3];
+	        accueil[invader3]=accueil[invader3+1];
+	        accueil[invader3+1]=accueil[invader3+2];
+	        accueil[invader3+2]=accueil[invader3+3];
+	        accueil[invader3+3]=0x00;
+	        invader3--;
+	     }
+		 }
      /////////////////////////////////////////////
-     if(invader2==192)
-     {
-         retour2 = 1;
-     }
-     if(invader2==252)
-     {
-         retour2=0;
-     }
-     if(retour2==1)
-     {
-        accueil[invader2+4]=accueil[invader2+3];
-        accueil[invader2+3]=accueil[invader2+2];
-        accueil[invader2+2]=accueil[invader2+1];
-        accueil[invader2+1]=accueil[invader2];
-        accueil[invader2]=accueil[invader2-1];
-        accueil[invader2-1]=accueil[invader2-2];
-        accueil[invader2-2]=accueil[invader2-3];
-        accueil[invader2-3]=0x00;
-        invader2++;
-     }
-     else
-     {
-        accueil[invader2-4]=accueil[invader2-3];
-        accueil[invader2-3]=accueil[invader2-2];
-        accueil[invader2-2]=accueil[invader2-1];
-        accueil[invader2-1]=accueil[invader2];
-        accueil[invader2]=accueil[invader2+1];
-        accueil[invader2+1]=accueil[invader2+2];
-        accueil[invader2+2]=accueil[invader2+3];
-        accueil[invader2+3]=0x00;
-        invader2--;
-     }
+		 if(invdep2){
+			 if(invader2==192)
+	     {
+	         retour2 = 1;
+	     }
+	     if(invader2==252)
+	     {
+	         retour2=0;
+	     }
+	     if(retour2==1)
+	     {
+	        accueil[invader2+4]=accueil[invader2+3];
+	        accueil[invader2+3]=accueil[invader2+2];
+	        accueil[invader2+2]=accueil[invader2+1];
+	        accueil[invader2+1]=accueil[invader2];
+	        accueil[invader2]=accueil[invader2-1];
+	        accueil[invader2-1]=accueil[invader2-2];
+	        accueil[invader2-2]=accueil[invader2-3];
+	        accueil[invader2-3]=0x00;
+	        invader2++;
+	     }
+	     else
+	     {
+	        accueil[invader2-4]=accueil[invader2-3];
+	        accueil[invader2-3]=accueil[invader2-2];
+	        accueil[invader2-2]=accueil[invader2-1];
+	        accueil[invader2-1]=accueil[invader2];
+	        accueil[invader2]=accueil[invader2+1];
+	        accueil[invader2+1]=accueil[invader2+2];
+	        accueil[invader2+2]=accueil[invader2+3];
+	        accueil[invader2+3]=0x00;
+	        invader2--;
+	     }
+		 }
      ////////////////////////////
-     if(invader1==64)
+		 if(invdep1){
+		 if(invader1==64)
      {
          retour1 = 1;
      }
@@ -843,6 +849,7 @@ void glcd_Image()
         accueil[invader1+3]=0x00;
         invader1--;
      }
+	 }
 
      if(accueil[invader1]==0x00 && accueil[invader1+3]==0x00 && accueil[invader1+2]==0x00 && accueil[invader1+1]==0x00 && accueil[invader1-1]==0x00 && accueil[invader1-2]==0x00 && accueil[invader1-3]==0x00)
      {
@@ -897,38 +904,6 @@ void glcd_Image()
          }
      }
      //Tir invader
-     if(tir2==75){
-         tir4=1;
-         tir2=0;
-         missile3=invader4;
-     }
-     if(tir4==1)
-     {
-         if(accueil[invader4]==0x00 && accueil[invader4+3]==0x00 && accueil[invader4+2]==0x00 && accueil[invader4]==0x00 &&  accueil[invader4-1]==0x00 &&  accueil[invader4-2]==0x00 && accueil[invader4-3]==0x00)
-        {
-        }
-         else
-         {
-         accueil[missile3+128]=0xFF;
-         accueil[missile3+128+1]=0xFF;
-         if(decalage==1)
-         {
-         accueil[missile3]=0x00;
-         accueil[missile3+1]=0x00;
-         }
-         decalage=1;
-         missile2=missile3+128;
-         }
-         if(missile3>896)
-         {
-             accueil[missile3]=0x00;
-             accueil[missile3+1]=0x00;
-             tir4=0;
-             decalage=0;
-         }
-
-
-     }
      if(tir2==100)
      {
          tir3=1;
@@ -986,6 +961,7 @@ void glcd_Image()
          		accueil[missile-128+1]=0xFF;
 			   }
 
+				 //cas missile contre missile
 				 else if (accueil[missile-128]==0xFF && accueil[missile-129]==0xFF && accueil[missile-127]==0xFF)
 				 {
          		accueil[missile-128]=0x00;
@@ -996,7 +972,7 @@ void glcd_Image()
             accueil[missile-1]=0x00;
 			   }
 
-				 else
+				 else //cas d'impact du missile sur un invader
 				 {
 					  if (((missile-128 <= invader1+3) && (missile-128 >= invader1-3)) || ((missile-127 <= invader1+3) && (missile-127 >= invader1-3)) || ((missile-129 <= invader1+3) && (missile-129 >= invader1-3)))
 						{
@@ -1007,6 +983,7 @@ void glcd_Image()
 							 accueil[invader1-1] = 0x00;
 							 accueil[invader1-2] = 0x00;
 							 accueil[invader1-3] = 0x00;
+							 invdep1 = 0;
 						}
 						if (((missile-128 <= invader2+3) && (missile-128 >= invader2-3)) || ((missile-127 <= invader2+3) && (missile-127 >= invader2-3)) || ((missile-129 <= invader2+3) && (missile-129 >= invader2-3)))
 						{
@@ -1017,6 +994,7 @@ void glcd_Image()
 							 accueil[invader2-1] = 0x00;
 							 accueil[invader2-2] = 0x00;
 							 accueil[invader2-3] = 0x00;
+							 invdep2 = 0;
 						}
 						if (((missile-128 <= invader3+3) && (missile-128 >= invader3-3)) || ((missile-127 <= invader3+3) && (missile-127 >= invader3-3)) || ((missile-129 <= invader3+3) && (missile-129 >= invader3-3)))
 						{
@@ -1027,6 +1005,7 @@ void glcd_Image()
 							 accueil[invader3-1] = 0x00;
 							 accueil[invader3-2] = 0x00;
 							 accueil[invader3-3] = 0x00;
+							 invdep3 = 0;
 						}
 						if (((missile-128 <= invader4+3) && (missile-128 >= invader4-3)) || ((missile-127 <= invader4+3) && (missile-127 >= invader4-3)) || ((missile-129 <= invader4+3) && (missile-129 >= invader4-3)))
 						{
@@ -1037,6 +1016,7 @@ void glcd_Image()
 							 accueil[invader4-1] = 0x00;
 							 accueil[invader4-2] = 0x00;
 							 accueil[invader4-3] = 0x00;
+							 invdep4 = 0;
 						}
 				 }
 
