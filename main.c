@@ -21,14 +21,12 @@ void main (void)
     initMyPIC18F();
     glcd_Init(GLCD_ON);
 
-        glcd_PlotPixel(2,2, 0xFF);
-        glcd_SetCursor(10,10);
-        glcd_WriteString("Space",f8X8,1);
+        //glcd_PlotPixel(2,2, 0xFF);
+        glcd_SetCursor(10,1);
+        glcd_WriteString("Space Invader",f8X8,1); 
+        __delay_ms(700);
         glcd_SetCursor(10,3);
-        glcd_WriteString("Invader",f8X8,1);
-
-        glcd_SetCursor(53,30);
-        //glcd_WriteString("Let's PLAY",f8X8,1);
+        glcd_WriteString("Let's PLAY",f8X8,1);
         //glcd_SetCursor(53,60);
         //glcd_WriteString("Made by Daniel, Gabriel et Thomas",f8X8,1);
         __delay_ms(3000);
