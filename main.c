@@ -2,6 +2,9 @@
 
 #include "main.h"
 #include "glcd.h"
+
+#include <xc.h>
+
 #pragma config FOSC = HS 		//oscillator HS
 #pragma config PWRT = OFF
 #pragma config BOR = OFF
@@ -13,6 +16,7 @@
 void main (void)
 {
     PORTE=0x00;
+    int y=0,i=0;
     // call the function that will init the PIC
     initMyPIC18F();
     glcd_Init(GLCD_ON);
@@ -24,8 +28,7 @@ void main (void)
         glcd_WriteString("Let's PLAY",f8X8,1);
         glcd_SetCursor(48,50);
         glcd_WriteString("Made by Daniel, Gabriel et Thomas",f8X8,1);
-
-
+        __delay_ms(3000);
     glcd_Image();
 
 

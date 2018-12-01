@@ -5842,6 +5842,9 @@ void initMyPIC18F(void);
 # 3 "main.c" 2
 
 
+
+
+
 #pragma config FOSC = HS
 #pragma config PWRT = OFF
 #pragma config BOR = OFF
@@ -5853,20 +5856,20 @@ void initMyPIC18F(void);
 void main (void)
 {
     PORTE=0x00;
+    int y=0,i=0;
 
     initMyPIC18F();
     glcd_Init(1);
 
-
+        glcd_PlotPixel(2,2, 0xFF);
+        glcd_SetCursor(51,10);
+        glcd_WriteString("Space Invader",1,1);
+        glcd_SetCursor(53,30);
+        glcd_WriteString("Let's PLAY",1,1);
+        glcd_SetCursor(48,50);
+        glcd_WriteString("Made by Daniel, Gabriel et Thomas",1,1);
+        _delay((unsigned long)((3000)*(8000000/4000.0)));
     glcd_Image();
-
-    glcd_PlotPixel(2,2, 0xFF);
-    glcd_SetCursor(51,10);
-    glcd_WriteString("Space Invader",1,1);
-    glcd_SetCursor(53,30);
-    glcd_WriteString("Let's PLAY",1,1);
-    glcd_SetCursor(48,50);
-    glcd_WriteString("Made by Daniel, Gabriel et Thomas",1,1);
 
 
 

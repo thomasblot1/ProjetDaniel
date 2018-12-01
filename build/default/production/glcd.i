@@ -6403,18 +6403,14 @@ void glcd_Image()
 
    for(j = 0; j < 64; ++j)
    {
-
-
-
-
-                glcd_WriteByte(cs, accueil[ptr]);
+        glcd_WriteByte(cs, accueil[ptr]);
     ptr+=1;
    }
   }
  }
-
      LATBbits.LATB0=0;
      LATBbits.LATB1=0;
+
      if(invader4==189)
      {
          retour4 = 1;
@@ -6669,7 +6665,7 @@ void glcd_Image()
 
      else
      {
-       if ((missile-128 <= invader1+3) && (missile-128 >= invader1-3))
+       if (((missile-128 <= invader1+3) && (missile-128 >= invader1-3)) || ((missile-127 <= invader1+3) && (missile-127 >= invader1-3)) || ((missile-129 <= invader1+3) && (missile-129 >= invader1-3)))
       {
         accueil[invader1] = 0x00;
         accueil[invader1+1] = 0x00;
@@ -6679,7 +6675,7 @@ void glcd_Image()
         accueil[invader1-2] = 0x00;
         accueil[invader1-3] = 0x00;
       }
-      if ((missile-128 <= invader2+3) && (missile-128 >= invader2-3))
+      if (((missile-128 <= invader2+3) && (missile-128 >= invader2-3)) || ((missile-127 <= invader2+3) && (missile-127 >= invader2-3)) || ((missile-129 <= invader2+3) && (missile-129 >= invader2-3)))
       {
         accueil[invader2] = 0x00;
         accueil[invader2+1] = 0x00;
@@ -6689,7 +6685,7 @@ void glcd_Image()
         accueil[invader2-2] = 0x00;
         accueil[invader2-3] = 0x00;
       }
-      if ((missile-128 <= invader3+3) && (missile-128 >= invader3-3))
+      if (((missile-128 <= invader3+3) && (missile-128 >= invader3-3)) || ((missile-127 <= invader3+3) && (missile-127 >= invader3-3)) || ((missile-129 <= invader3+3) && (missile-129 >= invader3-3)))
       {
         accueil[invader3] = 0x00;
         accueil[invader3+1] = 0x00;
@@ -6699,7 +6695,7 @@ void glcd_Image()
         accueil[invader3-2] = 0x00;
         accueil[invader3-3] = 0x00;
       }
-      if ((missile-128 <= invader4+3) && (missile-128 >= invader4-3))
+      if (((missile-128 <= invader4+3) && (missile-128 >= invader4-3)) || ((missile-127 <= invader4+3) && (missile-127 >= invader4-3)) || ((missile-129 <= invader4+3) && (missile-129 >= invader4-3)))
       {
         accueil[invader4] = 0x00;
         accueil[invader4+1] = 0x00;
@@ -6724,7 +6720,7 @@ void glcd_Image()
         accueil[itest-1]=accueil[itest+1]=0xFC;
         accueil[itest-2]=accueil[itest+2]=0xF0;
      }
-# 1064 "glcd.c"
+# 1060 "glcd.c"
      if(PORTEbits.RE0==1)
      {
          if(itest<1021)

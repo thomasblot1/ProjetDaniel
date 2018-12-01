@@ -37,21 +37,21 @@
 [v _glcd_FillScreen glcd_FillScreen `(v  1 e 1 0 ]
 "631
 [v _glcd_Image glcd_Image `(v  1 e 1 0 ]
-"1184
+"1180
 [v _glcd_ReadByte glcd_ReadByte `(uc  1 e 1 0 ]
-"1220
+"1216
 [v _glcd_PlotPixel glcd_PlotPixel `(v  1 e 1 0 ]
-"1259
+"1255
 [v _glcd_SetCursor glcd_SetCursor `(v  1 e 1 0 ]
-"1285
+"1281
 [v _glcd_WriteChar8X8 glcd_WriteChar8X8 `(v  1 e 1 0 ]
-"1333
+"1329
 [v _glcd_WriteChar3x6 glcd_WriteChar3x6 `(v  1 e 1 0 ]
-"1378
+"1374
 [v _glcd_WriteString glcd_WriteString `(v  1 e 1 0 ]
 "4 C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
 [v _initMyPIC18F initMyPIC18F `(v  1 e 1 0 ]
-"13 C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+"16 C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
 [v _main main `(v  1 e 1 0 ]
 "2314 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h
 [v _PORTA PORTA `VEuc  1 e 1 @3968 ]
@@ -165,98 +165,101 @@
 "527
 [v _x x `uc  1 e 1 0 ]
 [v _y y `uc  1 e 1 0 ]
-"13 C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+"16 C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"38
+"19
+[v main@i i `i  1 a 2 67 ]
+[v main@y y `i  1 a 2 65 ]
+"41
 } 0
 "4 C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
 [v _initMyPIC18F initMyPIC18F `(v  1 e 1 0 ]
 {
 "26
 } 0
-"1378 C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+"1374 C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
 [v _glcd_WriteString glcd_WriteString `(v  1 e 1 0 ]
 {
 [v glcd_WriteString@str str `*.25uc  1 p 2 19 ]
 [v glcd_WriteString@font font `uc  1 p 1 21 ]
 [v glcd_WriteString@color color `uc  1 p 1 22 ]
-"1388
+"1384
 } 0
-"1285
+"1281
 [v _glcd_WriteChar8X8 glcd_WriteChar8X8 `(v  1 e 1 0 ]
 {
 [v glcd_WriteChar8X8@ch ch `uc  1 a 1 wreg ]
-"1289
+"1285
 [v glcd_WriteChar8X8@chr chr `ui  1 a 2 13 ]
-"1288
+"1284
 [v glcd_WriteChar8X8@side side `uc  1 a 1 18 ]
-"1287
+"1283
 [v glcd_WriteChar8X8@i i `uc  1 a 1 17 ]
 [v glcd_WriteChar8X8@xpos xpos `uc  1 a 1 16 ]
-"1285
+"1281
 [v glcd_WriteChar8X8@ch ch `uc  1 a 1 wreg ]
 [v glcd_WriteChar8X8@color color `uc  1 p 1 10 ]
-"1288
+"1284
 [v glcd_WriteChar8X8@ch ch `uc  1 a 1 15 ]
-"1327
+"1323
 } 0
-"1333
+"1329
 [v _glcd_WriteChar3x6 glcd_WriteChar3x6 `(v  1 e 1 0 ]
 {
 [v glcd_WriteChar3x6@ch ch `uc  1 a 1 wreg ]
-"1336
+"1332
 [v glcd_WriteChar3x6@side side `uc  1 a 1 16 ]
-"1335
+"1331
 [v glcd_WriteChar3x6@i i `uc  1 a 1 15 ]
 [v glcd_WriteChar3x6@xpos xpos `uc  1 a 1 13 ]
-"1333
+"1329
 [v glcd_WriteChar3x6@ch ch `uc  1 a 1 wreg ]
 [v glcd_WriteChar3x6@color color `uc  1 p 1 10 ]
-"1336
+"1332
 [v glcd_WriteChar3x6@ch ch `uc  1 a 1 14 ]
-"1373
+"1369
 } 0
-"1259
+"1255
 [v _glcd_SetCursor glcd_SetCursor `(v  1 e 1 0 ]
 {
 [v glcd_SetCursor@xpos xpos `uc  1 a 1 wreg ]
-"1261
+"1257
 [v glcd_SetCursor@side side `uc  1 a 1 11 ]
-"1259
+"1255
 [v glcd_SetCursor@xpos xpos `uc  1 a 1 wreg ]
 [v glcd_SetCursor@ypos ypos `uc  1 p 1 10 ]
-"1261
+"1257
 [v glcd_SetCursor@xpos xpos `uc  1 a 1 12 ]
-"1279
+"1275
 } 0
-"1220
+"1216
 [v _glcd_PlotPixel glcd_PlotPixel `(v  1 e 1 0 ]
 {
 [v glcd_PlotPixel@xpos xpos `uc  1 a 1 wreg ]
-"1223
+"1219
 [v glcd_PlotPixel@side side `uc  1 a 1 16 ]
-"1222
+"1218
 [v glcd_PlotPixel@data data `uc  1 a 1 15 ]
-"1220
+"1216
 [v glcd_PlotPixel@xpos xpos `uc  1 a 1 wreg ]
 [v glcd_PlotPixel@ypos ypos `uc  1 p 1 10 ]
 [v glcd_PlotPixel@color color `uc  1 p 1 11 ]
-"1223
+"1219
 [v glcd_PlotPixel@xpos xpos `uc  1 a 1 14 ]
-"1254
+"1250
 } 0
-"1184
+"1180
 [v _glcd_ReadByte glcd_ReadByte `(uc  1 e 1 0 ]
 {
 [v glcd_ReadByte@side side `uc  1 a 1 wreg ]
-"1186
+"1182
 [v glcd_ReadByte@data data `uc  1 a 1 1 ]
-"1184
+"1180
 [v glcd_ReadByte@side side `uc  1 a 1 wreg ]
-"1188
+"1184
 [v glcd_ReadByte@side side `uc  1 a 1 0 ]
-"1215
+"1211
 } 0
 "7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
 [v ___awdiv __awdiv `(i  1 e 2 0 ]
@@ -313,10 +316,10 @@
 [v glcd_Image@invader3 invader3 `i  1 a 2 55 ]
 "634
 [v glcd_Image@invader1 invader1 `i  1 a 2 53 ]
-"647
-[v glcd_Image@posvictoire posvictoire `i  1 a 2 51 ]
 "644
-[v glcd_Image@missile missile `i  1 a 2 49 ]
+[v glcd_Image@missile missile `i  1 a 2 51 ]
+"647
+[v glcd_Image@posvictoire posvictoire `i  1 a 2 49 ]
 "650
 [v glcd_Image@missile2 missile2 `i  1 a 2 47 ]
 "646
@@ -339,7 +342,7 @@
 [v glcd_Image@decalage decalage `i  1 a 2 26 ]
 "639
 [v glcd_Image@retour1 retour1 `i  1 a 2 24 ]
-"1180
+"1176
 } 0
 "573
 [v _glcd_WriteByte glcd_WriteByte `(v  1 e 1 0 ]
