@@ -1015,8 +1015,7 @@ void glcd_Image()
         accueil[itest-1]=accueil[itest+1]=0xFC;
         accueil[itest-2]=accueil[itest+2]=0xF0;
      }
-     /*
-     if(accueil[itest]==0x00 && accueil[itest-1]==0x00 && accueil[itest+1]==0x00 && accueil[itest+2]==0x00 && accueil[itest-2]==0x00)
+     if(accueil[itest]==0x00 || accueil[itest-1]==0x00 || accueil[itest+1]==0x00 || accueil[itest+2]==0x00 || accueil[itest-2]==0x00)
      {
          for(compteur=0;compteur<1024;compteur++)
                             {
@@ -1054,9 +1053,8 @@ void glcd_Image()
                             accueil[posvictoire+38]=accueil[posvictoire+41]=0x40;
                             accueil[posvictoire+39]=accueil[posvictoire+40]=0x80;
 
-     }*/
-     if(PORTEbits.RE0==1)
-     {
+     }
+     if(PORTEbits.RE0==1){
          if(itest<1021)
          {
             accueil[itest+3]=accueil[itest+2];

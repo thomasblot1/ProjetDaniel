@@ -6718,9 +6718,46 @@ void glcd_Image()
         accueil[itest-1]=accueil[itest+1]=0xFC;
         accueil[itest-2]=accueil[itest+2]=0xF0;
      }
-# 1058 "glcd.c"
-     if(PORTEbits.RE0==1)
+     if(accueil[itest]==0x00 || accueil[itest-1]==0x00 || accueil[itest+1]==0x00 || accueil[itest+2]==0x00 || accueil[itest-2]==0x00)
      {
+         for(compteur=0;compteur<1024;compteur++)
+                            {
+                              accueil[compteur]=0x00;
+                            }
+
+
+                           accueil[posvictoire+7]=0xFF;
+                           accueil[posvictoire+8]=accueil[posvictoire+9]=0x11;
+                           accueil[posvictoire+10]=0x1F;
+
+
+                           accueil[posvictoire+14]=0xFF;
+                           accueil[posvictoire+15]=accueil[posvictoire+16]=accueil[posvictoire+17]=0x91;
+
+
+                           accueil[posvictoire+21]=0xFF;
+                           accueil[posvictoire+22]=0x11;
+                           accueil[posvictoire+23]=0x31;
+                           accueil[posvictoire+24]=0x4A;
+                           accueil[posvictoire+25]=0x84;
+
+
+
+                            accueil[posvictoire+29]=0xFF;
+                            accueil[posvictoire+30]=0x42;
+                            accueil[posvictoire+31]=0x24;
+                            accueil[posvictoire+32]=0x18;
+
+
+
+
+                            accueil[posvictoire+36]=accueil[posvictoire+43]=0x1F;
+                            accueil[posvictoire+37]=accueil[posvictoire+42]=0x20;
+                            accueil[posvictoire+38]=accueil[posvictoire+41]=0x40;
+                            accueil[posvictoire+39]=accueil[posvictoire+40]=0x80;
+
+     }
+     if(PORTEbits.RE0==1){
          if(itest<1021)
          {
             accueil[itest+3]=accueil[itest+2];
