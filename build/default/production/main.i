@@ -5862,12 +5862,15 @@ void main (void)
     glcd_Init(1);
 
         glcd_PlotPixel(2,2, 0xFF);
-        glcd_SetCursor(51,10);
-        glcd_WriteString("Space Invader",1,1);
+        glcd_SetCursor(10,10);
+        glcd_WriteString("Space",1,1);
+        glcd_SetCursor(10,3);
+        glcd_WriteString("Invader",1,1);
+
         glcd_SetCursor(53,30);
-        glcd_WriteString("Let's PLAY",1,1);
-        glcd_SetCursor(48,50);
-        glcd_WriteString("Made by Daniel, Gabriel et Thomas",1,1);
+
+
+
         _delay((unsigned long)((3000)*(8000000/4000.0)));
     glcd_Image();
 
