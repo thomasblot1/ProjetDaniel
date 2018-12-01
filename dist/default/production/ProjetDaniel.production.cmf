@@ -11,22 +11,29 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+$C:\Users\thoma\AppData\Local\Temp\s1hmo.o
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 0 300000 300000 E 1
 $dist/default/production\ProjetDaniel.production.o
-cinit CODE 0 3FB4 3FB4 22 1
-text0 CODE 0 3F9A 3F9A 1A 1
-text1 CODE 0 3FD6 3FD6 32 1
-text2 CODE 0 4042 4042 A0 1
-text3 CODE 0 40E2 40E2 B8 1
-text4 CODE 0 419A 419A 29A0 1
-text5 CODE 0 4008 4008 3A 1
-cstackCOMRAM COMRAM 1 1 1 37 1
+cinit CODE 0 32B2 32B2 22 1
+text0 CODE 0 3454 3454 82 1
+text1 CODE 0 32D4 32D4 32 1
+text2 CODE 0 3376 3376 6E 1
+text3 CODE 0 37F4 37F4 12C 1
+text4 CODE 0 3920 3920 144 1
+text5 CODE 0 33E4 33E4 70 1
+text6 CODE 0 362E 362E DA 1
+text7 CODE 0 3306 3306 36 1
+text8 CODE 0 3708 3708 EC 1
+text9 CODE 0 34D6 34D6 A0 1
+text10 CODE 0 3576 3576 B8 1
+text11 CODE 0 3A64 3A64 309C 1
+text12 CODE 0 333C 333C 3A 1
+cstackCOMRAM COMRAM 1 1 1 3F 1
 bssBIGRAM BIGRAM 1 400 400 400 1
-bssCOMRAM COMRAM 1 38 38 2 1
-mediumconst MEDIUMCONST 0 6B3A 6B3A 14C6 1
+bssCOMRAM COMRAM 1 40 40 2 1
+mediumconst MEDIUMCONST 0 6B00 6B00 1500 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -39,14 +46,14 @@ BANK0 60-FF 1
 BANK1 100-1FF 1
 BANK2 200-2FF 1
 BANK3 300-3FF 1
-CONST 4-3F99 1
+CONST 4-32B1 1
 STACK 60-3FF 1
-SMALLCONST 800-3F99 1
-CODE 4-3F99 1
-BIGRAM 3A-3FF 1
-COMRAM 3A-5F 1
+SMALLCONST 800-32B1 1
+CODE 4-32B1 1
+BIGRAM 42-3FF 1
+COMRAM 42-5F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 800-3F99 1
+MEDIUMCONST 800-32B1 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -61,449 +68,659 @@ MEDIUMCONST 800-3F99 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\ProjetDaniel.production.o
-4008 text5 CODE >573:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-400A text5 CODE >575:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-401A text5 CODE >577:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-401C text5 CODE >578:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-401E text5 CODE >579:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4022 text5 CODE >580:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4022 text5 CODE >582:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4024 text5 CODE >583:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-402A text5 CODE >584:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-402A text5 CODE >586:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-402E text5 CODE >587:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4030 text5 CODE >589:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4034 text5 CODE >593:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4036 text5 CODE >594:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4038 text5 CODE >595:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-403A text5 CODE >596:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-403C text5 CODE >599:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-403E text5 CODE >600:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4040 text5 CODE >601:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-419A text4 CODE >631:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-419A text4 CODE >633:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41A2 text4 CODE >634:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41AA text4 CODE >635:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41B2 text4 CODE >636:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41BA text4 CODE >637:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41C2 text4 CODE >639:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41CA text4 CODE >640:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41D2 text4 CODE >641:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41DA text4 CODE >642:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41E2 text4 CODE >643:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41EA text4 CODE >645:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41F2 text4 CODE >646:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-41FA text4 CODE >647:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4202 text4 CODE >648:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-420A text4 CODE >649:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4212 text4 CODE >650:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-421A text4 CODE >651:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4222 text4 CODE >655:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4232 text4 CODE >656:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4276 text4 CODE >657:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-42BA text4 CODE >658:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-42FE text4 CODE >661:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-430E text4 CODE >662:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4352 text4 CODE >663:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4396 text4 CODE >664:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-43DA text4 CODE >667:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-43EA text4 CODE >668:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-442E text4 CODE >669:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4472 text4 CODE >670:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-44B6 text4 CODE >673:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-44C6 text4 CODE >674:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-450A text4 CODE >675:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-454E text4 CODE >676:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4592 text4 CODE >679:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-45A2 text4 CODE >680:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-45E6 text4 CODE >681:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-462E text4 CODE >682:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-462E text4 CODE >685:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4636 text4 CODE >690:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4652 text4 CODE >693:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-466E text4 CODE >695:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4670 text4 CODE >696:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-467A text4 CODE >697:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4686 text4 CODE >698:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4688 text4 CODE >701:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46A4 text4 CODE >707:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46BA text4 CODE >708:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46BE text4 CODE >709:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46D4 text4 CODE >710:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46EA text4 CODE >711:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46FC text4 CODE >713:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-46FE text4 CODE >714:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4700 text4 CODE >715:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4714 text4 CODE >717:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4720 text4 CODE >718:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4720 text4 CODE >719:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4734 text4 CODE >721:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4740 text4 CODE >722:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4740 text4 CODE >723:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4752 text4 CODE >725:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4786 text4 CODE >726:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-47BA text4 CODE >727:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-47EE text4 CODE >728:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4816 text4 CODE >729:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-484A text4 CODE >730:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4896 text4 CODE >731:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-48E2 text4 CODE >732:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-490A text4 CODE >733:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-490E text4 CODE >734:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4912 text4 CODE >735:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4912 text4 CODE >737:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-495E text4 CODE >738:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-49AA text4 CODE >739:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-49F6 text4 CODE >740:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4A2A text4 CODE >741:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4A52 text4 CODE >742:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4A86 text4 CODE >743:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4ABA text4 CODE >744:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4AD6 text4 CODE >745:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4AE0 text4 CODE >746:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4AE0 text4 CODE >748:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4AF4 text4 CODE >750:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B00 text4 CODE >751:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B00 text4 CODE >752:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B14 text4 CODE >754:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B20 text4 CODE >755:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B20 text4 CODE >756:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B32 text4 CODE >758:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B66 text4 CODE >759:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4B9A text4 CODE >760:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4BCE text4 CODE >761:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4BF6 text4 CODE >762:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4C2A text4 CODE >763:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4C76 text4 CODE >764:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4CC2 text4 CODE >765:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4CEA text4 CODE >766:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4CEE text4 CODE >767:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4CF2 text4 CODE >768:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4CF2 text4 CODE >770:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4D3E text4 CODE >771:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4D8A text4 CODE >772:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4DD6 text4 CODE >773:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4E0A text4 CODE >774:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4E32 text4 CODE >775:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4E66 text4 CODE >776:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4E9A text4 CODE >777:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4EB6 text4 CODE >778:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4EC0 text4 CODE >779:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4EC0 text4 CODE >781:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4ED4 text4 CODE >783:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4EE0 text4 CODE >784:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4EE0 text4 CODE >785:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4EF4 text4 CODE >787:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4F00 text4 CODE >788:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4F00 text4 CODE >789:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4F12 text4 CODE >791:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4F46 text4 CODE >792:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4F7A text4 CODE >793:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4FAE text4 CODE >794:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4FD6 text4 CODE >795:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-500A text4 CODE >796:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5056 text4 CODE >797:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-50A2 text4 CODE >798:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-50CA text4 CODE >799:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-50CE text4 CODE >800:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-50D2 text4 CODE >801:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-50D2 text4 CODE >803:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-511E text4 CODE >804:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-516A text4 CODE >805:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-51B6 text4 CODE >806:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-51EA text4 CODE >807:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5212 text4 CODE >808:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5246 text4 CODE >809:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-527A text4 CODE >810:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5296 text4 CODE >811:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52A0 text4 CODE >812:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52A0 text4 CODE >814:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52B4 text4 CODE >816:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52C0 text4 CODE >817:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52C0 text4 CODE >818:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52D4 text4 CODE >820:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52E0 text4 CODE >821:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52E0 text4 CODE >822:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-52F2 text4 CODE >824:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5326 text4 CODE >825:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-535A text4 CODE >826:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-538E text4 CODE >827:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-53B6 text4 CODE >828:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-53EA text4 CODE >829:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5436 text4 CODE >830:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5482 text4 CODE >831:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-54AA text4 CODE >832:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-54AE text4 CODE >833:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-54B2 text4 CODE >834:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-54B2 text4 CODE >836:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-54FE text4 CODE >837:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-554A text4 CODE >838:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5596 text4 CODE >839:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-55CA text4 CODE >840:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-55F2 text4 CODE >841:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5626 text4 CODE >842:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-565A text4 CODE >843:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5676 text4 CODE >844:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5680 text4 CODE >845:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5680 text4 CODE >847:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-57B0 text4 CODE >849:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-58E0 text4 CODE >851:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5A10 text4 CODE >853:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5B40 text4 CODE >856:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5B68 text4 CODE >858:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5B78 text4 CODE >859:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5B98 text4 CODE >861:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5BD0 text4 CODE >862:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5C08 text4 CODE >863:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5C40 text4 CODE >864:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5C78 text4 CODE >868:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5CB0 text4 CODE >871:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5CCC text4 CODE >872:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5D3C text4 CODE >875:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5DE4 text4 CODE >876:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5E00 text4 CODE >877:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5E0C text4 CODE >879:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5E44 text4 CODE >880:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5EB4 text4 CODE >881:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5EC0 text4 CODE >883:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5EF8 text4 CODE >886:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5F14 text4 CODE >887:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5F30 text4 CODE >888:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5F4C text4 CODE >889:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5F68 text4 CODE >890:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5F84 text4 CODE >893:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5FA0 text4 CODE >894:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5FF8 text4 CODE >895:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-5FFC text4 CODE >896:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6000 text4 CODE >897:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6004 text4 CODE >898:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6004 text4 CODE >900:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6018 text4 CODE >902:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6020 text4 CODE >903:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6028 text4 CODE >904:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6034 text4 CODE >905:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6034 text4 CODE >906:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6038 text4 CODE >907:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-604A text4 CODE >909:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-617E text4 CODE >911:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6182 text4 CODE >912:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6182 text4 CODE >914:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-619E text4 CODE >915:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-61BA text4 CODE >916:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-61CC text4 CODE >918:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-61DC text4 CODE >919:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-61FC text4 CODE >920:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-61FC text4 CODE >921:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6204 text4 CODE >922:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6214 text4 CODE >923:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6214 text4 CODE >924:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6230 text4 CODE >926:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6240 text4 CODE >927:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-625C text4 CODE >928:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6264 text4 CODE >929:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6270 text4 CODE >930:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6274 text4 CODE >933:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6274 text4 CODE >934:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6282 text4 CODE >936:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-628A text4 CODE >937:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6296 text4 CODE >938:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6296 text4 CODE >939:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-62A8 text4 CODE >941:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-62D0 text4 CODE >942:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-62F8 text4 CODE >943:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6320 text4 CODE >944:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6348 text4 CODE >945:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6370 text4 CODE >947:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6382 text4 CODE >949:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6392 text4 CODE >950:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-63AE text4 CODE >951:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-63D6 text4 CODE >952:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-63F2 text4 CODE >953:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-641E text4 CODE >954:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-641E text4 CODE >955:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6426 text4 CODE >956:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6432 text4 CODE >957:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-644E text4 CODE >959:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-645E text4 CODE >960:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-647A text4 CODE >961:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-64A2 text4 CODE >962:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-64BE text4 CODE >963:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-64E6 text4 CODE >964:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-64EE text4 CODE >965:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-64F6 text4 CODE >966:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-64F6 text4 CODE >968:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6506 text4 CODE >969:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-654A text4 CODE >970:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6592 text4 CODE >971:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6592 text4 CODE >1012:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-65A0 text4 CODE >1014:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-65BC text4 CODE >1016:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-65F0 text4 CODE >1017:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6624 text4 CODE >1018:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6650 text4 CODE >1019:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6684 text4 CODE >1020:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-66D0 text4 CODE >1021:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-66F8 text4 CODE >1023:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6700 text4 CODE >1024:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6704 text4 CODE >1025:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6704 text4 CODE >1026:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6712 text4 CODE >1028:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-672E text4 CODE >1030:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-677A text4 CODE >1031:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-67C6 text4 CODE >1032:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-67FE text4 CODE >1033:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6826 text4 CODE >1034:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-685A text4 CODE >1035:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6876 text4 CODE >1036:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6880 text4 CODE >1037:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6884 text4 CODE >1038:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6884 text4 CODE >1039:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6896 text4 CODE >1041:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-689A text4 CODE >1043:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-689A text4 CODE >1044:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68AA text4 CODE >1045:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68AE text4 CODE >1047:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68AE text4 CODE >1048:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68BE text4 CODE >1049:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68C2 text4 CODE >1051:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68C2 text4 CODE >1052:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68D2 text4 CODE >1053:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68D6 text4 CODE >1055:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68D6 text4 CODE >1056:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68E6 text4 CODE >1057:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68EA text4 CODE >1059:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68EA text4 CODE >1060:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68FA text4 CODE >1061:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68FE text4 CODE >1063:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-68FE text4 CODE >1064:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-690E text4 CODE >1065:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6912 text4 CODE >1067:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6912 text4 CODE >1068:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6922 text4 CODE >1069:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6926 text4 CODE >1071:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6926 text4 CODE >1072:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6936 text4 CODE >1074:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6936 text4 CODE >1075:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6946 text4 CODE >1076:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6952 text4 CODE >1077:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6962 text4 CODE >1078:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6966 text4 CODE >1080:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-69D8 text4 CODE >1082:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-69D8 text4 CODE >1083:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-69EA text4 CODE >1085:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-69EE text4 CODE >1087:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-69EE text4 CODE >1088:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-69FE text4 CODE >1089:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A02 text4 CODE >1091:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A02 text4 CODE >1092:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A12 text4 CODE >1093:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A16 text4 CODE >1095:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A16 text4 CODE >1096:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A26 text4 CODE >1097:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A2A text4 CODE >1099:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A2A text4 CODE >1100:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A3A text4 CODE >1101:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A3E text4 CODE >1103:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A3E text4 CODE >1104:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A4E text4 CODE >1105:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A52 text4 CODE >1107:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A52 text4 CODE >1108:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A62 text4 CODE >1109:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A66 text4 CODE >1111:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A66 text4 CODE >1112:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A76 text4 CODE >1113:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A7A text4 CODE >1115:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A7A text4 CODE >1116:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A8A text4 CODE >1118:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A8A text4 CODE >1119:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6A9A text4 CODE >1120:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6AA6 text4 CODE >1121:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6AB6 text4 CODE >1122:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6ABA text4 CODE >1124:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6B30 text4 CODE >1126:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6B34 text4 CODE >1127:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-6B38 text4 CODE >1128:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40E2 text3 CODE >607:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40E4 text3 CODE >611:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4100 text3 CODE >613:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4102 text3 CODE >614:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-410C text3 CODE >615:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4116 text3 CODE >616:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4122 text3 CODE >617:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-412E text3 CODE >618:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4130 text3 CODE >620:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-414C text3 CODE >622:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-415C text3 CODE >623:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-416C text3 CODE >624:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4182 text3 CODE >626:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4198 text3 CODE >627:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4042 text2 CODE >533:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4044 text2 CODE >537:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4048 text2 CODE >538:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-404A text2 CODE >539:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4052 text2 CODE >540:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4054 text2 CODE >542:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4056 text2 CODE >543:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4058 text2 CODE >544:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-405A text2 CODE >545:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-405C text2 CODE >546:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-405E text2 CODE >548:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4068 text2 CODE >549:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4072 text2 CODE >550:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-407C text2 CODE >551:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4086 text2 CODE >552:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-4090 text2 CODE >553:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-409A text2 CODE >555:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40AA text2 CODE >557:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40B4 text2 CODE >558:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40BE text2 CODE >559:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40C2 text2 CODE >560:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40C2 text2 CODE >562:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40CC text2 CODE >563:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40DA text2 CODE >564:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40DA text2 CODE >566:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-40E0 text2 CODE >568:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
-3FD6 text1 CODE >4:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FD6 text1 CODE >7:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FDA text1 CODE >8:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FDE text1 CODE >11:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FE2 text1 CODE >12:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FE6 text1 CODE >13:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FEA text1 CODE >14:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FEE text1 CODE >15:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FF2 text1 CODE >18:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FF6 text1 CODE >19:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FFA text1 CODE >20:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3FFE text1 CODE >21:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-4002 text1 CODE >24:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-4006 text1 CODE >26:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
-3F9A text0 CODE >13:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3F9A text0 CODE >15:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3F9E text0 CODE >17:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3FA2 text0 CODE >18:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3FA8 text0 CODE >19:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3FAC text0 CODE >35:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3FAC text0 CODE >38:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3FB0 text0 CODE >40:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
-3FB4 cinit CODE >6543:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FB4 cinit CODE >6545:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FB4 cinit CODE >6548:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FB4 cinit CODE >6569:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FB8 cinit CODE >6570:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FBC cinit CODE >6571:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FBC cinit CODE >6572:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FBE cinit CODE >6573:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FC0 cinit CODE >6574:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FC2 cinit CODE >6575:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FC4 cinit CODE >6576:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FC6 cinit CODE >6577:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FC8 cinit CODE >6580:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FCA cinit CODE >6581:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FCC cinit CODE >6587:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FCC cinit CODE >6590:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FCE cinit CODE >6591:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FD0 cinit CODE >6592:C:\Users\thoma\AppData\Local\Temp\s2rg0.
-3FD2 cinit CODE >6593:C:\Users\thoma\AppData\Local\Temp\s2rg0.
+333C text12 CODE >573:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+333E text12 CODE >575:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+334E text12 CODE >577:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3350 text12 CODE >578:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3352 text12 CODE >579:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3356 text12 CODE >580:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3356 text12 CODE >582:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3358 text12 CODE >583:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+335E text12 CODE >584:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+335E text12 CODE >586:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3362 text12 CODE >587:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3364 text12 CODE >589:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3368 text12 CODE >593:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+336A text12 CODE >594:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+336C text12 CODE >595:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+336E text12 CODE >596:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3370 text12 CODE >599:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3372 text12 CODE >600:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3374 text12 CODE >601:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A64 text11 CODE >631:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A64 text11 CODE >633:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A6C text11 CODE >634:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A74 text11 CODE >635:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A7C text11 CODE >636:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A84 text11 CODE >637:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A8C text11 CODE >639:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A94 text11 CODE >640:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A9C text11 CODE >641:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AA4 text11 CODE >642:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AAC text11 CODE >643:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AB4 text11 CODE >645:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3ABC text11 CODE >646:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AC4 text11 CODE >647:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3ACC text11 CODE >648:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AD4 text11 CODE >649:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3ADC text11 CODE >650:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AE4 text11 CODE >651:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AEC text11 CODE >655:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3AFC text11 CODE >656:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3B40 text11 CODE >657:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3B84 text11 CODE >658:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3BC8 text11 CODE >661:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3BD8 text11 CODE >662:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3C1C text11 CODE >663:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3C60 text11 CODE >664:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3CA4 text11 CODE >667:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3CB4 text11 CODE >668:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3CF8 text11 CODE >669:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3D3C text11 CODE >670:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3D80 text11 CODE >673:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3D90 text11 CODE >674:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3DD4 text11 CODE >675:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3E18 text11 CODE >676:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3E5C text11 CODE >679:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3E6C text11 CODE >680:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3EB0 text11 CODE >681:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3EF8 text11 CODE >682:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3EF8 text11 CODE >685:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F00 text11 CODE >690:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F1C text11 CODE >693:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F38 text11 CODE >695:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F3A text11 CODE >696:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F44 text11 CODE >697:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F50 text11 CODE >698:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F52 text11 CODE >701:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F6E text11 CODE >707:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F84 text11 CODE >708:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F88 text11 CODE >709:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3F9E text11 CODE >710:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FB4 text11 CODE >711:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FC6 text11 CODE >713:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FC8 text11 CODE >714:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FCA text11 CODE >715:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FDE text11 CODE >717:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FEA text11 CODE >718:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FEA text11 CODE >719:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3FFE text11 CODE >721:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+400A text11 CODE >722:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+400A text11 CODE >723:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+401C text11 CODE >725:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4050 text11 CODE >726:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4084 text11 CODE >727:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+40B8 text11 CODE >728:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+40E0 text11 CODE >729:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4114 text11 CODE >730:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4160 text11 CODE >731:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+41AC text11 CODE >732:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+41D4 text11 CODE >733:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+41D8 text11 CODE >734:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+41DC text11 CODE >735:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+41DC text11 CODE >737:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4228 text11 CODE >738:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4274 text11 CODE >739:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+42C0 text11 CODE >740:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+42F4 text11 CODE >741:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+431C text11 CODE >742:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4350 text11 CODE >743:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4384 text11 CODE >744:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43A0 text11 CODE >745:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43AA text11 CODE >746:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43AA text11 CODE >748:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43BE text11 CODE >750:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43CA text11 CODE >751:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43CA text11 CODE >752:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43DE text11 CODE >754:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43EA text11 CODE >755:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43EA text11 CODE >756:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+43FC text11 CODE >758:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4430 text11 CODE >759:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4464 text11 CODE >760:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4498 text11 CODE >761:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+44C0 text11 CODE >762:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+44F4 text11 CODE >763:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4540 text11 CODE >764:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+458C text11 CODE >765:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+45B4 text11 CODE >766:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+45B8 text11 CODE >767:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+45BC text11 CODE >768:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+45BC text11 CODE >770:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4608 text11 CODE >771:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4654 text11 CODE >772:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+46A0 text11 CODE >773:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+46D4 text11 CODE >774:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+46FC text11 CODE >775:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4730 text11 CODE >776:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4764 text11 CODE >777:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4780 text11 CODE >778:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+478A text11 CODE >779:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+478A text11 CODE >781:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+479E text11 CODE >783:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+47AA text11 CODE >784:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+47AA text11 CODE >785:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+47BE text11 CODE >787:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+47CA text11 CODE >788:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+47CA text11 CODE >789:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+47DC text11 CODE >791:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4810 text11 CODE >792:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4844 text11 CODE >793:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4878 text11 CODE >794:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+48A0 text11 CODE >795:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+48D4 text11 CODE >796:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4920 text11 CODE >797:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+496C text11 CODE >798:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4994 text11 CODE >799:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4998 text11 CODE >800:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+499C text11 CODE >801:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+499C text11 CODE >803:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+49E8 text11 CODE >804:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4A34 text11 CODE >805:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4A80 text11 CODE >806:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4AB4 text11 CODE >807:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4ADC text11 CODE >808:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B10 text11 CODE >809:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B44 text11 CODE >810:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B60 text11 CODE >811:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B6A text11 CODE >812:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B6A text11 CODE >814:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B7E text11 CODE >816:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B8A text11 CODE >817:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B8A text11 CODE >818:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4B9E text11 CODE >820:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4BAA text11 CODE >821:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4BAA text11 CODE >822:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4BBC text11 CODE >824:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4BF0 text11 CODE >825:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4C24 text11 CODE >826:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4C58 text11 CODE >827:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4C80 text11 CODE >828:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4CB4 text11 CODE >829:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4D00 text11 CODE >830:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4D4C text11 CODE >831:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4D74 text11 CODE >832:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4D78 text11 CODE >833:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4D7C text11 CODE >834:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4D7C text11 CODE >836:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4DC8 text11 CODE >837:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4E14 text11 CODE >838:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4E60 text11 CODE >839:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4E94 text11 CODE >840:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4EBC text11 CODE >841:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4EF0 text11 CODE >842:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4F24 text11 CODE >843:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4F40 text11 CODE >844:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4F4A text11 CODE >845:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+4F4A text11 CODE >847:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+507A text11 CODE >849:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+51AA text11 CODE >851:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+52DA text11 CODE >853:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+540A text11 CODE >856:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5432 text11 CODE >858:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5442 text11 CODE >859:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5462 text11 CODE >861:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+549A text11 CODE >862:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+54D2 text11 CODE >863:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+550A text11 CODE >864:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5542 text11 CODE >868:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+557A text11 CODE >871:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5596 text11 CODE >872:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5606 text11 CODE >875:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+56AE text11 CODE >876:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+56CA text11 CODE >877:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+56D6 text11 CODE >879:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+570E text11 CODE >880:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+577E text11 CODE >881:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+578A text11 CODE >883:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+57C2 text11 CODE >886:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+57DE text11 CODE >887:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+57FA text11 CODE >888:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5816 text11 CODE >889:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5832 text11 CODE >890:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+584E text11 CODE >893:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+586A text11 CODE >894:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58C2 text11 CODE >895:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58C6 text11 CODE >896:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58CA text11 CODE >897:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58CE text11 CODE >898:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58CE text11 CODE >900:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58E2 text11 CODE >902:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58EA text11 CODE >903:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58F2 text11 CODE >904:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58FE text11 CODE >905:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+58FE text11 CODE >906:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5902 text11 CODE >907:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5914 text11 CODE >909:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5A48 text11 CODE >911:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5A4C text11 CODE >912:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5A4C text11 CODE >914:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5A68 text11 CODE >915:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5A84 text11 CODE >916:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5A96 text11 CODE >918:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5AA6 text11 CODE >919:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5AC6 text11 CODE >920:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5AC6 text11 CODE >921:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5ACE text11 CODE >922:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5ADE text11 CODE >923:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5ADE text11 CODE >924:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5AFA text11 CODE >926:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B0A text11 CODE >927:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B26 text11 CODE >928:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B2E text11 CODE >929:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B3A text11 CODE >930:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B3E text11 CODE >933:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B3E text11 CODE >934:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B4C text11 CODE >936:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B54 text11 CODE >937:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B60 text11 CODE >938:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B60 text11 CODE >939:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B72 text11 CODE >941:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B8E text11 CODE >943:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5B9E text11 CODE >944:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5BBA text11 CODE >945:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5BE2 text11 CODE >946:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5BEA text11 CODE >947:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5BF2 text11 CODE >948:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5BF2 text11 CODE >950:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5C8E text11 CODE >952:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5CB6 text11 CODE >953:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5CDE text11 CODE >954:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5D06 text11 CODE >955:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5D0A text11 CODE >957:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5DA6 text11 CODE >959:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5DCE text11 CODE >960:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5DF6 text11 CODE >961:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5E1E text11 CODE >962:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5E2E text11 CODE >963:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5E4A text11 CODE >964:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5E72 text11 CODE >965:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5E76 text11 CODE >967:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5E76 text11 CODE >969:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5F06 text11 CODE >971:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5F16 text11 CODE >972:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5F32 text11 CODE >973:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5F4E text11 CODE >974:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5F6A text11 CODE >975:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5F92 text11 CODE >976:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5FBA text11 CODE >977:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5FE6 text11 CODE >978:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+5FE6 text11 CODE >979:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6076 text11 CODE >981:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6086 text11 CODE >982:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+60A2 text11 CODE >983:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+60BE text11 CODE >984:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+60DA text11 CODE >985:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6102 text11 CODE >986:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+612A text11 CODE >987:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6156 text11 CODE >988:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6156 text11 CODE >989:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+61E6 text11 CODE >991:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+61F6 text11 CODE >992:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6212 text11 CODE >993:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+622E text11 CODE >994:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+624A text11 CODE >995:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6272 text11 CODE >996:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+629A text11 CODE >997:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+62C6 text11 CODE >998:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+62C6 text11 CODE >999:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6356 text11 CODE >1001:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6366 text11 CODE >1002:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6382 text11 CODE >1003:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+639E text11 CODE >1004:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+63BA text11 CODE >1005:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+63E2 text11 CODE >1006:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+640A text11 CODE >1007:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6436 text11 CODE >1008:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+643A text11 CODE >1009:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+643E text11 CODE >1011:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6450 text11 CODE >1013:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6460 text11 CODE >1014:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+647C text11 CODE >1015:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+64A8 text11 CODE >1016:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+64A8 text11 CODE >1017:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+64B0 text11 CODE >1018:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+64BC text11 CODE >1020:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+64CC text11 CODE >1021:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6510 text11 CODE >1022:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6558 text11 CODE >1023:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6558 text11 CODE >1064:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6566 text11 CODE >1066:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6582 text11 CODE >1068:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+65B6 text11 CODE >1069:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+65EA text11 CODE >1070:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6616 text11 CODE >1071:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+664A text11 CODE >1072:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6696 text11 CODE >1073:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+66BE text11 CODE >1075:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+66C6 text11 CODE >1076:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+66CA text11 CODE >1077:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+66CA text11 CODE >1078:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+66D8 text11 CODE >1080:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+66F4 text11 CODE >1082:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6740 text11 CODE >1083:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+678C text11 CODE >1084:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+67C4 text11 CODE >1085:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+67EC text11 CODE >1086:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6820 text11 CODE >1087:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+683C text11 CODE >1088:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6846 text11 CODE >1089:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+684A text11 CODE >1090:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+684A text11 CODE >1091:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+685C text11 CODE >1093:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6860 text11 CODE >1095:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6860 text11 CODE >1096:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6870 text11 CODE >1097:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6874 text11 CODE >1099:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6874 text11 CODE >1100:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6884 text11 CODE >1101:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6888 text11 CODE >1103:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6888 text11 CODE >1104:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6898 text11 CODE >1105:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+689C text11 CODE >1107:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+689C text11 CODE >1108:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68AC text11 CODE >1109:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68B0 text11 CODE >1111:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68B0 text11 CODE >1112:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68C0 text11 CODE >1113:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68C4 text11 CODE >1115:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68C4 text11 CODE >1116:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68D4 text11 CODE >1117:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68D8 text11 CODE >1119:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68D8 text11 CODE >1120:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68E8 text11 CODE >1121:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68EC text11 CODE >1123:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68EC text11 CODE >1124:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68FC text11 CODE >1126:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+68FC text11 CODE >1127:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+690C text11 CODE >1128:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6918 text11 CODE >1129:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6928 text11 CODE >1130:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+692C text11 CODE >1132:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+699E text11 CODE >1134:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+699E text11 CODE >1135:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69B0 text11 CODE >1137:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69B4 text11 CODE >1139:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69B4 text11 CODE >1140:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69C4 text11 CODE >1141:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69C8 text11 CODE >1143:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69C8 text11 CODE >1144:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69D8 text11 CODE >1145:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69DC text11 CODE >1147:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69DC text11 CODE >1148:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69EC text11 CODE >1149:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69F0 text11 CODE >1151:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+69F0 text11 CODE >1152:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A00 text11 CODE >1153:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A04 text11 CODE >1155:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A04 text11 CODE >1156:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A14 text11 CODE >1157:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A18 text11 CODE >1159:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A18 text11 CODE >1160:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A28 text11 CODE >1161:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A2C text11 CODE >1163:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A2C text11 CODE >1164:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A3C text11 CODE >1165:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A40 text11 CODE >1167:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A40 text11 CODE >1168:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A50 text11 CODE >1170:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A50 text11 CODE >1171:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A60 text11 CODE >1172:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A6C text11 CODE >1173:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A7C text11 CODE >1174:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6A80 text11 CODE >1176:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6AF6 text11 CODE >1178:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6AFA text11 CODE >1179:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+6AFE text11 CODE >1180:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3576 text10 CODE >607:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3578 text10 CODE >611:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3594 text10 CODE >613:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3596 text10 CODE >614:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35A0 text10 CODE >615:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35AA text10 CODE >616:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35B6 text10 CODE >617:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35C2 text10 CODE >618:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35C4 text10 CODE >620:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35E0 text10 CODE >622:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+35F0 text10 CODE >623:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3600 text10 CODE >624:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3616 text10 CODE >626:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+362C text10 CODE >627:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34D6 text9 CODE >533:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34D8 text9 CODE >537:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34DC text9 CODE >538:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34DE text9 CODE >539:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34E6 text9 CODE >540:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34E8 text9 CODE >542:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34EA text9 CODE >543:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34EC text9 CODE >544:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34EE text9 CODE >545:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34F0 text9 CODE >546:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34F2 text9 CODE >548:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+34FC text9 CODE >549:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3506 text9 CODE >550:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3510 text9 CODE >551:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+351A text9 CODE >552:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3524 text9 CODE >553:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+352E text9 CODE >555:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+353E text9 CODE >557:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3548 text9 CODE >558:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3552 text9 CODE >559:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3556 text9 CODE >560:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3556 text9 CODE >562:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3560 text9 CODE >563:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+356E text9 CODE >564:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+356E text9 CODE >566:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3574 text9 CODE >568:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3708 text8 CODE >7:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3708 text8 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+370C text8 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+371A text8 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3722 text8 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+372A text8 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+372A text8 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3738 text8 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3740 text8 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3748 text8 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3748 text8 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3750 text8 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3762 text8 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3766 text8 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+376A text8 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3770 text8 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3776 text8 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3776 text8 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+378C text8 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+378C text8 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3792 text8 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37A8 text8 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37B0 text8 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37B6 text8 CODE >34:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37B6 text8 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37BC text8 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37CA text8 CODE >37:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37CA text8 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37DA text8 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37E6 text8 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+37F2 text8 CODE >41:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\awdiv.c
+3306 text7 CODE >1184:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3308 text7 CODE >1188:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3318 text7 CODE >1190:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+331A text7 CODE >1191:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+331C text7 CODE >1192:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3320 text7 CODE >1193:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3320 text7 CODE >1195:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3322 text7 CODE >1196:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3324 text7 CODE >1197:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3324 text7 CODE >1199:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3326 text7 CODE >1200:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3328 text7 CODE >1204:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+332A text7 CODE >1205:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+332C text7 CODE >1207:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3330 text7 CODE >1208:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3332 text7 CODE >1209:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3334 text7 CODE >1211:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3336 text7 CODE >1212:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3338 text7 CODE >1214:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+333A text7 CODE >1215:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+362E text6 CODE >1220:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3630 text6 CODE >1223:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3634 text6 CODE >1225:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3644 text6 CODE >1227:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3648 text6 CODE >1228:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3650 text6 CODE >1229:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3650 text6 CODE >1230:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3652 text6 CODE >1232:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3654 text6 CODE >1233:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3656 text6 CODE >1234:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3660 text6 CODE >1235:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3680 text6 CODE >1237:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3682 text6 CODE >1239:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3688 text6 CODE >1240:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3690 text6 CODE >1242:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3692 text6 CODE >1244:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+369C text6 CODE >1246:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+36AC text6 CODE >1247:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+36D2 text6 CODE >1248:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+36D2 text6 CODE >1249:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+36FA text6 CODE >1251:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+36FC text6 CODE >1253:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3706 text6 CODE >1254:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33E4 text5 CODE >1259:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33E6 text5 CODE >1261:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33EA text5 CODE >1263:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+340E text5 CODE >1264:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3412 text5 CODE >1266:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3416 text5 CODE >1267:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+341A text5 CODE >1269:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+342A text5 CODE >1271:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+342E text5 CODE >1272:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3436 text5 CODE >1273:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3436 text5 CODE >1275:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3438 text5 CODE >1276:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3444 text5 CODE >1277:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3450 text5 CODE >1278:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3452 text5 CODE >1279:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3920 text4 CODE >1333:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3922 text4 CODE >1336:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3926 text4 CODE >1338:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3938 text4 CODE >1340:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+393C text4 CODE >1341:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3942 text4 CODE >1342:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3946 text4 CODE >1343:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3946 text4 CODE >1345:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3956 text4 CODE >1347:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+395A text4 CODE >1348:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3960 text4 CODE >1349:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3964 text4 CODE >1350:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3964 text4 CODE >1351:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+396C text4 CODE >1353:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3970 text4 CODE >1355:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+398C text4 CODE >1357:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+399C text4 CODE >1359:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39A0 text4 CODE >1360:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39A4 text4 CODE >1361:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39A6 text4 CODE >1362:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39B2 text4 CODE >1363:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39BE text4 CODE >1364:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39C4 text4 CODE >1365:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39C4 text4 CODE >1366:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+39D4 text4 CODE >1367:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A0C text4 CODE >1368:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A0C text4 CODE >1369:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A46 text4 CODE >1370:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A48 text4 CODE >1371:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A5E text4 CODE >1372:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3A62 text4 CODE >1373:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+37F4 text3 CODE >1285:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+37F6 text3 CODE >1288:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+37FA text3 CODE >1291:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+380C text3 CODE >1293:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3810 text3 CODE >1294:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3816 text3 CODE >1295:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+381A text3 CODE >1296:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+381A text3 CODE >1298:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+382A text3 CODE >1300:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+382E text3 CODE >1301:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3834 text3 CODE >1302:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3838 text3 CODE >1303:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3838 text3 CODE >1304:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3840 text3 CODE >1306:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+384C text3 CODE >1308:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3868 text3 CODE >1311:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3878 text3 CODE >1313:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+387C text3 CODE >1314:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3880 text3 CODE >1315:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3882 text3 CODE >1316:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+388E text3 CODE >1317:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+389A text3 CODE >1318:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+38A0 text3 CODE >1319:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+38A0 text3 CODE >1320:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+38B0 text3 CODE >1321:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+38D8 text3 CODE >1322:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+38D8 text3 CODE >1323:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3902 text3 CODE >1324:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3904 text3 CODE >1325:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+391A text3 CODE >1326:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+391E text3 CODE >1327:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3376 text2 CODE >1378:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+3376 text2 CODE >1380:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+337A text2 CODE >1382:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+338A text2 CODE >1383:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33A2 text2 CODE >1384:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33A2 text2 CODE >1385:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33BA text2 CODE >1386:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33C2 text2 CODE >1380:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33C2 text2 CODE >1387:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+33E2 text2 CODE >1388:C:\Users\thoma\Documents\GitHub\ProjetDaniel\glcd.c
+32D4 text1 CODE >4:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32D4 text1 CODE >7:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32D8 text1 CODE >8:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32DC text1 CODE >11:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32E0 text1 CODE >12:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32E4 text1 CODE >13:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32E8 text1 CODE >14:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32EC text1 CODE >15:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32F0 text1 CODE >18:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32F4 text1 CODE >19:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32F8 text1 CODE >20:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+32FC text1 CODE >21:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+3300 text1 CODE >24:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+3304 text1 CODE >26:C:\Users\thoma\Documents\GitHub\ProjetDaniel\init.c
+3454 text0 CODE >13:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+3454 text0 CODE >15:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+3458 text0 CODE >17:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+345C text0 CODE >18:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+3462 text0 CODE >21:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+3466 text0 CODE >23:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+3474 text0 CODE >24:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+347E text0 CODE >25:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+3492 text0 CODE >26:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+349C text0 CODE >27:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+34B0 text0 CODE >28:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+34BA text0 CODE >29:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+34CE text0 CODE >33:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+34CE text0 CODE >36:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+34D2 text0 CODE >38:C:\Users\thoma\Documents\GitHub\ProjetDaniel\main.c
+32B2 cinit CODE >6619:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32B2 cinit CODE >6621:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32B2 cinit CODE >6624:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32B2 cinit CODE >6645:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32B6 cinit CODE >6646:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32BA cinit CODE >6647:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32BA cinit CODE >6648:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32BC cinit CODE >6649:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32BE cinit CODE >6650:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32C0 cinit CODE >6651:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32C2 cinit CODE >6652:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32C4 cinit CODE >6653:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32C6 cinit CODE >6656:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32C8 cinit CODE >6657:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32CA cinit CODE >6663:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32CA cinit CODE >6666:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32CC cinit CODE >6667:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32CE cinit CODE >6668:C:\Users\thoma\AppData\Local\Temp\s1hmo.
+32D0 cinit CODE >6669:C:\Users\thoma\AppData\Local\Temp\s1hmo.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -516,67 +733,90 @@ $dist/default/production\ProjetDaniel.production.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-_x 39 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetDaniel.production.o
-_y 38 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetDaniel.production.o
-__Lmediumconst 6B3A 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+_x 41 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetDaniel.production.o
+_y 40 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetDaniel.production.o
+___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__Lmediumconst 6B00 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
 __Hspace_0 30000E 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Hspace_1 800 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-glcd_Image@i 26 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@j 23 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@missile 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@i 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@j 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@missile 32 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\ProjetDaniel.production.o
-__mediumconst 6B3A 0 MEDIUMCONST 0 mediumconst C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+__mediumconst 6B00 0 MEDIUMCONST 0 mediumconst C:\Users\thoma\AppData\Local\Temp\s1hmo.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\ProjetDaniel.production.o
 __size_of_glcd_WriteByte 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-glcd_WriteByte@data 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_WriteByte@side 2 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteByte@data 9 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteByte@side A 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\ProjetDaniel.production.o
-__end_of_initMyPIC18F 4008 0 CODE 0 text1 dist/default/production\ProjetDaniel.production.o
+__end_of_initMyPIC18F 3306 0 CODE 0 text1 dist/default/production\ProjetDaniel.production.o
 _LATD F8C 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-___sp 0 0 STACK 2 stack C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-_logo 733B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
-_main 3F9A 0 CODE 0 text0 dist/default/production\ProjetDaniel.production.o
-_zero 773B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+___sp 0 0 STACK 2 stack C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+_logo 7301 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+_main 3454 0 CODE 0 text0 dist/default/production\ProjetDaniel.production.o
+_zero 7701 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
 __HbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\ProjetDaniel.production.o
-start 0 0 CODE 0 init C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+start 0 0 CODE 0 init C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\ProjetDaniel.production.o
-_glcd_FillScreen 40E2 0 CODE 0 text3 dist/default/production\ProjetDaniel.production.o
+_glcd_FillScreen 3576 0 CODE 0 text10 dist/default/production\ProjetDaniel.production.o
+__size_of_glcd_WriteChar3x6 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
+__size_of_glcd_WriteChar8X8 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __CFG_DEBUG$OFF 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-glcd_Image@decalagevaisseau 21 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__size_of_glcd_SetCursor 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
+glcd_Image@decalagevaisseau 29 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\ProjetDaniel.production.o
+__size_of_glcd_PlotPixel 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __LbssBIGRAM 0 0 ABS 0 bssBIGRAM dist/default/production\ProjetDaniel.production.o
-__accesstop 60 0 ABS 0 - C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-intlevel0 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-intlevel1 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-intlevel2 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-intlevel3 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+__end_of_glcd_WriteString 33E4 0 CODE 0 text2 dist/default/production\ProjetDaniel.production.o
+__accesstop 60 0 ABS 0 - C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+intlevel0 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+intlevel1 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+intlevel2 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+intlevel3 0 0 CODE 0 text C:\Users\thoma\AppData\Local\Temp\s1hmo.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\ProjetDaniel.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@decalage 13 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@decalage 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__size_of_glcd_WriteString 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
+__size_of_glcd_ReadByte 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\ProjetDaniel.production.o
+___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\ProjetDaniel.production.o
-glcd_Image@posvictoire 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@posvictoire 34 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 _ADCON0 FC2 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 _ADCON1 FC1 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+glcd_PlotPixel@color C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar3x6@i 10 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar8X8@i 12 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_ReadByte 333C 0 CODE 0 text7 dist/default/production\ProjetDaniel.production.o
 __Hmediumconst 8000 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\ProjetDaniel.production.o
-_Font3x6 7F3B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
-_Font8x8 6B3B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+_Font3x6 7F01 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+_Font8x8 6B01 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__end_of___awdiv 37F4 0 CODE 0 text8 dist/default/production\ProjetDaniel.production.o
 _accueil 400 0 BIGRAM 1 bssBIGRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar3x6@ch F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __size_of_glcd_FillScreen 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-glcd_Init@mode 6 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Init@mode E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar8X8@ch 10 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\ProjetDaniel.production.o
-start_initialization 3FB4 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar3x6@color B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_WriteChar3x6 3A64 0 CODE 0 text4 dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_WriteChar8X8 3920 0 CODE 0 text3 dist/default/production\ProjetDaniel.production.o
+start_initialization 32B2 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
+glcd_WriteString@font 16 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@compteur 24 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@compteur 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-__end_of_poulet 7F3B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+__end_of_poulet 7F01 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\ProjetDaniel.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\ProjetDaniel.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\ProjetDaniel.production.o
@@ -599,9 +839,13 @@ __Htext2 0 0 ABS 0 text2 dist/default/production\ProjetDaniel.production.o
 __Htext3 0 0 ABS 0 text3 dist/default/production\ProjetDaniel.production.o
 __Htext4 0 0 ABS 0 text4 dist/default/production\ProjetDaniel.production.o
 __Htext5 0 0 ABS 0 text5 dist/default/production\ProjetDaniel.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\ProjetDaniel.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\ProjetDaniel.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\ProjetDaniel.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\ProjetDaniel.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\ProjetDaniel.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\ProjetDaniel.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\thoma\AppData\Local\Temp\s1hmo.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\ProjetDaniel.production.o
 __Hconfig 30000E 0 CONFIG 0 config dist/default/production\ProjetDaniel.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\ProjetDaniel.production.o
@@ -626,7 +870,11 @@ __Ltext2 0 0 ABS 0 text2 dist/default/production\ProjetDaniel.production.o
 __Ltext3 0 0 ABS 0 text3 dist/default/production\ProjetDaniel.production.o
 __Ltext4 0 0 ABS 0 text4 dist/default/production\ProjetDaniel.production.o
 __Ltext5 0 0 ABS 0 text5 dist/default/production\ProjetDaniel.production.o
-glcd_Image@cs 27 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\ProjetDaniel.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\ProjetDaniel.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\ProjetDaniel.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\ProjetDaniel.production.o
+glcd_Image@cs 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\ProjetDaniel.production.o
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\ProjetDaniel.production.o
 _PORTBbits F81 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
@@ -645,44 +893,64 @@ __Lrbit 0 0 COMRAM 1 rbit dist/default/production\ProjetDaniel.production.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\ProjetDaniel.production.o
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\ProjetDaniel.production.o
 __Ltext 0 0 ABS 0 text dist/default/production\ProjetDaniel.production.o
+glcd_WriteString@color 17 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hintret 0 0 ABS 0 intret dist/default/production\ProjetDaniel.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\ProjetDaniel.production.o
 __S0 30000E 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __S1 800 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __S2 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-glcd_Image@retour1 11 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@retour2 15 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@retour3 17 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@retour4 19 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-_glcd_WriteByte 4008 0 CODE 0 text5 dist/default/production\ProjetDaniel.production.o
-_glcd_Image 419A 0 CODE 0 text4 dist/default/production\ProjetDaniel.production.o
+glcd_Image@retour1 19 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@retour2 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@retour3 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@retour4 21 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+_glcd_WriteByte 333C 0 CODE 0 text12 dist/default/production\ProjetDaniel.production.o
+glcd_WriteString@str 14 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+_glcd_WriteChar3x6 3920 0 CODE 0 text4 dist/default/production\ProjetDaniel.production.o
+_glcd_WriteChar8X8 37F4 0 CODE 0 text3 dist/default/production\ProjetDaniel.production.o
+_glcd_Image 3A64 0 CODE 0 text11 dist/default/production\ProjetDaniel.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\ProjetDaniel.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\ProjetDaniel.production.o
-glcd_Image@itest 36 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+_glcd_SetCursor 33E4 0 CODE 0 text5 dist/default/production\ProjetDaniel.production.o
+glcd_Image@itest 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar3x6@side 11 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar3x6@xpos E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lintentry 0 0 ABS 0 intentry dist/default/production\ProjetDaniel.production.o
 __Hramtop 800 0 RAM 0 ramtop dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar8X8@side 13 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar8X8@xpos 11 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\ProjetDaniel.production.o
+_glcd_PlotPixel 362E 0 CODE 0 text6 dist/default/production\ProjetDaniel.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\ProjetDaniel.production.o
-__end_of_glcd_WriteByte 4042 0 CODE 0 text5 dist/default/production\ProjetDaniel.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\ProjetDaniel.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\ProjetDaniel.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_WriteByte 3376 0 CODE 0 text12 dist/default/production\ProjetDaniel.production.o
+__ptext10 3576 0 CODE 0 text10 dist/default/production\ProjetDaniel.production.o
+__ptext11 3A64 0 CODE 0 text11 dist/default/production\ProjetDaniel.production.o
+__ptext12 333C 0 CODE 0 text12 dist/default/production\ProjetDaniel.production.o
+___awdiv 3708 0 CODE 0 text8 dist/default/production\ProjetDaniel.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\ProjetDaniel.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\ProjetDaniel.production.o
 __CFG_BOR$OFF 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-__end_of_glcd_Image 6B3A 0 CODE 0 text4 dist/default/production\ProjetDaniel.production.o
-_poulet 7B3B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_Image 6B00 0 CODE 0 text11 dist/default/production\ProjetDaniel.production.o
+_poulet 7B01 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\ProjetDaniel.production.o
 __Lconfig 300000 0 CONFIG 0 config dist/default/production\ProjetDaniel.production.o
 _LATBbits F8A 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-glcd_Image@invader1 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@invader2 34 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@invader3 30 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@invader4 32 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@invader1 36 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@invader2 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@invader3 38 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@invader4 3A 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar8X8@color B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_SetCursor 3454 0 CODE 0 text5 dist/default/production\ProjetDaniel.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\ProjetDaniel.production.o
-stackhi 3FF 0 ABS 0 - C:\Users\thoma\AppData\Local\Temp\s2rg0.o
-stacklo 60 0 ABS 0 - C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+stackhi 3FF 0 ABS 0 - C:\Users\thoma\AppData\Local\Temp\s1hmo.o
+stacklo 60 0 ABS 0 - C:\Users\thoma\AppData\Local\Temp\s1hmo.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_PlotPixel 3708 0 CODE 0 text6 dist/default/production\ProjetDaniel.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\ProjetDaniel.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\ProjetDaniel.production.o
 __CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
@@ -690,51 +958,67 @@ __pbssBIGRAM 400 0 BIGRAM 1 bssBIGRAM dist/default/production\ProjetDaniel.produ
 __Lspace_0 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-__pbssCOMRAM 38 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetDaniel.production.o
+__pbssCOMRAM 40 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetDaniel.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-end_of_initialization 3FCC 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
+end_of_initialization 32CA 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\ProjetDaniel.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\ProjetDaniel.production.o
+___awdiv@quotient 7 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+?___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\ProjetDaniel.production.o
+glcd_PlotPixel@data 10 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_PlotPixel@side 11 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_PlotPixel@xpos F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_PlotPixel@ypos B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lramtop 800 0 RAM 0 ramtop dist/default/production\ProjetDaniel.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\ProjetDaniel.production.o
-__pcinit 3FB4 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
-glcd_Image@tir2 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@tir3 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-__ptext0 3F9A 0 CODE 0 text0 dist/default/production\ProjetDaniel.production.o
-__ptext1 3FD6 0 CODE 0 text1 dist/default/production\ProjetDaniel.production.o
-__ptext2 4042 0 CODE 0 text2 dist/default/production\ProjetDaniel.production.o
-__ptext3 40E2 0 CODE 0 text3 dist/default/production\ProjetDaniel.production.o
-__ptext4 419A 0 CODE 0 text4 dist/default/production\ProjetDaniel.production.o
-__ptext5 4008 0 CODE 0 text5 dist/default/production\ProjetDaniel.production.o
+__pcinit 32B2 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
+glcd_Image@tir2 25 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@tir3 27 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__ptext0 3454 0 CODE 0 text0 dist/default/production\ProjetDaniel.production.o
+__ptext1 32D4 0 CODE 0 text1 dist/default/production\ProjetDaniel.production.o
+__ptext2 3376 0 CODE 0 text2 dist/default/production\ProjetDaniel.production.o
+__ptext3 37F4 0 CODE 0 text3 dist/default/production\ProjetDaniel.production.o
+__ptext4 3920 0 CODE 0 text4 dist/default/production\ProjetDaniel.production.o
+__ptext5 33E4 0 CODE 0 text5 dist/default/production\ProjetDaniel.production.o
+__ptext6 362E 0 CODE 0 text6 dist/default/production\ProjetDaniel.production.o
+__ptext7 3306 0 CODE 0 text7 dist/default/production\ProjetDaniel.production.o
+__ptext8 3708 0 CODE 0 text8 dist/default/production\ProjetDaniel.production.o
+__ptext9 34D6 0 CODE 0 text9 dist/default/production\ProjetDaniel.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\ProjetDaniel.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\thoma\AppData\Local\Temp\s2rg0.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\ProjetDaniel.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\ProjetDaniel.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\ProjetDaniel.production.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\thoma\AppData\Local\Temp\s1hmo.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\ProjetDaniel.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\ProjetDaniel.production.o
-glcd_Image@missile2 28 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_FillScreen@i 5 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_FillScreen@j 4 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@missile2 30 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_FillScreen@i D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_FillScreen@j C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\ProjetDaniel.production.o
 __CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\ProjetDaniel.production.o
-__end_of__initialization 3FCC 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
-glcd_Image@ptr F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-glcd_Image@tir 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__end_of__initialization 32CA 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
+glcd_Image@ptr 17 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_Image@tir 23 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_SetCursor@side C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_SetCursor@xpos D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_SetCursor@ypos B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\ProjetDaniel.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\ProjetDaniel.production.o
 __CFG_PWRT$OFF 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-__end_of_Font3x6 7FFE 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
-__end_of_Font8x8 733B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
-glcd_FillScreen@color 3 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
-__pmediumconst 6B3A 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
-_initMyPIC18F 3FD6 0 CODE 0 text1 dist/default/production\ProjetDaniel.production.o
-__end_of_glcd_Init 40E2 0 CODE 0 text2 dist/default/production\ProjetDaniel.production.o
-__end_of_logo 773B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
-__end_of_main 3FB4 0 CODE 0 text0 dist/default/production\ProjetDaniel.production.o
-__end_of_zero 7B3B 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+__end_of_Font3x6 7FC4 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+__end_of_Font8x8 7301 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+glcd_FillScreen@color B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+__pmediumconst 6B00 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+_initMyPIC18F 32D4 0 CODE 0 text1 dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_Init 3576 0 CODE 0 text9 dist/default/production\ProjetDaniel.production.o
+__end_of_logo 7701 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
+__end_of_main 34D6 0 CODE 0 text0 dist/default/production\ProjetDaniel.production.o
+__end_of_zero 7B01 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetDaniel.production.o
 __size_of_glcd_Init 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 _PORTA F80 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
 _PORTB F81 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
@@ -755,12 +1039,17 @@ __Lbss 0 0 RAM 1 bss dist/default/production\ProjetDaniel.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\ProjetDaniel.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\ProjetDaniel.production.o
 __size_of_glcd_Image 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
-_glcd_Init 4042 0 CODE 0 text2 dist/default/production\ProjetDaniel.production.o
-__initialization 3FB4 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
-__end_of_glcd_FillScreen 419A 0 CODE 0 text3 dist/default/production\ProjetDaniel.production.o
+_glcd_WriteString 3376 0 CODE 0 text2 dist/default/production\ProjetDaniel.production.o
+_glcd_Init 34D6 0 CODE 0 text9 dist/default/production\ProjetDaniel.production.o
+__initialization 32B2 0 CODE 0 cinit dist/default/production\ProjetDaniel.production.o
+_glcd_ReadByte 3306 0 CODE 0 text7 dist/default/production\ProjetDaniel.production.o
+__end_of_glcd_FillScreen 362E 0 CODE 0 text10 dist/default/production\ProjetDaniel.production.o
+glcd_ReadByte@data 2 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
+glcd_ReadByte@side 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\ProjetDaniel.production.o
 __Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\ProjetDaniel.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\ProjetDaniel.production.o
+glcd_WriteChar8X8@chr E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetDaniel.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\ProjetDaniel.production.o
 __Hintcode 0 0 CODE 0 intcode dist/default/production\ProjetDaniel.production.o
 __size_of_initMyPIC18F 0 0 ABS 0 - dist/default/production\ProjetDaniel.production.o
@@ -788,16 +1077,23 @@ __size_of_initMyPIC18F 0 0 ABS 0 - dist/default/production\ProjetDaniel.producti
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-cinit 0 3FB4 3FB4 22 1
+cinit 0 32B2 32B2 22 1
 idloc 0 200000 200000 8 1
-text0 0 3F9A 3F9A 1A 1
-text1 0 3FD6 3FD6 32 1
-text2 0 4042 4042 A0 1
-text3 0 40E2 40E2 B8 1
-text4 0 419A 419A 29A0 1
-text5 0 4008 4008 3A 1
-cstackCOMRAM 1 1 1 39 1
+text0 0 3454 3454 82 1
+text1 0 32D4 32D4 32 1
+text2 0 3376 3376 6E 1
+text3 0 37F4 37F4 12C 1
+text4 0 3920 3920 144 1
+text5 0 33E4 33E4 70 1
+text6 0 362E 362E DA 1
+text7 0 3306 3306 36 1
+text8 0 3708 3708 EC 1
+text9 0 34D6 34D6 A0 1
+text10 0 3576 3576 B8 1
+text11 0 3A64 3A64 309C 1
+text12 0 333C 333C 3A 1
+cstackCOMRAM 1 1 1 41 1
 reset_vec 0 0 0 4 1
 bssBIGRAM 1 400 400 400 1
-mediumconst 0 6B3A 6B3A 14C6 1
+mediumconst 0 6B00 6B00 1500 1
 config 0 300000 300000 E 1

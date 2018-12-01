@@ -13,7 +13,7 @@ void initMyPIC18F(void)
 	TRISC = 0x00;
 	TRISD = 0x00;
 	TRISE = 0x00;
-// thomas travaille sur le tris pour el port e et le port b des boutons 
+// thomas travaille sur le tris pour el port e et le port b des boutons
 	// set port by port on "all zeros"
 	PORTA = 0x00;
 	PORTB = 0x00;

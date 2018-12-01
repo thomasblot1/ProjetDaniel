@@ -700,18 +700,14 @@ void glcd_Image()
 			// Boucle sur les octets horizontaux
 			for(j = 0; j < 64; ++j)
 			{
-				//glcd_WriteByte(cs, TopoVector[ptr]);  // Envoi de l'octet de donnée
-				//glcd_WriteByte(cs, acceuil[ptr]);
-                //glcd_WriteByte(cs, logo[ptr]);
-                //glcd_WriteByte(cs, zero[ptr]);
-                glcd_WriteByte(cs, accueil[ptr]);
+        glcd_WriteByte(cs, accueil[ptr]);
 				ptr+=1;
 			}
 		}
 	}
-
      GLCD_CS1=0;
      GLCD_CS2=0;
+		 //deplacement des invaders 
      if(invader4==189)
      {
          retour4 = 1;
