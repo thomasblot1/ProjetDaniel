@@ -5702,7 +5702,7 @@ const unsigned char poulet[1024] = {255, 255, 255, 255, 255, 255, 255, 255, 255,
     255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,};
 # 2 "glcd.c" 2
 
-
+int fin=0;
 unsigned char accueil[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
@@ -5978,7 +5978,7 @@ const unsigned char Font3x6[65][3] = {
 
 
 
-const unsigned char Font8x8[2048] = {
+const unsigned char Font8x8[2048] ={
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
     0, 0, 0, 0, 0, 0, 0, 0,
@@ -6328,7 +6328,7 @@ void glcd_Image() {
     int invader2 = 252;
     int invader3 = 123;
     int invader4 = 133;
-
+    int victoire = 0;
     int retour1 = 0;
     int decalage = 0;
     int retour2 = 0;
@@ -6527,45 +6527,49 @@ void glcd_Image() {
             if (accueil[invader2] == 0x00 && accueil[invader2 + 3] == 0x00 && accueil[invader2 + 2] == 0x00 && accueil[invader2 + 1] == 0x00 && accueil[invader2 - 1] == 0x00 && accueil[invader2 - 2] == 0x00 && accueil[invader2 - 3] == 0x00) {
                 if (accueil[invader3] == 0x00 && accueil[invader3 + 3] == 0x00 && accueil[invader3 + 2] == 0x00 && accueil[invader3 + 1] == 0x00 && accueil[invader3 - 1] == 0x00 && accueil[invader3 - 2] == 0x00 && accueil[invader3 - 3] == 0x00) {
                     if (accueil[invader4] == 0x00 && accueil[invader4 + 3] == 0x00 && accueil[invader4 + 2] == 0x00 && accueil[invader4 + 1] == 0x00 && accueil[invader4 - 1] == 0x00 && accueil[invader4 - 2] == 0x00 && accueil[invader4 - 3] == 0x00) {
+                        victoire = 1;
+                        if (victoire==1){
 
-                        for (compteur = 0; compteur < 1024; compteur++) {
-                            accueil[compteur] = 0x00;
+                            for (compteur = 0; compteur < 1024; compteur++) {
+                                accueil[compteur] = 0x00;
+                            }
+
+                            accueil[posvictoire + 7] = accueil[posvictoire + 14] = 0x1F;
+                            accueil[posvictoire + 8] = accueil[posvictoire + 13] = 0x20;
+                            accueil[posvictoire + 9] = accueil[posvictoire + 12] = 0x40;
+                            accueil[posvictoire + 10] = accueil[posvictoire + 11] = 0x80;
+
+
+
+                            accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0xFF;
+
+
+                            accueil[posvictoire + 19] = 0xFF;
+                            accueil[posvictoire + 20] = accueil[posvictoire + 21] = accueil[posvictoire + 22] = accueil[posvictoire + 23] = 0x81;
+
+
+                            accueil[posvictoire + 25] = accueil[posvictoire + 26] = accueil[posvictoire + 27] = accueil[posvictoire + 29] = accueil[posvictoire + 30] = accueil[posvictoire + 31] = 0x01;
+                            accueil[posvictoire + 28] = 0xFF;
+                            posvictoire = posvictoire + 4;
+
+                            accueil[posvictoire + 30] = accueil[posvictoire + 35] = 0xFF;
+                            accueil[posvictoire + 31] = accueil[posvictoire + 32] = accueil[posvictoire + 33] = accueil[posvictoire + 34] = 0x81;
+                            posvictoire = posvictoire + 2;
+
+                            accueil[posvictoire + 36] = accueil[posvictoire + 37] = 0xFF;
+
+
+                            accueil[posvictoire + 39] = 0xFF;
+                            accueil[posvictoire + 40] = 0x11;
+                            accueil[posvictoire + 41] = 0x31;
+                            accueil[posvictoire + 42] = 0x4A;
+                            accueil[posvictoire + 43] = 0x84;
+
+
+                            accueil[posvictoire + 45] = 0xFF;
+                            accueil[posvictoire + 46] = accueil[posvictoire + 47] = accueil[posvictoire + 48] = 0x91;
+                            fin=1;
                         }
-
-                        accueil[posvictoire + 7] = accueil[posvictoire + 14] = 0x1F;
-                        accueil[posvictoire + 8] = accueil[posvictoire + 13] = 0x20;
-                        accueil[posvictoire + 9] = accueil[posvictoire + 12] = 0x40;
-                        accueil[posvictoire + 10] = accueil[posvictoire + 11] = 0x80;
-
-
-
-                        accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0xFF;
-
-
-                        accueil[posvictoire + 19] = 0xFF;
-                        accueil[posvictoire + 20] = accueil[posvictoire + 21] = accueil[posvictoire + 22] = accueil[posvictoire + 23] = 0x81;
-
-
-                        accueil[posvictoire + 25] = accueil[posvictoire + 26] = accueil[posvictoire + 27] = accueil[posvictoire + 29] = accueil[posvictoire + 30] = accueil[posvictoire + 31] = 0x01;
-                        accueil[posvictoire + 28] = 0xFF;
-                        posvictoire = posvictoire + 4;
-
-                        accueil[posvictoire + 30] = accueil[posvictoire + 35] = 0xFF;
-                        accueil[posvictoire + 31] = accueil[posvictoire + 32] = accueil[posvictoire + 33] = accueil[posvictoire + 34] = 0x81;
-                        posvictoire = posvictoire + 2;
-
-                        accueil[posvictoire + 36] = accueil[posvictoire + 37] = 0xFF;
-
-
-                        accueil[posvictoire + 39] = 0xFF;
-                        accueil[posvictoire + 40] = 0x11;
-                        accueil[posvictoire + 41] = 0x31;
-                        accueil[posvictoire + 42] = 0x4A;
-                        accueil[posvictoire + 43] = 0x84;
-
-
-                        accueil[posvictoire + 45] = 0xFF;
-                        accueil[posvictoire + 46] = accueil[posvictoire + 47] = accueil[posvictoire + 48] = 0x91;
                     }
                 }
             }
@@ -6584,7 +6588,7 @@ void glcd_Image() {
                 missile1 = invader1;
         }
         tir2++;
-        if (tir3==1) {
+        if (tir3 == 1) {
             accueil[missile1 + 128] = 0xFF;
             accueil[missile1 + 128 + 1] = 0xFF;
             if (decalage == 1) {
@@ -6635,6 +6639,7 @@ void glcd_Image() {
                 accueil[missile - 128 - 1] = 0xFF;
                 accueil[missile - 128 + 1] = 0xFF;
             }
+
             else if (accueil[missile - 128] == 0xFF && accueil[missile - 129] == 0xFF && accueil[missile - 127] == 0xFF) {
                 accueil[missile - 128] = 0x00;
                 accueil[missile - 128 - 1] = 0x00;
@@ -6642,7 +6647,8 @@ void glcd_Image() {
                 accueil[missile] = 0x00;
                 accueil[missile + 1] = 0x00;
                 accueil[missile - 1] = 0x00;
-            } else
+            }
+            else
             {
                 if (((missile - 128 <= invader1 + 3) && (missile - 128 >= invader1 - 3)) || ((missile - 127 <= invader1 + 3) && (missile - 127 >= invader1 - 3)) || ((missile - 129 <= invader1 + 3) && (missile - 129 >= invader1 - 3))) {
                     accueil[invader1] = 0x00;
@@ -6699,41 +6705,43 @@ void glcd_Image() {
             accueil[itest - 2] = accueil[itest + 2] = 0xF0;
         }
         if (accueil[itest] == 0x00 || accueil[itest - 1] == 0x00 || accueil[itest + 1] == 0x00 || accueil[itest + 2] == 0x00 || accueil[itest - 2] == 0x00) {
-            for (compteur = 0; compteur < 1024; compteur++) {
-                accueil[compteur] = 0x00;
+            victoire = 2;
+            if ((victoire == 2)&&(fin!=1)) {
+                for (compteur = 0; compteur < 1024; compteur++) {
+                    accueil[compteur] = 0x00;
+                }
+
+
+                accueil[posvictoire + 7] = 0xFF;
+                accueil[posvictoire + 8] = accueil[posvictoire + 9] = 0x11;
+                accueil[posvictoire + 10] = 0x1F;
+
+
+                accueil[posvictoire + 14] = 0xFF;
+                accueil[posvictoire + 15] = accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0x91;
+
+
+                accueil[posvictoire + 21] = 0xFF;
+                accueil[posvictoire + 22] = 0x11;
+                accueil[posvictoire + 23] = 0x31;
+                accueil[posvictoire + 24] = 0x4A;
+                accueil[posvictoire + 25] = 0x84;
+
+
+
+                accueil[posvictoire + 29] = 0xFF;
+                accueil[posvictoire + 30] = 0x42;
+                accueil[posvictoire + 31] = 0x24;
+                accueil[posvictoire + 32] = 0x18;
+
+
+
+
+                accueil[posvictoire + 36] = accueil[posvictoire + 43] = 0x1F;
+                accueil[posvictoire + 37] = accueil[posvictoire + 42] = 0x20;
+                accueil[posvictoire + 38] = accueil[posvictoire + 41] = 0x40;
+                accueil[posvictoire + 39] = accueil[posvictoire + 40] = 0x80;
             }
-
-
-            accueil[posvictoire + 7] = 0xFF;
-            accueil[posvictoire + 8] = accueil[posvictoire + 9] = 0x11;
-            accueil[posvictoire + 10] = 0x1F;
-
-
-            accueil[posvictoire + 14] = 0xFF;
-            accueil[posvictoire + 15] = accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0x91;
-
-
-            accueil[posvictoire + 21] = 0xFF;
-            accueil[posvictoire + 22] = 0x11;
-            accueil[posvictoire + 23] = 0x31;
-            accueil[posvictoire + 24] = 0x4A;
-            accueil[posvictoire + 25] = 0x84;
-
-
-
-            accueil[posvictoire + 29] = 0xFF;
-            accueil[posvictoire + 30] = 0x42;
-            accueil[posvictoire + 31] = 0x24;
-            accueil[posvictoire + 32] = 0x18;
-
-
-
-
-            accueil[posvictoire + 36] = accueil[posvictoire + 43] = 0x1F;
-            accueil[posvictoire + 37] = accueil[posvictoire + 42] = 0x20;
-            accueil[posvictoire + 38] = accueil[posvictoire + 41] = 0x40;
-            accueil[posvictoire + 39] = accueil[posvictoire + 40] = 0x80;
-
         }
         if (PORTEbits.RE0 == 1) {
             if (itest < 1021) {
