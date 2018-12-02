@@ -645,7 +645,8 @@ void glcd_Image()
     int posvictoire=418; //position pour écrire victoire
     int tir2=0; //compteur de tir pour l'invader
     int tir3=0; //booléen pour le tir d'invader
-    int missile2=0; //pos missile invader
+    int missile2=0; //pos missile invader 2 et 3
+		int missile1=0; //pos missile invader 1 et 4
     int decalagevaisseau=0; //décalage pour sauvegarder le vaisseau
 		int invdep1 = 1; //condition de déplacement de l'invader 1
 		int invdep2 = 1; //condition de déplacement de l'invader 2
@@ -908,30 +909,49 @@ void glcd_Image()
      {
          tir3=1;
          tir2=0;
-         missile2=invader2;
+				 if(invdep2)
+         		missile2=invader2;
+				 else if((invdep2 == 0)&&(invdep3))
+				 		missile2=invader3;
+				 if(invdep4)
+				 		missile1=invader4;
+				 else if((invdep4 == 0)&&(invdep1))
+				 		missile1=invader1;
      }
      tir2++;
      if(tir3==1)
      {
-         if(accueil[invader2]==0x00 && accueil[invader2+3]==0x00 && accueil[invader2+2]==0x00 && accueil[invader2+1]==0x00 &&  accueil[invader2-1]==0x00 &&  accueil[invader2-2]==0x00 && accueil[invader2-3]==0x00)
-        {
-        }
-         else
-         {
+				 accueil[missile1+128]=0xFF;
+				 accueil[missile1+128+1]=0xFF;
+				 if(decalage==1)
+				 {
+						accueil[missile1]=0x00;
+						accueil[missile1+1]=0x00;
+				 }
+
          accueil[missile2+128]=0xFF;
          accueil[missile2+128+1]=0xFF;
          if(decalage==1)
          {
-         accueil[missile2]=0x00;
-         accueil[missile2+1]=0x00;
+		         accueil[missile2]=0x00;
+		         accueil[missile2+1]=0x00;
          }
+
          decalage=1;
          missile2=missile2+128;
-         }
+				 missile1=missile1+128;
+
          if(missile2>896)
          {
              accueil[missile2]=0x00;
              accueil[missile2+1]=0x00;
+             tir3=0;
+             decalage=0;
+         }
+				 if(missile1>896)
+         {
+             accueil[missile1]=0x00;
+             accueil[missile1+1]=0x00;
              tir3=0;
              decalage=0;
          }
