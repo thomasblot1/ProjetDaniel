@@ -590,7 +590,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
 "58 ./glcd.h
-[; ;./glcd.h: 58: const unsigned char poulet[1024]={255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+[; ;./glcd.h: 58: const unsigned char poulet[1024] = {255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,
 [v _poulet `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _poulet
 :U ..
@@ -7961,7 +7961,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;glcd.c: 884:         tir2++;
 [e ++ _tir2 -> 1 `i ]
 "885
-[; ;glcd.c: 885:         if (tir3 == 1) {
+[; ;glcd.c: 885:         if (tir3==1) {
 [e $ ! == _tir3 -> 1 `i 427  ]
 {
 "886

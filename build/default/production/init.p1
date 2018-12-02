@@ -545,49 +545,47 @@ Version 4.0 HI-TECH Software Intermediate Code
 "8893
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"4 init.c
-[; ;init.c: 4: void initMyPIC18F(void)
+"5 init.c
+[; ;init.c: 5: void initMyPIC18F(void) {
 [v _initMyPIC18F `(v ~T0 @X0 1 ef ]
-"5
-[; ;init.c: 5: {
 {
 [e :U _initMyPIC18F ]
 [f ]
 "7
-[; ;init.c: 7:  ADCON1 = 0x0F ;
+[; ;init.c: 7:     ADCON1 = 0x0F;
 [e = _ADCON1 -> -> 15 `i `uc ]
 "8
-[; ;init.c: 8:  ADCON0 = 0;
+[; ;init.c: 8:     ADCON0 = 0;
 [e = _ADCON0 -> -> 0 `i `uc ]
 "11
-[; ;init.c: 11:  TRISA = 0x00;
+[; ;init.c: 11:     TRISA = 0x00;
 [e = _TRISA -> -> 0 `i `uc ]
 "12
-[; ;init.c: 12:  TRISB = 0x00;
+[; ;init.c: 12:     TRISB = 0x00;
 [e = _TRISB -> -> 0 `i `uc ]
 "13
-[; ;init.c: 13:  TRISC = 0x00;
+[; ;init.c: 13:     TRISC = 0x00;
 [e = _TRISC -> -> 0 `i `uc ]
 "14
-[; ;init.c: 14:  TRISD = 0x00;
+[; ;init.c: 14:     TRISD = 0x00;
 [e = _TRISD -> -> 0 `i `uc ]
 "15
-[; ;init.c: 15:  TRISE = 0x00;
+[; ;init.c: 15:     TRISE = 0x00;
 [e = _TRISE -> -> 0 `i `uc ]
 "18
-[; ;init.c: 18:  PORTA = 0x00;
+[; ;init.c: 18:     PORTA = 0x00;
 [e = _PORTA -> -> 0 `i `uc ]
 "19
-[; ;init.c: 19:  PORTB = 0x00;
+[; ;init.c: 19:     PORTB = 0x00;
 [e = _PORTB -> -> 0 `i `uc ]
 "20
-[; ;init.c: 20:  PORTC = 0x00;
+[; ;init.c: 20:     PORTC = 0x00;
 [e = _PORTC -> -> 0 `i `uc ]
 "21
-[; ;init.c: 21:  PORTD = 0x00;
+[; ;init.c: 21:     PORTD = 0x00;
 [e = _PORTD -> -> 0 `i `uc ]
 "24
-[; ;init.c: 24:  PORTE = 0x00;
+[; ;init.c: 24:     PORTE = 0x00;
 [e = _PORTE -> -> 0 `i `uc ]
 "26
 [; ;init.c: 26: }

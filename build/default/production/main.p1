@@ -10,10 +10,10 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;./glcd.h: 45: extern void glcd_Init(unsigned char mode);
 [v _glcd_Init `(v ~T0 @X0 0 ef1`uc ]
 "49
-[; ;./glcd.h: 49: extern void glcd_SetCursor(unsigned char xpos,unsigned char ypos);
+[; ;./glcd.h: 49: extern void glcd_SetCursor(unsigned char xpos, unsigned char ypos);
 [v _glcd_SetCursor `(v ~T0 @X0 0 ef2`uc`uc ]
 "53
-[; ;./glcd.h: 53: extern void glcd_WriteString(unsigned char str[],unsigned char font,unsigned char color);
+[; ;./glcd.h: 53: extern void glcd_WriteString(unsigned char str[], unsigned char font, unsigned char color);
 [v _glcd_WriteString `(v ~T0 @X0 0 ef3`*uc`uc`uc ]
 [v F3468 `(v ~T0 @X0 1 tf1`ul ]
 "183 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18.h
@@ -533,7 +533,7 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
 "58 ./glcd.h
-[; ;./glcd.h: 58: const unsigned char poulet[1024]={255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,
+[; ;./glcd.h: 58: const unsigned char poulet[1024] = {255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,
 [v _poulet `Cuc ~T0 @X0 -> 1024 `i e ]
 [i _poulet
 :U ..
@@ -1548,108 +1548,104 @@ Version 4.0 HI-TECH Software Intermediate Code
 ..
 ]
 "8 main.c
-[; ;main.c: 8: 
+[; ;main.c: 8:     glcd_SetCursor(10, 1);
 [p x FOSC = HS ]
 "9
-[; ;main.c: 9: 
+[; ;main.c: 9:     glcd_WriteString("Space Invader", 1, 1);
 [p x PWRT = OFF ]
 "10
-[; ;main.c: 10:         glcd_SetCursor(10,1);
+[; ;main.c: 10:     _delay((unsigned long)((500)*(8000000/4000.0)));
 [p x BOR = OFF ]
 "11
-[; ;main.c: 11:         glcd_WriteString("Space Invader",1,1);
+[; ;main.c: 11:     glcd_SetCursor(30, 3);
 [p x WDT = OFF ]
 "12
-[; ;main.c: 12:         _delay((unsigned long)((500)*(8000000/4000.0)));
+[; ;main.c: 12: 
 [p x LVP = OFF ]
 "13
-[; ;main.c: 13:         glcd_SetCursor(30,3);
+[; ;main.c: 13: 
 [p x DEBUG = OFF ]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"16
-[; ;main.c: 16:         glcd_WriteString("Made by",1,1);
+"15
+[; ;main.c: 15:     glcd_SetCursor(10, 5);
 [v _main `(v ~T0 @X0 1 ef ]
-"17
-[; ;main.c: 17:         glcd_SetCursor(10,5);
 {
 [e :U _main ]
 [f ]
-"18
-[; ;main.c: 18:         _delay((unsigned long)((20)*(8000000/4000.0)));
+"16
+[; ;main.c: 16:     _delay((unsigned long)((20)*(8000000/4000.0)));
 [e = _PORTE -> -> 0 `i `uc ]
-"19
-[; ;main.c: 19:         glcd_WriteString("Daniel,Gabriel",1,1);
+"17
+[; ;main.c: 17:     glcd_WriteString("Daniel,Gabriel", 1, 1);
 [v _y `i ~T0 @X0 1 a ]
 [e = _y -> 0 `i ]
 [v _i `i ~T0 @X0 1 a ]
 [e = _i -> 0 `i ]
-"21
-[; ;main.c: 21:         glcd_WriteString("et Thomas",1,1);
+"19
+[; ;main.c: 19:     glcd_WriteString("et Thomas", 1, 1);
 [e ( _initMyPIC18F ..  ]
-"22
-[; ;main.c: 22: 
+"20
+[; ;main.c: 20: 
 [e ( _glcd_Init (1 -> -> 1 `i `uc ]
-"25
-[; ;main.c: 25:         glcd_Init(0);
+"23
+[; ;main.c: 23:     glcd_Init(0);
 [e ( _glcd_SetCursor (2 , -> -> 10 `i `uc -> -> 1 `i `uc ]
-"26
-[; ;main.c: 26: 
+"24
+[; ;main.c: 24: 
 [e ( _glcd_WriteString (3 , , :s 1C -> -> 1 `i `uc -> -> 1 `i `uc ]
-"27
-[; ;main.c: 27:         glcd_Init(1);
+"25
+[; ;main.c: 25:     glcd_Init(1);
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"28
-[; ;main.c: 28:         glcd_SetCursor(20,4);
+"26
+[; ;main.c: 26:     glcd_SetCursor(20, 4);
 [e ( _glcd_SetCursor (2 , -> -> 30 `i `uc -> -> 3 `i `uc ]
-"31
-[; ;main.c: 31:          glcd_Init(0);
+"29
+[; ;main.c: 29:     glcd_Init(0);
 [e ( _glcd_WriteString (3 , , :s 2C -> -> 1 `i `uc -> -> 1 `i `uc ]
-"32
-[; ;main.c: 32: 
+"30
+[; ;main.c: 30: 
 [e ( _glcd_SetCursor (2 , -> -> 10 `i `uc -> -> 5 `i `uc ]
-"33
-[; ;main.c: 33:         glcd_Init(1);
+"31
+[; ;main.c: 31:     glcd_Init(1);
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"34
-[; ;main.c: 34:     glcd_Image();
+"32
+[; ;main.c: 32:     glcd_Image();
 [e ( _glcd_WriteString (3 , , :s 3C -> -> 1 `i `uc -> -> 1 `i `uc ]
-"35
-[; ;main.c: 35: 
+"33
+[; ;main.c: 33: 
 [e ( _glcd_SetCursor (2 , -> -> 30 `i `uc -> -> 7 `i `uc ]
-"36
-[; ;main.c: 36: 
+"34
+[; ;main.c: 34: 
 [e ( _glcd_WriteString (3 , , :s 4C -> -> 1 `i `uc -> -> 1 `i `uc ]
-"38
-[; ;main.c: 38:     while(1)
+"36
+[; ;main.c: 36:     while (1) {
 [e ( __delay (1 -> * -> -> 600 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"38
+[; ;main.c: 38: 
+[e ( _glcd_Init (1 -> -> 0 `i `uc ]
 "40
-[; ;main.c: 40: }
-[e ( _glcd_Init (1 -> -> 0 `i `uc ]
-"42
-[; ;main.c: 42: }
 [e ( _glcd_Init (1 -> -> 1 `i `uc ]
-"43
+"41
 [e ( _glcd_SetCursor (2 , -> -> 20 `i `uc -> -> 4 `i `uc ]
-"44
+"42
 [e ( _glcd_WriteString (3 , , :s 5C -> -> 1 `i `uc -> -> 1 `i `uc ]
-"45
+"43
 [e ( __delay (1 -> * -> -> 400 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"46
+"44
 [e ( _glcd_Init (1 -> -> 0 `i `uc ]
-"48
+"46
 [e ( _glcd_Init (1 -> -> 1 `i `uc ]
-"49
+"47
 [e ( _glcd_Image ..  ]
-"53
+"51
 [e :U 371 ]
-"54
 {
-"55
+"52
 }
 [e :U 370 ]
 [e $U 371  ]
 [e :U 372 ]
-"57
+"54
 [e :UE 369 ]
 }
 [a 2C 77 97 100 101 32 98 121 0 ]
