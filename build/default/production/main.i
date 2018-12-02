@@ -5861,10 +5861,12 @@ void main (void)
     initMyPIC18F();
     glcd_Init(1);
 
-    glcd_SetCursor(10,1);
-    glcd_WriteString("Space Invader",1,1);
-    _delay((unsigned long)((500)*(8000000/4000.0)));
-    glcd_SetCursor(30,3);
+
+        glcd_SetCursor(10,1);
+        glcd_WriteString("Space Invader",1,1);
+        _delay((unsigned long)((500)*(8000000/4000.0)));
+        glcd_SetCursor(30,3);
+
 
         glcd_WriteString("Made by",1,1);
         glcd_SetCursor(10,5);
@@ -5890,7 +5892,6 @@ void main (void)
 
     while(1)
     {
-
-    }
+}
 
 }
