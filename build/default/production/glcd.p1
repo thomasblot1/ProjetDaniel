@@ -52,33 +52,33 @@ Version 4.0 HI-TECH Software Intermediate Code
 "2483
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2483: extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
 [v _PORTBbits `VS106 ~T0 @X0 0 e@3969 ]
-"2832
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2832:     struct {
-[s S121 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
-[n S121 . RE0 RE1 RE2 RE3 . RDPU ]
-"2840
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2840:     struct {
-[s S122 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S122 . CK1SPP CK2SPP OESPP ]
-"2845
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2845:     struct {
-[s S123 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
-[n S123 . PD2 PC2 CCP10 CCP9E . CCP2E ]
-"2853
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2853:     struct {
-[s S124 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
-[n S124 . RDE WRE CS PC3E . PA2E ]
-"2861
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2861:     struct {
-[s S125 :2 `uc 1 :1 `uc 1 :4 `uc 1 :1 `uc 1 ]
-[n S125 . . PB2 . RE7 ]
-"2831
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2831: typedef union {
-[u S120 `S121 1 `S122 1 `S123 1 `S124 1 `S125 1 ]
-[n S120 . . . . . . ]
-"2868
-[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2868: extern volatile PORTEbits_t PORTEbits __attribute__((address(0xF84)));
-[v _PORTEbits `VS120 ~T0 @X0 0 e@3972 ]
+"2569
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2569:     struct {
+[s S111 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S111 . RC0 RC1 RC2 . RC4 RC5 RC6 RC7 ]
+"2579
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2579:     struct {
+[s S112 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S112 . T1OSO T1OSI CCP1 . TX RX ]
+"2587
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2587:     struct {
+[s S113 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S113 . T13CKI . P1A . CK DT ]
+"2595
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2595:     struct {
+[s S114 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S114 . . CCP2 PA1 ]
+"2600
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2600:     struct {
+[s S115 :1 `uc 1 :1 `uc 1 ]
+[n S115 . . PA2 ]
+"2568
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2568: typedef union {
+[u S110 `S111 1 `S112 1 `S113 1 `S114 1 `S115 1 ]
+[n S110 . . . . . . ]
+"2605
+[; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 2605: extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
+[v _PORTCbits `VS110 ~T0 @X0 0 e@3970 ]
 "54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h
 [; ;C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f4550.h: 54: __asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
@@ -7411,1408 +7411,1607 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 385 ]
 }
 "700
-[; ;glcd.c: 700:         LATBbits.LATB0 = 0;
-[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+[; ;glcd.c: 700:         if(fin==1){
+[e $ ! == _fin -> 1 `i 393  ]
+{
 "701
-[; ;glcd.c: 701:         LATBbits.LATB1 = 0;
-[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
-"703
-[; ;glcd.c: 703:         if (invdep4) {
-[e $ ! != _invdep4 -> 0 `i 393  ]
+[; ;glcd.c: 701:             while(1){}
+[e :U 395 ]
 {
-"704
-[; ;glcd.c: 704:             if (invader4 == 189) {
-[e $ ! == _invader4 -> 189 `i 394  ]
-{
-"705
-[; ;glcd.c: 705:                 retour4 = 1;
-[e = _retour4 -> 1 `i ]
-"706
-[; ;glcd.c: 706:             }
 }
 [e :U 394 ]
+[e $U 395  ]
+[e :U 396 ]
+"702
+[; ;glcd.c: 702:         }
+}
+[e :U 393 ]
+"703
+[; ;glcd.c: 703:         LATBbits.LATB0 = 0;
+[e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
+"704
+[; ;glcd.c: 704:         LATBbits.LATB1 = 0;
+[e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
+"706
+[; ;glcd.c: 706:         if (invdep4) {
+[e $ ! != _invdep4 -> 0 `i 397  ]
+{
 "707
-[; ;glcd.c: 707:             if (invader4 == 132) {
-[e $ ! == _invader4 -> 132 `i 395  ]
+[; ;glcd.c: 707:             if (invader4 == 189) {
+[e $ ! == _invader4 -> 189 `i 398  ]
 {
 "708
-[; ;glcd.c: 708:                 retour4 = 0;
-[e = _retour4 -> 0 `i ]
+[; ;glcd.c: 708:                 retour4 = 1;
+[e = _retour4 -> 1 `i ]
 "709
 [; ;glcd.c: 709:             }
 }
-[e :U 395 ]
+[e :U 398 ]
 "710
-[; ;glcd.c: 710:             if (retour4 == 0) {
-[e $ ! == _retour4 -> 0 `i 396  ]
+[; ;glcd.c: 710:             if (invader4 == 132) {
+[e $ ! == _invader4 -> 132 `i 399  ]
 {
 "711
-[; ;glcd.c: 711:                 accueil[invader4 + 4] = accueil[invader4 + 3];
-[e = *U + &U _accueil * -> -> + _invader4 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 711:                 retour4 = 0;
+[e = _retour4 -> 0 `i ]
 "712
-[; ;glcd.c: 712:                 accueil[invader4 + 3] = accueil[invader4 + 2];
-[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"713
-[; ;glcd.c: 713:                 accueil[invader4 + 2] = accueil[invader4 + 1];
-[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"714
-[; ;glcd.c: 714:                 accueil[invader4 + 1] = accueil[invader4];
-[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"715
-[; ;glcd.c: 715:                 accueil[invader4] = accueil[invader4 - 1];
-[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"716
-[; ;glcd.c: 716:                 accueil[invader4 - 1] = accueil[invader4 - 2];
-[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"717
-[; ;glcd.c: 717:                 accueil[invader4 - 2] = accueil[invader4 - 3];
-[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"718
-[; ;glcd.c: 718:                 accueil[invader4 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"719
-[; ;glcd.c: 719:                 invader4++;
-[e ++ _invader4 -> 1 `i ]
-"720
-[; ;glcd.c: 720:             } else {
-}
-[e $U 397  ]
-[e :U 396 ]
-{
-"721
-[; ;glcd.c: 721:                 accueil[invader4 - 4] = accueil[invader4 - 3];
-[e = *U + &U _accueil * -> -> - _invader4 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"722
-[; ;glcd.c: 722:                 accueil[invader4 - 3] = accueil[invader4 - 2];
-[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"723
-[; ;glcd.c: 723:                 accueil[invader4 - 2] = accueil[invader4 - 1];
-[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"724
-[; ;glcd.c: 724:                 accueil[invader4 - 1] = accueil[invader4];
-[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"725
-[; ;glcd.c: 725:                 accueil[invader4] = accueil[invader4 + 1];
-[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"726
-[; ;glcd.c: 726:                 accueil[invader4 + 1] = accueil[invader4 + 2];
-[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"727
-[; ;glcd.c: 727:                 accueil[invader4 + 2] = accueil[invader4 + 3];
-[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"728
-[; ;glcd.c: 728:                 accueil[invader4 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"729
-[; ;glcd.c: 729:                 invader4--;
-[e -- _invader4 -> 1 `i ]
-"730
-[; ;glcd.c: 730:             }
-}
-[e :U 397 ]
-"731
-[; ;glcd.c: 731:         }
-}
-[e :U 393 ]
-"734
-[; ;glcd.c: 734:         if (invdep3) {
-[e $ ! != _invdep3 -> 0 `i 398  ]
-{
-"735
-[; ;glcd.c: 735:             if (invader3 == 68) {
-[e $ ! == _invader3 -> 68 `i 399  ]
-{
-"736
-[; ;glcd.c: 736:                 retour3 = 1;
-[e = _retour3 -> 1 `i ]
-"737
-[; ;glcd.c: 737:             }
+[; ;glcd.c: 712:             }
 }
 [e :U 399 ]
+"713
+[; ;glcd.c: 713:             if (retour4 == 0) {
+[e $ ! == _retour4 -> 0 `i 400  ]
+{
+"714
+[; ;glcd.c: 714:                 accueil[invader4 + 4] = accueil[invader4 + 3];
+[e = *U + &U _accueil * -> -> + _invader4 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"715
+[; ;glcd.c: 715:                 accueil[invader4 + 3] = accueil[invader4 + 2];
+[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"716
+[; ;glcd.c: 716:                 accueil[invader4 + 2] = accueil[invader4 + 1];
+[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"717
+[; ;glcd.c: 717:                 accueil[invader4 + 1] = accueil[invader4];
+[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"718
+[; ;glcd.c: 718:                 accueil[invader4] = accueil[invader4 - 1];
+[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"719
+[; ;glcd.c: 719:                 accueil[invader4 - 1] = accueil[invader4 - 2];
+[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"720
+[; ;glcd.c: 720:                 accueil[invader4 - 2] = accueil[invader4 - 3];
+[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"721
+[; ;glcd.c: 721:                 accueil[invader4 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"722
+[; ;glcd.c: 722:                 invader4++;
+[e ++ _invader4 -> 1 `i ]
+"723
+[; ;glcd.c: 723:             } else {
+}
+[e $U 401  ]
+[e :U 400 ]
+{
+"724
+[; ;glcd.c: 724:                 accueil[invader4 - 4] = accueil[invader4 - 3];
+[e = *U + &U _accueil * -> -> - _invader4 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"725
+[; ;glcd.c: 725:                 accueil[invader4 - 3] = accueil[invader4 - 2];
+[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"726
+[; ;glcd.c: 726:                 accueil[invader4 - 2] = accueil[invader4 - 1];
+[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"727
+[; ;glcd.c: 727:                 accueil[invader4 - 1] = accueil[invader4];
+[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"728
+[; ;glcd.c: 728:                 accueil[invader4] = accueil[invader4 + 1];
+[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"729
+[; ;glcd.c: 729:                 accueil[invader4 + 1] = accueil[invader4 + 2];
+[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"730
+[; ;glcd.c: 730:                 accueil[invader4 + 2] = accueil[invader4 + 3];
+[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"731
+[; ;glcd.c: 731:                 accueil[invader4 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"732
+[; ;glcd.c: 732:                 invader4--;
+[e -- _invader4 -> 1 `i ]
+"733
+[; ;glcd.c: 733:             }
+}
+[e :U 401 ]
+"734
+[; ;glcd.c: 734:         }
+}
+[e :U 397 ]
+"737
+[; ;glcd.c: 737:         if (invdep3) {
+[e $ ! != _invdep3 -> 0 `i 402  ]
+{
 "738
-[; ;glcd.c: 738:             if (invader3 == 124) {
-[e $ ! == _invader3 -> 124 `i 400  ]
+[; ;glcd.c: 738:             if (invader3 == 68) {
+[e $ ! == _invader3 -> 68 `i 403  ]
 {
 "739
-[; ;glcd.c: 739:                 retour3 = 0;
-[e = _retour3 -> 0 `i ]
+[; ;glcd.c: 739:                 retour3 = 1;
+[e = _retour3 -> 1 `i ]
 "740
 [; ;glcd.c: 740:             }
 }
-[e :U 400 ]
+[e :U 403 ]
 "741
-[; ;glcd.c: 741:             if (retour3 == 1) {
-[e $ ! == _retour3 -> 1 `i 401  ]
+[; ;glcd.c: 741:             if (invader3 == 124) {
+[e $ ! == _invader3 -> 124 `i 404  ]
 {
 "742
-[; ;glcd.c: 742:                 accueil[invader3 + 4] = accueil[invader3 + 3];
-[e = *U + &U _accueil * -> -> + _invader3 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 742:                 retour3 = 0;
+[e = _retour3 -> 0 `i ]
 "743
-[; ;glcd.c: 743:                 accueil[invader3 + 3] = accueil[invader3 + 2];
-[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"744
-[; ;glcd.c: 744:                 accueil[invader3 + 2] = accueil[invader3 + 1];
-[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"745
-[; ;glcd.c: 745:                 accueil[invader3 + 1] = accueil[invader3];
-[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"746
-[; ;glcd.c: 746:                 accueil[invader3] = accueil[invader3 - 1];
-[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"747
-[; ;glcd.c: 747:                 accueil[invader3 - 1] = accueil[invader3 - 2];
-[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"748
-[; ;glcd.c: 748:                 accueil[invader3 - 2] = accueil[invader3 - 3];
-[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"749
-[; ;glcd.c: 749:                 accueil[invader3 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"750
-[; ;glcd.c: 750:                 invader3++;
-[e ++ _invader3 -> 1 `i ]
-"751
-[; ;glcd.c: 751:             } else {
-}
-[e $U 402  ]
-[e :U 401 ]
-{
-"752
-[; ;glcd.c: 752:                 accueil[invader3 - 4] = accueil[invader3 - 3];
-[e = *U + &U _accueil * -> -> - _invader3 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"753
-[; ;glcd.c: 753:                 accueil[invader3 - 3] = accueil[invader3 - 2];
-[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"754
-[; ;glcd.c: 754:                 accueil[invader3 - 2] = accueil[invader3 - 1];
-[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"755
-[; ;glcd.c: 755:                 accueil[invader3 - 1] = accueil[invader3];
-[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"756
-[; ;glcd.c: 756:                 accueil[invader3] = accueil[invader3 + 1];
-[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"757
-[; ;glcd.c: 757:                 accueil[invader3 + 1] = accueil[invader3 + 2];
-[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"758
-[; ;glcd.c: 758:                 accueil[invader3 + 2] = accueil[invader3 + 3];
-[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"759
-[; ;glcd.c: 759:                 accueil[invader3 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"760
-[; ;glcd.c: 760:                 invader3--;
-[e -- _invader3 -> 1 `i ]
-"761
-[; ;glcd.c: 761:             }
-}
-[e :U 402 ]
-"762
-[; ;glcd.c: 762:         }
-}
-[e :U 398 ]
-"764
-[; ;glcd.c: 764:         if (invdep2) {
-[e $ ! != _invdep2 -> 0 `i 403  ]
-{
-"765
-[; ;glcd.c: 765:             if (invader2 == 192) {
-[e $ ! == _invader2 -> 192 `i 404  ]
-{
-"766
-[; ;glcd.c: 766:                 retour2 = 1;
-[e = _retour2 -> 1 `i ]
-"767
-[; ;glcd.c: 767:             }
+[; ;glcd.c: 743:             }
 }
 [e :U 404 ]
+"744
+[; ;glcd.c: 744:             if (retour3 == 1) {
+[e $ ! == _retour3 -> 1 `i 405  ]
+{
+"745
+[; ;glcd.c: 745:                 accueil[invader3 + 4] = accueil[invader3 + 3];
+[e = *U + &U _accueil * -> -> + _invader3 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"746
+[; ;glcd.c: 746:                 accueil[invader3 + 3] = accueil[invader3 + 2];
+[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"747
+[; ;glcd.c: 747:                 accueil[invader3 + 2] = accueil[invader3 + 1];
+[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"748
+[; ;glcd.c: 748:                 accueil[invader3 + 1] = accueil[invader3];
+[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"749
+[; ;glcd.c: 749:                 accueil[invader3] = accueil[invader3 - 1];
+[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"750
+[; ;glcd.c: 750:                 accueil[invader3 - 1] = accueil[invader3 - 2];
+[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"751
+[; ;glcd.c: 751:                 accueil[invader3 - 2] = accueil[invader3 - 3];
+[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"752
+[; ;glcd.c: 752:                 accueil[invader3 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"753
+[; ;glcd.c: 753:                 invader3++;
+[e ++ _invader3 -> 1 `i ]
+"754
+[; ;glcd.c: 754:             } else {
+}
+[e $U 406  ]
+[e :U 405 ]
+{
+"755
+[; ;glcd.c: 755:                 accueil[invader3 - 4] = accueil[invader3 - 3];
+[e = *U + &U _accueil * -> -> - _invader3 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"756
+[; ;glcd.c: 756:                 accueil[invader3 - 3] = accueil[invader3 - 2];
+[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"757
+[; ;glcd.c: 757:                 accueil[invader3 - 2] = accueil[invader3 - 1];
+[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"758
+[; ;glcd.c: 758:                 accueil[invader3 - 1] = accueil[invader3];
+[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"759
+[; ;glcd.c: 759:                 accueil[invader3] = accueil[invader3 + 1];
+[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"760
+[; ;glcd.c: 760:                 accueil[invader3 + 1] = accueil[invader3 + 2];
+[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"761
+[; ;glcd.c: 761:                 accueil[invader3 + 2] = accueil[invader3 + 3];
+[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"762
+[; ;glcd.c: 762:                 accueil[invader3 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"763
+[; ;glcd.c: 763:                 invader3--;
+[e -- _invader3 -> 1 `i ]
+"764
+[; ;glcd.c: 764:             }
+}
+[e :U 406 ]
+"765
+[; ;glcd.c: 765:         }
+}
+[e :U 402 ]
+"767
+[; ;glcd.c: 767:         if (invdep2) {
+[e $ ! != _invdep2 -> 0 `i 407  ]
+{
 "768
-[; ;glcd.c: 768:             if (invader2 == 252) {
-[e $ ! == _invader2 -> 252 `i 405  ]
+[; ;glcd.c: 768:             if (invader2 == 192) {
+[e $ ! == _invader2 -> 192 `i 408  ]
 {
 "769
-[; ;glcd.c: 769:                 retour2 = 0;
-[e = _retour2 -> 0 `i ]
+[; ;glcd.c: 769:                 retour2 = 1;
+[e = _retour2 -> 1 `i ]
 "770
 [; ;glcd.c: 770:             }
 }
-[e :U 405 ]
+[e :U 408 ]
 "771
-[; ;glcd.c: 771:             if (retour2 == 1) {
-[e $ ! == _retour2 -> 1 `i 406  ]
+[; ;glcd.c: 771:             if (invader2 == 252) {
+[e $ ! == _invader2 -> 252 `i 409  ]
 {
 "772
-[; ;glcd.c: 772:                 accueil[invader2 + 4] = accueil[invader2 + 3];
-[e = *U + &U _accueil * -> -> + _invader2 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 772:                 retour2 = 0;
+[e = _retour2 -> 0 `i ]
 "773
-[; ;glcd.c: 773:                 accueil[invader2 + 3] = accueil[invader2 + 2];
-[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"774
-[; ;glcd.c: 774:                 accueil[invader2 + 2] = accueil[invader2 + 1];
-[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"775
-[; ;glcd.c: 775:                 accueil[invader2 + 1] = accueil[invader2];
-[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"776
-[; ;glcd.c: 776:                 accueil[invader2] = accueil[invader2 - 1];
-[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"777
-[; ;glcd.c: 777:                 accueil[invader2 - 1] = accueil[invader2 - 2];
-[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"778
-[; ;glcd.c: 778:                 accueil[invader2 - 2] = accueil[invader2 - 3];
-[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"779
-[; ;glcd.c: 779:                 accueil[invader2 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"780
-[; ;glcd.c: 780:                 invader2++;
-[e ++ _invader2 -> 1 `i ]
-"781
-[; ;glcd.c: 781:             } else {
-}
-[e $U 407  ]
-[e :U 406 ]
-{
-"782
-[; ;glcd.c: 782:                 accueil[invader2 - 4] = accueil[invader2 - 3];
-[e = *U + &U _accueil * -> -> - _invader2 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"783
-[; ;glcd.c: 783:                 accueil[invader2 - 3] = accueil[invader2 - 2];
-[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"784
-[; ;glcd.c: 784:                 accueil[invader2 - 2] = accueil[invader2 - 1];
-[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"785
-[; ;glcd.c: 785:                 accueil[invader2 - 1] = accueil[invader2];
-[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"786
-[; ;glcd.c: 786:                 accueil[invader2] = accueil[invader2 + 1];
-[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"787
-[; ;glcd.c: 787:                 accueil[invader2 + 1] = accueil[invader2 + 2];
-[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"788
-[; ;glcd.c: 788:                 accueil[invader2 + 2] = accueil[invader2 + 3];
-[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"789
-[; ;glcd.c: 789:                 accueil[invader2 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"790
-[; ;glcd.c: 790:                 invader2--;
-[e -- _invader2 -> 1 `i ]
-"791
-[; ;glcd.c: 791:             }
-}
-[e :U 407 ]
-"792
-[; ;glcd.c: 792:         }
-}
-[e :U 403 ]
-"794
-[; ;glcd.c: 794:         if (invdep1) {
-[e $ ! != _invdep1 -> 0 `i 408  ]
-{
-"795
-[; ;glcd.c: 795:             if (invader1 == 64) {
-[e $ ! == _invader1 -> 64 `i 409  ]
-{
-"796
-[; ;glcd.c: 796:                 retour1 = 1;
-[e = _retour1 -> 1 `i ]
-"797
-[; ;glcd.c: 797:             }
+[; ;glcd.c: 773:             }
 }
 [e :U 409 ]
+"774
+[; ;glcd.c: 774:             if (retour2 == 1) {
+[e $ ! == _retour2 -> 1 `i 410  ]
+{
+"775
+[; ;glcd.c: 775:                 accueil[invader2 + 4] = accueil[invader2 + 3];
+[e = *U + &U _accueil * -> -> + _invader2 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"776
+[; ;glcd.c: 776:                 accueil[invader2 + 3] = accueil[invader2 + 2];
+[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"777
+[; ;glcd.c: 777:                 accueil[invader2 + 2] = accueil[invader2 + 1];
+[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"778
+[; ;glcd.c: 778:                 accueil[invader2 + 1] = accueil[invader2];
+[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"779
+[; ;glcd.c: 779:                 accueil[invader2] = accueil[invader2 - 1];
+[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"780
+[; ;glcd.c: 780:                 accueil[invader2 - 1] = accueil[invader2 - 2];
+[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"781
+[; ;glcd.c: 781:                 accueil[invader2 - 2] = accueil[invader2 - 3];
+[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"782
+[; ;glcd.c: 782:                 accueil[invader2 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"783
+[; ;glcd.c: 783:                 invader2++;
+[e ++ _invader2 -> 1 `i ]
+"784
+[; ;glcd.c: 784:             } else {
+}
+[e $U 411  ]
+[e :U 410 ]
+{
+"785
+[; ;glcd.c: 785:                 accueil[invader2 - 4] = accueil[invader2 - 3];
+[e = *U + &U _accueil * -> -> - _invader2 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"786
+[; ;glcd.c: 786:                 accueil[invader2 - 3] = accueil[invader2 - 2];
+[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"787
+[; ;glcd.c: 787:                 accueil[invader2 - 2] = accueil[invader2 - 1];
+[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"788
+[; ;glcd.c: 788:                 accueil[invader2 - 1] = accueil[invader2];
+[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"789
+[; ;glcd.c: 789:                 accueil[invader2] = accueil[invader2 + 1];
+[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"790
+[; ;glcd.c: 790:                 accueil[invader2 + 1] = accueil[invader2 + 2];
+[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"791
+[; ;glcd.c: 791:                 accueil[invader2 + 2] = accueil[invader2 + 3];
+[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"792
+[; ;glcd.c: 792:                 accueil[invader2 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"793
+[; ;glcd.c: 793:                 invader2--;
+[e -- _invader2 -> 1 `i ]
+"794
+[; ;glcd.c: 794:             }
+}
+[e :U 411 ]
+"795
+[; ;glcd.c: 795:         }
+}
+[e :U 407 ]
+"797
+[; ;glcd.c: 797:         if (invdep1) {
+[e $ ! != _invdep1 -> 0 `i 412  ]
+{
 "798
-[; ;glcd.c: 798:             if (invader1 == 4) {
-[e $ ! == _invader1 -> 4 `i 410  ]
+[; ;glcd.c: 798:             if (invader1 == 64) {
+[e $ ! == _invader1 -> 64 `i 413  ]
 {
 "799
-[; ;glcd.c: 799:                 retour1 = 0;
-[e = _retour1 -> 0 `i ]
+[; ;glcd.c: 799:                 retour1 = 1;
+[e = _retour1 -> 1 `i ]
 "800
 [; ;glcd.c: 800:             }
 }
-[e :U 410 ]
+[e :U 413 ]
 "801
-[; ;glcd.c: 801:             if (retour1 == 0) {
-[e $ ! == _retour1 -> 0 `i 411  ]
+[; ;glcd.c: 801:             if (invader1 == 4) {
+[e $ ! == _invader1 -> 4 `i 414  ]
 {
 "802
-[; ;glcd.c: 802:                 accueil[invader1 + 4] = accueil[invader1 + 3];
-[e = *U + &U _accueil * -> -> + _invader1 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 802:                 retour1 = 0;
+[e = _retour1 -> 0 `i ]
 "803
-[; ;glcd.c: 803:                 accueil[invader1 + 3] = accueil[invader1 + 2];
-[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"804
-[; ;glcd.c: 804:                 accueil[invader1 + 2] = accueil[invader1 + 1];
-[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"805
-[; ;glcd.c: 805:                 accueil[invader1 + 1] = accueil[invader1];
-[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"806
-[; ;glcd.c: 806:                 accueil[invader1] = accueil[invader1 - 1];
-[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"807
-[; ;glcd.c: 807:                 accueil[invader1 - 1] = accueil[invader1 - 2];
-[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"808
-[; ;glcd.c: 808:                 accueil[invader1 - 2] = accueil[invader1 - 3];
-[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"809
-[; ;glcd.c: 809:                 accueil[invader1 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"810
-[; ;glcd.c: 810:                 invader1++;
-[e ++ _invader1 -> 1 `i ]
-"811
-[; ;glcd.c: 811:             } else {
-}
-[e $U 412  ]
-[e :U 411 ]
-{
-"812
-[; ;glcd.c: 812:                 accueil[invader1 - 4] = accueil[invader1 - 3];
-[e = *U + &U _accueil * -> -> - _invader1 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"813
-[; ;glcd.c: 813:                 accueil[invader1 - 3] = accueil[invader1 - 2];
-[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"814
-[; ;glcd.c: 814:                 accueil[invader1 - 2] = accueil[invader1 - 1];
-[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"815
-[; ;glcd.c: 815:                 accueil[invader1 - 1] = accueil[invader1];
-[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"816
-[; ;glcd.c: 816:                 accueil[invader1] = accueil[invader1 + 1];
-[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"817
-[; ;glcd.c: 817:                 accueil[invader1 + 1] = accueil[invader1 + 2];
-[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"818
-[; ;glcd.c: 818:                 accueil[invader1 + 2] = accueil[invader1 + 3];
-[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"819
-[; ;glcd.c: 819:                 accueil[invader1 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"820
-[; ;glcd.c: 820:                 invader1--;
-[e -- _invader1 -> 1 `i ]
-"821
-[; ;glcd.c: 821:             }
-}
-[e :U 412 ]
-"822
-[; ;glcd.c: 822:         }
-}
-[e :U 408 ]
-"824
-[; ;glcd.c: 824:         if (accueil[invader1] == 0x00 && accueil[invader1 + 3] == 0x00 && accueil[invader1 + 2] == 0x00 && accueil[invader1 + 1] == 0x00 && accueil[invader1 - 1] == 0x00 && accueil[invader1 - 2] == 0x00 && accueil[invader1 - 3] == 0x00) {
-[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 413  ]
-{
-"825
-[; ;glcd.c: 825:             if (accueil[invader2] == 0x00 && accueil[invader2 + 3] == 0x00 && accueil[invader2 + 2] == 0x00 && accueil[invader2 + 1] == 0x00 && accueil[invader2 - 1] == 0x00 && accueil[invader2 - 2] == 0x00 && accueil[invader2 - 3] == 0x00) {
-[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 414  ]
-{
-"826
-[; ;glcd.c: 826:                 if (accueil[invader3] == 0x00 && accueil[invader3 + 3] == 0x00 && accueil[invader3 + 2] == 0x00 && accueil[invader3 + 1] == 0x00 && accueil[invader3 - 1] == 0x00 && accueil[invader3 - 2] == 0x00 && accueil[invader3 - 3] == 0x00) {
-[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 415  ]
-{
-"827
-[; ;glcd.c: 827:                     if (accueil[invader4] == 0x00 && accueil[invader4 + 3] == 0x00 && accueil[invader4 + 2] == 0x00 && accueil[invader4 + 1] == 0x00 && accueil[invader4 - 1] == 0x00 && accueil[invader4 - 2] == 0x00 && accueil[invader4 - 3] == 0x00) {
-[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 416  ]
-{
-"828
-[; ;glcd.c: 828:                         victoire = 1;
-[e = _victoire -> 1 `i ]
-"829
-[; ;glcd.c: 829:                         if (victoire==1){
-[e $ ! == _victoire -> 1 `i 417  ]
-{
-"831
-[; ;glcd.c: 831:                             for (compteur = 0; compteur < 1024; compteur++) {
-{
-[e = _compteur -> 0 `i ]
-[e $ < _compteur -> 1024 `i 418  ]
-[e $U 419  ]
-[e :U 418 ]
-{
-"832
-[; ;glcd.c: 832:                                 accueil[compteur] = 0x00;
-[e = *U + &U _accueil * -> -> _compteur `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"833
-[; ;glcd.c: 833:                             }
-}
-[e ++ _compteur -> 1 `i ]
-[e $ < _compteur -> 1024 `i 418  ]
-[e :U 419 ]
-}
-"835
-[; ;glcd.c: 835:                             accueil[posvictoire + 7] = accueil[posvictoire + 14] = 0x1F;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 7 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 14 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 31 `i `uc ]
-"836
-[; ;glcd.c: 836:                             accueil[posvictoire + 8] = accueil[posvictoire + 13] = 0x20;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 8 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 13 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
-"837
-[; ;glcd.c: 837:                             accueil[posvictoire + 9] = accueil[posvictoire + 12] = 0x40;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 9 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 12 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
-"838
-[; ;glcd.c: 838:                             accueil[posvictoire + 10] = accueil[posvictoire + 11] = 0x80;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 10 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 11 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
-"842
-[; ;glcd.c: 842:                             accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 16 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 17 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"845
-[; ;glcd.c: 845:                             accueil[posvictoire + 19] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 19 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"846
-[; ;glcd.c: 846:                             accueil[posvictoire + 20] = accueil[posvictoire + 21] = accueil[posvictoire + 22] = accueil[posvictoire + 23] = 0x81;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 20 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 21 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 22 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 23 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 129 `i `uc ]
-"849
-[; ;glcd.c: 849:                             accueil[posvictoire + 25] = accueil[posvictoire + 26] = accueil[posvictoire + 27] = accueil[posvictoire + 29] = accueil[posvictoire + 30] = accueil[posvictoire + 31] = 0x01;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 25 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 26 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 27 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 29 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 30 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 31 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
-"850
-[; ;glcd.c: 850:                             accueil[posvictoire + 28] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 28 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"851
-[; ;glcd.c: 851:                             posvictoire = posvictoire + 4;
-[e = _posvictoire + _posvictoire -> 4 `i ]
-"853
-[; ;glcd.c: 853:                             accueil[posvictoire + 30] = accueil[posvictoire + 35] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 30 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 35 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"854
-[; ;glcd.c: 854:                             accueil[posvictoire + 31] = accueil[posvictoire + 32] = accueil[posvictoire + 33] = accueil[posvictoire + 34] = 0x81;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 31 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 32 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 33 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 34 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 129 `i `uc ]
-"855
-[; ;glcd.c: 855:                             posvictoire = posvictoire + 2;
-[e = _posvictoire + _posvictoire -> 2 `i ]
-"857
-[; ;glcd.c: 857:                             accueil[posvictoire + 36] = accueil[posvictoire + 37] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 36 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 37 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"860
-[; ;glcd.c: 860:                             accueil[posvictoire + 39] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 39 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"861
-[; ;glcd.c: 861:                             accueil[posvictoire + 40] = 0x11;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 40 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 17 `i `uc ]
-"862
-[; ;glcd.c: 862:                             accueil[posvictoire + 41] = 0x31;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 41 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 49 `i `uc ]
-"863
-[; ;glcd.c: 863:                             accueil[posvictoire + 42] = 0x4A;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 42 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 74 `i `uc ]
-"864
-[; ;glcd.c: 864:                             accueil[posvictoire + 43] = 0x84;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 43 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 132 `i `uc ]
-"867
-[; ;glcd.c: 867:                             accueil[posvictoire + 45] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 45 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"868
-[; ;glcd.c: 868:                             accueil[posvictoire + 46] = accueil[posvictoire + 47] = accueil[posvictoire + 48] = 0x91;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 46 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 47 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 48 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 145 `i `uc ]
-"869
-[; ;glcd.c: 869:                             fin=1;
-[e = _fin -> 1 `i ]
-"870
-[; ;glcd.c: 870:                         }
-}
-[e :U 417 ]
-"871
-[; ;glcd.c: 871:                     }
-}
-[e :U 416 ]
-"872
-[; ;glcd.c: 872:                 }
-}
-[e :U 415 ]
-"873
-[; ;glcd.c: 873:             }
+[; ;glcd.c: 803:             }
 }
 [e :U 414 ]
-"874
-[; ;glcd.c: 874:         }
-}
-[e :U 413 ]
-"876
-[; ;glcd.c: 876:         if (tir2 == 100) {
-[e $ ! == _tir2 -> 100 `i 421  ]
+"804
+[; ;glcd.c: 804:             if (retour1 == 0) {
+[e $ ! == _retour1 -> 0 `i 415  ]
 {
-"877
-[; ;glcd.c: 877:             tir3 = 1;
-[e = _tir3 -> 1 `i ]
-"878
-[; ;glcd.c: 878:             tir2 = 0;
-[e = _tir2 -> 0 `i ]
+"805
+[; ;glcd.c: 805:                 accueil[invader1 + 4] = accueil[invader1 + 3];
+[e = *U + &U _accueil * -> -> + _invader1 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"806
+[; ;glcd.c: 806:                 accueil[invader1 + 3] = accueil[invader1 + 2];
+[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"807
+[; ;glcd.c: 807:                 accueil[invader1 + 2] = accueil[invader1 + 1];
+[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"808
+[; ;glcd.c: 808:                 accueil[invader1 + 1] = accueil[invader1];
+[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"809
+[; ;glcd.c: 809:                 accueil[invader1] = accueil[invader1 - 1];
+[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"810
+[; ;glcd.c: 810:                 accueil[invader1 - 1] = accueil[invader1 - 2];
+[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"811
+[; ;glcd.c: 811:                 accueil[invader1 - 2] = accueil[invader1 - 3];
+[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"812
+[; ;glcd.c: 812:                 accueil[invader1 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"813
+[; ;glcd.c: 813:                 invader1++;
+[e ++ _invader1 -> 1 `i ]
+"814
+[; ;glcd.c: 814:             } else {
+}
+[e $U 416  ]
+[e :U 415 ]
+{
+"815
+[; ;glcd.c: 815:                 accueil[invader1 - 4] = accueil[invader1 - 3];
+[e = *U + &U _accueil * -> -> - _invader1 -> 4 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"816
+[; ;glcd.c: 816:                 accueil[invader1 - 3] = accueil[invader1 - 2];
+[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"817
+[; ;glcd.c: 817:                 accueil[invader1 - 2] = accueil[invader1 - 1];
+[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"818
+[; ;glcd.c: 818:                 accueil[invader1 - 1] = accueil[invader1];
+[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"819
+[; ;glcd.c: 819:                 accueil[invader1] = accueil[invader1 + 1];
+[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"820
+[; ;glcd.c: 820:                 accueil[invader1 + 1] = accueil[invader1 + 2];
+[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"821
+[; ;glcd.c: 821:                 accueil[invader1 + 2] = accueil[invader1 + 3];
+[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"822
+[; ;glcd.c: 822:                 accueil[invader1 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"823
+[; ;glcd.c: 823:                 invader1--;
+[e -- _invader1 -> 1 `i ]
+"824
+[; ;glcd.c: 824:             }
+}
+[e :U 416 ]
+"825
+[; ;glcd.c: 825:         }
+}
+[e :U 412 ]
+"827
+[; ;glcd.c: 827:         if (accueil[invader1] == 0x00 && accueil[invader1 + 3] == 0x00 && accueil[invader1 + 2] == 0x00 && accueil[invader1 + 1] == 0x00 && accueil[invader1 - 1] == 0x00 && accueil[invader1 - 2] == 0x00 && accueil[invader1 - 3] == 0x00) {
+[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 417  ]
+{
+"828
+[; ;glcd.c: 828:             if (accueil[invader2] == 0x00 && accueil[invader2 + 3] == 0x00 && accueil[invader2 + 2] == 0x00 && accueil[invader2 + 1] == 0x00 && accueil[invader2 - 1] == 0x00 && accueil[invader2 - 2] == 0x00 && accueil[invader2 - 3] == 0x00) {
+[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 418  ]
+{
+"829
+[; ;glcd.c: 829:                 if (accueil[invader3] == 0x00 && accueil[invader3 + 3] == 0x00 && accueil[invader3 + 2] == 0x00 && accueil[invader3 + 1] == 0x00 && accueil[invader3 - 1] == 0x00 && accueil[invader3 - 2] == 0x00 && accueil[invader3 - 3] == 0x00) {
+[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 419  ]
+{
+"830
+[; ;glcd.c: 830:                     if (accueil[invader4] == 0x00 && accueil[invader4 + 3] == 0x00 && accueil[invader4 + 2] == 0x00 && accueil[invader4 + 1] == 0x00 && accueil[invader4 - 1] == 0x00 && accueil[invader4 - 2] == 0x00 && accueil[invader4 - 3] == 0x00) {
+[e $ ! && && && && && && == -> *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 420  ]
+{
+"831
+[; ;glcd.c: 831:                         victoire = 1;
+[e = _victoire -> 1 `i ]
+"832
+[; ;glcd.c: 832:                         if ((victoire==1)&&(fin!=1)){
+[e $ ! && == _victoire -> 1 `i != _fin -> 1 `i 421  ]
+{
+"833
+[; ;glcd.c: 833:                           fin=1;
+[e = _fin -> 1 `i ]
+"835
+[; ;glcd.c: 835:                               glcd_Init(0);
+[e ( _glcd_Init (1 -> -> 0 `i `uc ]
+"837
+[; ;glcd.c: 837:                               glcd_Init(1);
+[e ( _glcd_Init (1 -> -> 1 `i `uc ]
+"838
+[; ;glcd.c: 838:                               accueil[itest] = 0x00;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"839
+[; ;glcd.c: 839:     accueil[itest - 1] = accueil[itest + 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"840
+[; ;glcd.c: 840:     accueil[itest - 2] = accueil[itest + 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"841
+[; ;glcd.c: 841:                     accueil[invader1] = 0x00;
+[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"842
+[; ;glcd.c: 842:                     accueil[invader1 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"843
+[; ;glcd.c: 843:                     accueil[invader1 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"844
+[; ;glcd.c: 844:                     accueil[invader1 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"845
+[; ;glcd.c: 845:                     accueil[invader1 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"846
+[; ;glcd.c: 846:                     accueil[invader1 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"847
+[; ;glcd.c: 847:                     accueil[invader1 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"848
+[; ;glcd.c: 848:                     invdep2 = 0;accueil[invader3] = 0x00;
+[e = _invdep2 -> 0 `i ]
+[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"849
+[; ;glcd.c: 849:                     accueil[invader3 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"850
+[; ;glcd.c: 850:                     accueil[invader3 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"851
+[; ;glcd.c: 851:                     accueil[invader3 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"852
+[; ;glcd.c: 852:                     accueil[invader3 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"853
+[; ;glcd.c: 853:                     accueil[invader3- 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"854
+[; ;glcd.c: 854:                     accueil[invader3 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"855
+[; ;glcd.c: 855:                     invdep3 = 0;accueil[invader2] = 0x00;
+[e = _invdep3 -> 0 `i ]
+[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"856
+[; ;glcd.c: 856:                     accueil[invader2 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"857
+[; ;glcd.c: 857:                     accueil[invader2 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"858
+[; ;glcd.c: 858:                     accueil[invader2 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"859
+[; ;glcd.c: 859:                     accueil[invader2 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"860
+[; ;glcd.c: 860:                     accueil[invader2 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"861
+[; ;glcd.c: 861:                     accueil[invader2 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"862
+[; ;glcd.c: 862:                     invdep2 = 0;accueil[invader4] = 0x00;
+[e = _invdep2 -> 0 `i ]
+[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"863
+[; ;glcd.c: 863:                     accueil[invader4 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"864
+[; ;glcd.c: 864:                     accueil[invader4 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"865
+[; ;glcd.c: 865:                     accueil[invader4 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"866
+[; ;glcd.c: 866:                     accueil[invader4 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"867
+[; ;glcd.c: 867:                     accueil[invader4 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"868
+[; ;glcd.c: 868:                     accueil[invader4 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"869
+[; ;glcd.c: 869:                     invdep4 = 0;
+[e = _invdep4 -> 0 `i ]
+"872
+[; ;glcd.c: 872:                             accueil[posvictoire + 7] = accueil[posvictoire + 14] = 0x1F;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 7 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 14 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 31 `i `uc ]
+"873
+[; ;glcd.c: 873:                             accueil[posvictoire + 8] = accueil[posvictoire + 13] = 0x20;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 8 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 13 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
+"874
+[; ;glcd.c: 874:                             accueil[posvictoire + 9] = accueil[posvictoire + 12] = 0x40;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 9 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 12 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
+"875
+[; ;glcd.c: 875:                             accueil[posvictoire + 10] = accueil[posvictoire + 11] = 0x80;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 10 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 11 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
 "879
-[; ;glcd.c: 879:             if (invdep2)
-[e $ ! != _invdep2 -> 0 `i 422  ]
-"880
-[; ;glcd.c: 880:                 missile2 = invader2;
-[e = _missile2 _invader2 ]
-[e $U 423  ]
-"881
-[; ;glcd.c: 881:             else if ((invdep2 == 0)&&(invdep3))
-[e :U 422 ]
-[e $ ! && == _invdep2 -> 0 `i != _invdep3 -> 0 `i 424  ]
+[; ;glcd.c: 879:                             accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 16 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 17 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
 "882
-[; ;glcd.c: 882:                 missile2 = invader3;
-[e = _missile2 _invader3 ]
-[e :U 424 ]
-[e :U 423 ]
+[; ;glcd.c: 882:                             accueil[posvictoire + 19] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 19 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
 "883
-[; ;glcd.c: 883:             if (invdep4)
-[e $ ! != _invdep4 -> 0 `i 425  ]
-"884
-[; ;glcd.c: 884:                 missile1 = invader4;
-[e = _missile1 _invader4 ]
-[e $U 426  ]
-"885
-[; ;glcd.c: 885:             else if ((invdep4 == 0)&&(invdep1))
-[e :U 425 ]
-[e $ ! && == _invdep4 -> 0 `i != _invdep1 -> 0 `i 427  ]
+[; ;glcd.c: 883:                             accueil[posvictoire + 20] = accueil[posvictoire + 21] = accueil[posvictoire + 22] = accueil[posvictoire + 23] = 0x81;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 20 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 21 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 22 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 23 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 129 `i `uc ]
 "886
-[; ;glcd.c: 886:                 missile1 = invader1;
-[e = _missile1 _invader1 ]
-[e :U 427 ]
-[e :U 426 ]
+[; ;glcd.c: 886:                             accueil[posvictoire + 25] = accueil[posvictoire + 26] = accueil[posvictoire + 27] = accueil[posvictoire + 29] = accueil[posvictoire + 30] = accueil[posvictoire + 31] = 0x01;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 25 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 26 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 27 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 29 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 30 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 31 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
 "887
-[; ;glcd.c: 887:         }
+[; ;glcd.c: 887:                             accueil[posvictoire + 28] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 28 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"888
+[; ;glcd.c: 888:                             posvictoire = posvictoire + 4;
+[e = _posvictoire + _posvictoire -> 4 `i ]
+"890
+[; ;glcd.c: 890:                             accueil[posvictoire + 30] = accueil[posvictoire + 35] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 30 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 35 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"891
+[; ;glcd.c: 891:                             accueil[posvictoire + 31] = accueil[posvictoire + 32] = accueil[posvictoire + 33] = accueil[posvictoire + 34] = 0x81;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 31 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 32 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 33 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 34 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 129 `i `uc ]
+"892
+[; ;glcd.c: 892:                             posvictoire = posvictoire + 2;
+[e = _posvictoire + _posvictoire -> 2 `i ]
+"894
+[; ;glcd.c: 894:                             accueil[posvictoire + 36] = accueil[posvictoire + 37] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 36 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 37 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"897
+[; ;glcd.c: 897:                             accueil[posvictoire + 39] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 39 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"898
+[; ;glcd.c: 898:                             accueil[posvictoire + 40] = 0x11;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 40 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 17 `i `uc ]
+"899
+[; ;glcd.c: 899:                             accueil[posvictoire + 41] = 0x31;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 41 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 49 `i `uc ]
+"900
+[; ;glcd.c: 900:                             accueil[posvictoire + 42] = 0x4A;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 42 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 74 `i `uc ]
+"901
+[; ;glcd.c: 901:                             accueil[posvictoire + 43] = 0x84;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 43 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 132 `i `uc ]
+"904
+[; ;glcd.c: 904:                             accueil[posvictoire + 45] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 45 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"905
+[; ;glcd.c: 905:                             accueil[posvictoire + 46] = accueil[posvictoire + 47] = accueil[posvictoire + 48] = 0x91;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 46 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 47 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 48 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 145 `i `uc ]
+"906
+[; ;glcd.c: 906:                             fin=1;
+[e = _fin -> 1 `i ]
+"907
+[; ;glcd.c: 907:                         }
 }
 [e :U 421 ]
-"888
-[; ;glcd.c: 888:         tir2++;
-[e ++ _tir2 -> 1 `i ]
-"889
-[; ;glcd.c: 889:         if (tir3 == 1) {
-[e $ ! == _tir3 -> 1 `i 428  ]
-{
-"890
-[; ;glcd.c: 890:             accueil[missile1 + 128] = 0xFF;
-[e = *U + &U _accueil * -> -> + _missile1 -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"891
-[; ;glcd.c: 891:             accueil[missile1 + 128 + 1] = 0xFF;
-[e = *U + &U _accueil * -> -> + + _missile1 -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"892
-[; ;glcd.c: 892:             if (decalage == 1) {
-[e $ ! == _decalage -> 1 `i 429  ]
-{
-"893
-[; ;glcd.c: 893:                 accueil[missile1] = 0x00;
-[e = *U + &U _accueil * -> -> _missile1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"894
-[; ;glcd.c: 894:                 accueil[missile1 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"895
-[; ;glcd.c: 895:             }
-}
-[e :U 429 ]
-"896
-[; ;glcd.c: 896:             accueil[missile2 + 128] = 0xFF;
-[e = *U + &U _accueil * -> -> + _missile2 -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"897
-[; ;glcd.c: 897:             accueil[missile2 + 128 + 1] = 0xFF;
-[e = *U + &U _accueil * -> -> + + _missile2 -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"898
-[; ;glcd.c: 898:             if (decalage == 1) {
-[e $ ! == _decalage -> 1 `i 430  ]
-{
-"899
-[; ;glcd.c: 899:                 accueil[missile2] = 0x00;
-[e = *U + &U _accueil * -> -> _missile2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"900
-[; ;glcd.c: 900:                 accueil[missile2 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"901
-[; ;glcd.c: 901:             }
-}
-[e :U 430 ]
-"903
-[; ;glcd.c: 903:             decalage = 1;
-[e = _decalage -> 1 `i ]
-"904
-[; ;glcd.c: 904:             missile2 = missile2 + 128;
-[e = _missile2 + _missile2 -> 128 `i ]
-"905
-[; ;glcd.c: 905:             missile1 = missile1 + 128;
-[e = _missile1 + _missile1 -> 128 `i ]
-"907
-[; ;glcd.c: 907:             if (missile2 > 896) {
-[e $ ! > _missile2 -> 896 `i 431  ]
-{
-"908
-[; ;glcd.c: 908:                 accueil[missile2] = 0x00;
-[e = *U + &U _accueil * -> -> _missile2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "909
-[; ;glcd.c: 909:                 accueil[missile2 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 909:                     }
+}
+[e :U 420 ]
 "910
-[; ;glcd.c: 910:                 tir3 = 0;
-[e = _tir3 -> 0 `i ]
+[; ;glcd.c: 910:                 }
+}
+[e :U 419 ]
 "911
-[; ;glcd.c: 911:                 decalage = 0;
-[e = _decalage -> 0 `i ]
+[; ;glcd.c: 911:             }
+}
+[e :U 418 ]
 "912
-[; ;glcd.c: 912:             }
+[; ;glcd.c: 912:         }
 }
-[e :U 431 ]
-"913
-[; ;glcd.c: 913:             if (missile1 > 896) {
-[e $ ! > _missile1 -> 896 `i 432  ]
-{
+[e :U 417 ]
 "914
-[; ;glcd.c: 914:                 accueil[missile1] = 0x00;
-[e = *U + &U _accueil * -> -> _missile1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"915
-[; ;glcd.c: 915:                 accueil[missile1 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"916
-[; ;glcd.c: 916:                 tir3 = 0;
-[e = _tir3 -> 0 `i ]
-"917
-[; ;glcd.c: 917:                 decalage = 0;
-[e = _decalage -> 0 `i ]
-"918
-[; ;glcd.c: 918:             }
-}
-[e :U 432 ]
-"921
-[; ;glcd.c: 921:         }
-}
-[e :U 428 ]
-"922
-[; ;glcd.c: 922:         if (PORTBbits.RB6 == 1) {
-[e $ ! == -> . . _PORTBbits 0 6 `i -> 1 `i 433  ]
+[; ;glcd.c: 914:         if (tir2 == 100) {
+[e $ ! == _tir2 -> 100 `i 422  ]
 {
+"915
+[; ;glcd.c: 915:             tir3 = 1;
+[e = _tir3 -> 1 `i ]
+"916
+[; ;glcd.c: 916:             tir2 = 0;
+[e = _tir2 -> 0 `i ]
+"917
+[; ;glcd.c: 917:             if (invdep2)
+[e $ ! != _invdep2 -> 0 `i 423  ]
+"918
+[; ;glcd.c: 918:                 missile2 = invader2;
+[e = _missile2 _invader2 ]
+[e $U 424  ]
+"919
+[; ;glcd.c: 919:             else if ((invdep2 == 0)&&(invdep3))
+[e :U 423 ]
+[e $ ! && == _invdep2 -> 0 `i != _invdep3 -> 0 `i 425  ]
+"920
+[; ;glcd.c: 920:                 missile2 = invader3;
+[e = _missile2 _invader3 ]
+[e :U 425 ]
+[e :U 424 ]
+"921
+[; ;glcd.c: 921:             if (invdep4)
+[e $ ! != _invdep4 -> 0 `i 426  ]
+"922
+[; ;glcd.c: 922:                 missile1 = invader4;
+[e = _missile1 _invader4 ]
+[e $U 427  ]
 "923
-[; ;glcd.c: 923:             tir = 1;
-[e = _tir -> 1 `i ]
+[; ;glcd.c: 923:             else if ((invdep4 == 0)&&(invdep1))
+[e :U 426 ]
+[e $ ! && == _invdep4 -> 0 `i != _invdep1 -> 0 `i 428  ]
 "924
-[; ;glcd.c: 924:             missile = itest;
-[e = _missile _itest ]
+[; ;glcd.c: 924:                 missile1 = invader1;
+[e = _missile1 _invader1 ]
+[e :U 428 ]
+[e :U 427 ]
 "925
 [; ;glcd.c: 925:         }
 }
-[e :U 433 ]
+[e :U 422 ]
 "926
-[; ;glcd.c: 926:         if (tir == 1) {
-[e $ ! == _tir -> 1 `i 434  ]
-{
+[; ;glcd.c: 926:         tir2++;
+[e ++ _tir2 -> 1 `i ]
 "927
-[; ;glcd.c: 927:             if (missile < 129) {
-[e $ ! < _missile -> 129 `i 435  ]
+[; ;glcd.c: 927:         if(tir3==1){
+[e $ ! == _tir3 -> 1 `i 429  ]
 {
 "928
-[; ;glcd.c: 928:                 accueil[missile] = 0x00;
-[e = *U + &U _accueil * -> -> _missile `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 928:             accueil[missile1 + 128] = 0xFF;
+[e = *U + &U _accueil * -> -> + _missile1 -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
 "929
-[; ;glcd.c: 929:                 accueil[missile + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 929:             accueil[missile1 + 128 + 1] = 0xFF;
+[e = *U + &U _accueil * -> -> + + _missile1 -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
 "930
-[; ;glcd.c: 930:                 accueil[missile - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 930:             if (decalage == 1) {
+[e $ ! == _decalage -> 1 `i 430  ]
+{
 "931
-[; ;glcd.c: 931:                 tir = 0;
-[e = _tir -> 0 `i ]
+[; ;glcd.c: 931:                 accueil[missile1] = 0x00;
+[e = *U + &U _accueil * -> -> _missile1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "932
-[; ;glcd.c: 932:                 decalagevaisseau = 0;
-[e = _decalagevaisseau -> 0 `i ]
+[; ;glcd.c: 932:                 accueil[missile1 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "933
 [; ;glcd.c: 933:             }
 }
-[e :U 435 ]
+[e :U 430 ]
+"934
+[; ;glcd.c: 934:             accueil[missile2 + 128] = 0xFF;
+[e = *U + &U _accueil * -> -> + _missile2 -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
 "935
-[; ;glcd.c: 935:             if (accueil[missile - 128] == 0x00 && accueil[missile - 129] == 0x00 && accueil[missile - 127] == 0x00) {
-[e $ ! && && == -> *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _missile -> 129 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _missile -> 127 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 436  ]
-{
+[; ;glcd.c: 935:             accueil[missile2 + 128 + 1] = 0xFF;
+[e = *U + &U _accueil * -> -> + + _missile2 -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
 "936
-[; ;glcd.c: 936:                 accueil[missile - 128] = 0xFF;
-[e = *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+[; ;glcd.c: 936:             if (decalage == 1) {
+[e $ ! == _decalage -> 1 `i 431  ]
+{
 "937
-[; ;glcd.c: 937:                 accueil[missile - 128 - 1] = 0xFF;
-[e = *U + &U _accueil * -> -> - - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+[; ;glcd.c: 937:                 accueil[missile2] = 0x00;
+[e = *U + &U _accueil * -> -> _missile2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "938
-[; ;glcd.c: 938:                 accueil[missile - 128 + 1] = 0xFF;
-[e = *U + &U _accueil * -> -> + - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+[; ;glcd.c: 938:                 accueil[missile2 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "939
 [; ;glcd.c: 939:             }
 }
-[e $U 437  ]
+[e :U 431 ]
 "941
-[; ;glcd.c: 941:             else if (accueil[missile - 128] == 0xFF && accueil[missile - 129] == 0xFF && accueil[missile - 127] == 0xFF) {
-[e :U 436 ]
-[e $ ! && && == -> *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 255 `i == -> *U + &U _accueil * -> -> - _missile -> 129 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 255 `i == -> *U + &U _accueil * -> -> - _missile -> 127 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 255 `i 438  ]
-{
+[; ;glcd.c: 941:             decalage = 1;
+[e = _decalage -> 1 `i ]
 "942
-[; ;glcd.c: 942:                 accueil[missile - 128] = 0x00;
-[e = *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 942:             missile2 = missile2 + 128;
+[e = _missile2 + _missile2 -> 128 `i ]
 "943
-[; ;glcd.c: 943:                 accueil[missile - 128 - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"944
-[; ;glcd.c: 944:                 accueil[missile - 128 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 943:             missile1 = missile1 + 128;
+[e = _missile1 + _missile1 -> 128 `i ]
 "945
-[; ;glcd.c: 945:                 accueil[missile] = 0x00;
-[e = *U + &U _accueil * -> -> _missile `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"946
-[; ;glcd.c: 946:                 accueil[missile + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"947
-[; ;glcd.c: 947:                 accueil[missile - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"948
-[; ;glcd.c: 948:             }
-}
-[e $U 439  ]
-"949
-[; ;glcd.c: 949:             else
-[e :U 438 ]
-"950
-[; ;glcd.c: 950:             {
+[; ;glcd.c: 945:             if (missile2 > 896) {
+[e $ ! > _missile2 -> 896 `i 432  ]
 {
+"946
+[; ;glcd.c: 946:                 accueil[missile2] = 0x00;
+[e = *U + &U _accueil * -> -> _missile2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"947
+[; ;glcd.c: 947:                 accueil[missile2 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"948
+[; ;glcd.c: 948:                 tir3 = 0;
+[e = _tir3 -> 0 `i ]
+"949
+[; ;glcd.c: 949:                 decalage = 0;
+[e = _decalage -> 0 `i ]
+"950
+[; ;glcd.c: 950:             }
+}
+[e :U 432 ]
 "951
-[; ;glcd.c: 951:                 if (((missile - 128 <= invader1 + 3) && (missile - 128 >= invader1 - 3)) || ((missile - 127 <= invader1 + 3) && (missile - 127 >= invader1 - 3)) || ((missile - 129 <= invader1 + 3) && (missile - 129 >= invader1 - 3))) {
-[e $ ! || || && <= - _missile -> 128 `i + _invader1 -> 3 `i >= - _missile -> 128 `i - _invader1 -> 3 `i && <= - _missile -> 127 `i + _invader1 -> 3 `i >= - _missile -> 127 `i - _invader1 -> 3 `i && <= - _missile -> 129 `i + _invader1 -> 3 `i >= - _missile -> 129 `i - _invader1 -> 3 `i 440  ]
+[; ;glcd.c: 951:             if (missile1 > 896) {
+[e $ ! > _missile1 -> 896 `i 433  ]
 {
 "952
-[; ;glcd.c: 952:                     accueil[invader1] = 0x00;
-[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 952:                 accueil[missile1] = 0x00;
+[e = *U + &U _accueil * -> -> _missile1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "953
-[; ;glcd.c: 953:                     accueil[invader1 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 953:                 accueil[missile1 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "954
-[; ;glcd.c: 954:                     accueil[invader1 + 2] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 954:                 tir3 = 0;
+[e = _tir3 -> 0 `i ]
 "955
-[; ;glcd.c: 955:                     accueil[invader1 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 955:                 decalage = 0;
+[e = _decalage -> 0 `i ]
 "956
-[; ;glcd.c: 956:                     accueil[invader1 - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"957
-[; ;glcd.c: 957:                     accueil[invader1 - 2] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 956:             }
+}
+[e :U 433 ]
 "958
-[; ;glcd.c: 958:                     accueil[invader1 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"959
-[; ;glcd.c: 959:                     invdep1 = 0;
-[e = _invdep1 -> 0 `i ]
+[; ;glcd.c: 958:         }
+}
+[e :U 429 ]
 "960
-[; ;glcd.c: 960:                 }
-}
-[e :U 440 ]
+[; ;glcd.c: 960:         if (PORTBbits.RB6 == 1) {
+[e $ ! == -> . . _PORTBbits 0 6 `i -> 1 `i 434  ]
+{
 "961
-[; ;glcd.c: 961:                 if (((missile - 128 <= invader2 + 3) && (missile - 128 >= invader2 - 3)) || ((missile - 127 <= invader2 + 3) && (missile - 127 >= invader2 - 3)) || ((missile - 129 <= invader2 + 3) && (missile - 129 >= invader2 - 3))) {
-[e $ ! || || && <= - _missile -> 128 `i + _invader2 -> 3 `i >= - _missile -> 128 `i - _invader2 -> 3 `i && <= - _missile -> 127 `i + _invader2 -> 3 `i >= - _missile -> 127 `i - _invader2 -> 3 `i && <= - _missile -> 129 `i + _invader2 -> 3 `i >= - _missile -> 129 `i - _invader2 -> 3 `i 441  ]
-{
+[; ;glcd.c: 961:             tir = 1;
+[e = _tir -> 1 `i ]
 "962
-[; ;glcd.c: 962:                     accueil[invader2] = 0x00;
-[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 962:             missile = itest;
+[e = _missile _itest ]
 "963
-[; ;glcd.c: 963:                     accueil[invader2 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"964
-[; ;glcd.c: 964:                     accueil[invader2 + 2] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"965
-[; ;glcd.c: 965:                     accueil[invader2 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"966
-[; ;glcd.c: 966:                     accueil[invader2 - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"967
-[; ;glcd.c: 967:                     accueil[invader2 - 2] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"968
-[; ;glcd.c: 968:                     accueil[invader2 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"969
-[; ;glcd.c: 969:                     invdep2 = 0;
-[e = _invdep2 -> 0 `i ]
-"970
-[; ;glcd.c: 970:                 }
-}
-[e :U 441 ]
-"971
-[; ;glcd.c: 971:                 if (((missile - 128 <= invader3 + 3) && (missile - 128 >= invader3 - 3)) || ((missile - 127 <= invader3 + 3) && (missile - 127 >= invader3 - 3)) || ((missile - 129 <= invader3 + 3) && (missile - 129 >= invader3 - 3))) {
-[e $ ! || || && <= - _missile -> 128 `i + _invader3 -> 3 `i >= - _missile -> 128 `i - _invader3 -> 3 `i && <= - _missile -> 127 `i + _invader3 -> 3 `i >= - _missile -> 127 `i - _invader3 -> 3 `i && <= - _missile -> 129 `i + _invader3 -> 3 `i >= - _missile -> 129 `i - _invader3 -> 3 `i 442  ]
-{
-"972
-[; ;glcd.c: 972:                     accueil[invader3] = 0x00;
-[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"973
-[; ;glcd.c: 973:                     accueil[invader3 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"974
-[; ;glcd.c: 974:                     accueil[invader3 + 2] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"975
-[; ;glcd.c: 975:                     accueil[invader3 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"976
-[; ;glcd.c: 976:                     accueil[invader3 - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"977
-[; ;glcd.c: 977:                     accueil[invader3 - 2] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"978
-[; ;glcd.c: 978:                     accueil[invader3 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"979
-[; ;glcd.c: 979:                     invdep3 = 0;
-[e = _invdep3 -> 0 `i ]
-"980
-[; ;glcd.c: 980:                 }
-}
-[e :U 442 ]
-"981
-[; ;glcd.c: 981:                 if (((missile - 128 <= invader4 + 3) && (missile - 128 >= invader4 - 3)) || ((missile - 127 <= invader4 + 3) && (missile - 127 >= invader4 - 3)) || ((missile - 129 <= invader4 + 3) && (missile - 129 >= invader4 - 3))) {
-[e $ ! || || && <= - _missile -> 128 `i + _invader4 -> 3 `i >= - _missile -> 128 `i - _invader4 -> 3 `i && <= - _missile -> 127 `i + _invader4 -> 3 `i >= - _missile -> 127 `i - _invader4 -> 3 `i && <= - _missile -> 129 `i + _invader4 -> 3 `i >= - _missile -> 129 `i - _invader4 -> 3 `i 443  ]
-{
-"982
-[; ;glcd.c: 982:                     accueil[invader4] = 0x00;
-[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"983
-[; ;glcd.c: 983:                     accueil[invader4 + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"984
-[; ;glcd.c: 984:                     accueil[invader4 + 2] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"985
-[; ;glcd.c: 985:                     accueil[invader4 + 3] = 0x00;
-[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"986
-[; ;glcd.c: 986:                     accueil[invader4 - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"987
-[; ;glcd.c: 987:                     accueil[invader4 - 2] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"988
-[; ;glcd.c: 988:                     accueil[invader4 - 3] = 0x00;
-[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"989
-[; ;glcd.c: 989:                     invdep4 = 0;
-[e = _invdep4 -> 0 `i ]
-"990
-[; ;glcd.c: 990:                 }
-}
-[e :U 443 ]
-"991
-[; ;glcd.c: 991:             }
-}
-[e :U 439 ]
-[e :U 437 ]
-"993
-[; ;glcd.c: 993:             if (decalagevaisseau == 1) {
-[e $ ! == _decalagevaisseau -> 1 `i 444  ]
-{
-"994
-[; ;glcd.c: 994:                 accueil[missile] = 0x00;
-[e = *U + &U _accueil * -> -> _missile `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"995
-[; ;glcd.c: 995:                 accueil[missile + 1] = 0x00;
-[e = *U + &U _accueil * -> -> + _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"996
-[; ;glcd.c: 996:                 accueil[missile - 1] = 0x00;
-[e = *U + &U _accueil * -> -> - _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"997
-[; ;glcd.c: 997:             }
-}
-[e :U 444 ]
-"998
-[; ;glcd.c: 998:             decalagevaisseau = 1;
-[e = _decalagevaisseau -> 1 `i ]
-"999
-[; ;glcd.c: 999:             missile = missile - 128;
-[e = _missile - _missile -> 128 `i ]
-"1001
-[; ;glcd.c: 1001:             accueil[itest] = 0xFF;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"1002
-[; ;glcd.c: 1002:             accueil[itest - 1] = accueil[itest + 1] = 0xFC;
-[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 252 `i `uc ]
-"1003
-[; ;glcd.c: 1003:             accueil[itest - 2] = accueil[itest + 2] = 0xF0;
-[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 240 `i `uc ]
-"1004
-[; ;glcd.c: 1004:         }
+[; ;glcd.c: 963:         }
 }
 [e :U 434 ]
+"964
+[; ;glcd.c: 964:         if (tir == 1) {
+[e $ ! == _tir -> 1 `i 435  ]
+{
+"965
+[; ;glcd.c: 965:             if (missile < 129) {
+[e $ ! < _missile -> 129 `i 436  ]
+{
+"966
+[; ;glcd.c: 966:                 accueil[missile] = 0x00;
+[e = *U + &U _accueil * -> -> _missile `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"967
+[; ;glcd.c: 967:                 accueil[missile + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"968
+[; ;glcd.c: 968:                 accueil[missile - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"969
+[; ;glcd.c: 969:                 tir = 0;
+[e = _tir -> 0 `i ]
+"970
+[; ;glcd.c: 970:                 decalagevaisseau = 0;
+[e = _decalagevaisseau -> 0 `i ]
+"971
+[; ;glcd.c: 971:             }
+}
+[e :U 436 ]
+"973
+[; ;glcd.c: 973:             if (accueil[missile - 128] == 0x00 && accueil[missile - 129] == 0x00 && accueil[missile - 127] == 0x00) {
+[e $ ! && && == -> *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _missile -> 129 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _missile -> 127 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 437  ]
+{
+"974
+[; ;glcd.c: 974:                 accueil[missile - 128] = 0xFF;
+[e = *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"975
+[; ;glcd.c: 975:                 accueil[missile - 128 - 1] = 0xFF;
+[e = *U + &U _accueil * -> -> - - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"976
+[; ;glcd.c: 976:                 accueil[missile - 128 + 1] = 0xFF;
+[e = *U + &U _accueil * -> -> + - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"977
+[; ;glcd.c: 977:             }
+}
+[e $U 438  ]
+"979
+[; ;glcd.c: 979:             else if (accueil[missile - 128] == 0xFF && accueil[missile - 129] == 0xFF && accueil[missile - 127] == 0xFF) {
+[e :U 437 ]
+[e $ ! && && == -> *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 255 `i == -> *U + &U _accueil * -> -> - _missile -> 129 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 255 `i == -> *U + &U _accueil * -> -> - _missile -> 127 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 255 `i 439  ]
+{
+"980
+[; ;glcd.c: 980:                 accueil[missile - 128] = 0x00;
+[e = *U + &U _accueil * -> -> - _missile -> 128 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"981
+[; ;glcd.c: 981:                 accueil[missile - 128 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"982
+[; ;glcd.c: 982:                 accueil[missile - 128 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + - _missile -> 128 `i -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"983
+[; ;glcd.c: 983:                 accueil[missile] = 0x00;
+[e = *U + &U _accueil * -> -> _missile `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"984
+[; ;glcd.c: 984:                 accueil[missile + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"985
+[; ;glcd.c: 985:                 accueil[missile - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"986
+[; ;glcd.c: 986:             }
+}
+[e $U 440  ]
+"987
+[; ;glcd.c: 987:             else
+[e :U 439 ]
+"988
+[; ;glcd.c: 988:             {
+{
+"989
+[; ;glcd.c: 989:                 if (((missile - 128 <= invader1 + 3) && (missile - 128 >= invader1 - 3)) || ((missile - 127 <= invader1 + 3) && (missile - 127 >= invader1 - 3)) || ((missile - 129 <= invader1 + 3) && (missile - 129 >= invader1 - 3))) {
+[e $ ! || || && <= - _missile -> 128 `i + _invader1 -> 3 `i >= - _missile -> 128 `i - _invader1 -> 3 `i && <= - _missile -> 127 `i + _invader1 -> 3 `i >= - _missile -> 127 `i - _invader1 -> 3 `i && <= - _missile -> 129 `i + _invader1 -> 3 `i >= - _missile -> 129 `i - _invader1 -> 3 `i 441  ]
+{
+"990
+[; ;glcd.c: 990:                     accueil[invader1] = 0x00;
+[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"991
+[; ;glcd.c: 991:                     accueil[invader1 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"992
+[; ;glcd.c: 992:                     accueil[invader1 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"993
+[; ;glcd.c: 993:                     accueil[invader1 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"994
+[; ;glcd.c: 994:                     accueil[invader1 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"995
+[; ;glcd.c: 995:                     accueil[invader1 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"996
+[; ;glcd.c: 996:                     accueil[invader1 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"997
+[; ;glcd.c: 997:                     invdep1 = 0;
+[e = _invdep1 -> 0 `i ]
+"998
+[; ;glcd.c: 998:                 }
+}
+[e :U 441 ]
+"999
+[; ;glcd.c: 999:                 if (((missile - 128 <= invader2 + 3) && (missile - 128 >= invader2 - 3)) || ((missile - 127 <= invader2 + 3) && (missile - 127 >= invader2 - 3)) || ((missile - 129 <= invader2 + 3) && (missile - 129 >= invader2 - 3))) {
+[e $ ! || || && <= - _missile -> 128 `i + _invader2 -> 3 `i >= - _missile -> 128 `i - _invader2 -> 3 `i && <= - _missile -> 127 `i + _invader2 -> 3 `i >= - _missile -> 127 `i - _invader2 -> 3 `i && <= - _missile -> 129 `i + _invader2 -> 3 `i >= - _missile -> 129 `i - _invader2 -> 3 `i 442  ]
+{
+"1000
+[; ;glcd.c: 1000:                     accueil[invader2] = 0x00;
+[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1001
+[; ;glcd.c: 1001:                     accueil[invader2 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1002
+[; ;glcd.c: 1002:                     accueil[invader2 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1003
+[; ;glcd.c: 1003:                     accueil[invader2 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1004
+[; ;glcd.c: 1004:                     accueil[invader2 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1005
-[; ;glcd.c: 1005:         if (accueil[itest] == 0x00 || accueil[itest - 1] == 0x00 || accueil[itest + 1] == 0x00 || accueil[itest + 2] == 0x00 || accueil[itest - 2] == 0x00) {
-[e $ ! || || || || == -> *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 445  ]
-{
+[; ;glcd.c: 1005:                     accueil[invader2 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1006
-[; ;glcd.c: 1006:             victoire = 2;
-[e = _victoire -> 2 `i ]
+[; ;glcd.c: 1006:                     accueil[invader2 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1007
-[; ;glcd.c: 1007:             if ((victoire == 2)&&(fin!=1)) {
-[e $ ! && == _victoire -> 2 `i != _fin -> 1 `i 446  ]
-{
+[; ;glcd.c: 1007:                     invdep2 = 0;
+[e = _invdep2 -> 0 `i ]
 "1008
-[; ;glcd.c: 1008:                 for (compteur = 0; compteur < 1024; compteur++) {
-{
-[e = _compteur -> 0 `i ]
-[e $ < _compteur -> 1024 `i 447  ]
-[e $U 448  ]
-[e :U 447 ]
-{
+[; ;glcd.c: 1008:                 }
+}
+[e :U 442 ]
 "1009
-[; ;glcd.c: 1009:                     accueil[compteur] = 0x00;
-[e = *U + &U _accueil * -> -> _compteur `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 1009:                 if (((missile - 128 <= invader3 + 3) && (missile - 128 >= invader3 - 3)) || ((missile - 127 <= invader3 + 3) && (missile - 127 >= invader3 - 3)) || ((missile - 129 <= invader3 + 3) && (missile - 129 >= invader3 - 3))) {
+[e $ ! || || && <= - _missile -> 128 `i + _invader3 -> 3 `i >= - _missile -> 128 `i - _invader3 -> 3 `i && <= - _missile -> 127 `i + _invader3 -> 3 `i >= - _missile -> 127 `i - _invader3 -> 3 `i && <= - _missile -> 129 `i + _invader3 -> 3 `i >= - _missile -> 129 `i - _invader3 -> 3 `i 443  ]
+{
 "1010
-[; ;glcd.c: 1010:                 }
-}
-[e ++ _compteur -> 1 `i ]
-[e $ < _compteur -> 1024 `i 447  ]
-[e :U 448 ]
-}
+[; ;glcd.c: 1010:                     accueil[invader3] = 0x00;
+[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1011
+[; ;glcd.c: 1011:                     accueil[invader3 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1012
+[; ;glcd.c: 1012:                     accueil[invader3 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1013
-[; ;glcd.c: 1013:                 accueil[posvictoire + 7] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 7 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+[; ;glcd.c: 1013:                     accueil[invader3 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1014
-[; ;glcd.c: 1014:                 accueil[posvictoire + 8] = accueil[posvictoire + 9] = 0x11;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 8 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 9 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 17 `i `uc ]
+[; ;glcd.c: 1014:                     accueil[invader3 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1015
-[; ;glcd.c: 1015:                 accueil[posvictoire + 10] = 0x1F;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 10 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 31 `i `uc ]
+[; ;glcd.c: 1015:                     accueil[invader3 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1016
+[; ;glcd.c: 1016:                     accueil[invader3 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1017
+[; ;glcd.c: 1017:                     invdep3 = 0;
+[e = _invdep3 -> 0 `i ]
 "1018
-[; ;glcd.c: 1018:                 accueil[posvictoire + 14] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 14 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"1019
-[; ;glcd.c: 1019:                 accueil[posvictoire + 15] = accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0x91;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 15 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 16 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 17 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 145 `i `uc ]
-"1022
-[; ;glcd.c: 1022:                 accueil[posvictoire + 21] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 21 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"1023
-[; ;glcd.c: 1023:                 accueil[posvictoire + 22] = 0x11;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 22 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 17 `i `uc ]
-"1024
-[; ;glcd.c: 1024:                 accueil[posvictoire + 23] = 0x31;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 23 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 49 `i `uc ]
-"1025
-[; ;glcd.c: 1025:                 accueil[posvictoire + 24] = 0x4A;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 24 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 74 `i `uc ]
-"1026
-[; ;glcd.c: 1026:                 accueil[posvictoire + 25] = 0x84;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 25 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 132 `i `uc ]
-"1030
-[; ;glcd.c: 1030:                 accueil[posvictoire + 29] = 0xFF;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 29 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"1031
-[; ;glcd.c: 1031:                 accueil[posvictoire + 30] = 0x42;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 30 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 66 `i `uc ]
-"1032
-[; ;glcd.c: 1032:                 accueil[posvictoire + 31] = 0x24;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 31 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 36 `i `uc ]
-"1033
-[; ;glcd.c: 1033:                 accueil[posvictoire + 32] = 0x18;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 32 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 24 `i `uc ]
-"1038
-[; ;glcd.c: 1038:                 accueil[posvictoire + 36] = accueil[posvictoire + 43] = 0x1F;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 36 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 43 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 31 `i `uc ]
-"1039
-[; ;glcd.c: 1039:                 accueil[posvictoire + 37] = accueil[posvictoire + 42] = 0x20;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 37 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 42 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
-"1040
-[; ;glcd.c: 1040:                 accueil[posvictoire + 38] = accueil[posvictoire + 41] = 0x40;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 38 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 41 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
-"1041
-[; ;glcd.c: 1041:                 accueil[posvictoire + 39] = accueil[posvictoire + 40] = 0x80;
-[e = *U + &U _accueil * -> -> + _posvictoire -> 39 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 40 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
-"1042
-[; ;glcd.c: 1042:             }
+[; ;glcd.c: 1018:                 }
 }
-[e :U 446 ]
-"1043
-[; ;glcd.c: 1043:         }
+[e :U 443 ]
+"1019
+[; ;glcd.c: 1019:                 if (((missile - 128 <= invader4 + 3) && (missile - 128 >= invader4 - 3)) || ((missile - 127 <= invader4 + 3) && (missile - 127 >= invader4 - 3)) || ((missile - 129 <= invader4 + 3) && (missile - 129 >= invader4 - 3))) {
+[e $ ! || || && <= - _missile -> 128 `i + _invader4 -> 3 `i >= - _missile -> 128 `i - _invader4 -> 3 `i && <= - _missile -> 127 `i + _invader4 -> 3 `i >= - _missile -> 127 `i - _invader4 -> 3 `i && <= - _missile -> 129 `i + _invader4 -> 3 `i >= - _missile -> 129 `i - _invader4 -> 3 `i 444  ]
+{
+"1020
+[; ;glcd.c: 1020:                     accueil[invader4] = 0x00;
+[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1021
+[; ;glcd.c: 1021:                     accueil[invader4 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1022
+[; ;glcd.c: 1022:                     accueil[invader4 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1023
+[; ;glcd.c: 1023:                     accueil[invader4 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1024
+[; ;glcd.c: 1024:                     accueil[invader4 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1025
+[; ;glcd.c: 1025:                     accueil[invader4 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1026
+[; ;glcd.c: 1026:                     accueil[invader4 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1027
+[; ;glcd.c: 1027:                     invdep4 = 0;
+[e = _invdep4 -> 0 `i ]
+"1028
+[; ;glcd.c: 1028:                 }
+}
+[e :U 444 ]
+"1029
+[; ;glcd.c: 1029:             }
+}
+[e :U 440 ]
+[e :U 438 ]
+"1031
+[; ;glcd.c: 1031:             if (decalagevaisseau == 1) {
+[e $ ! == _decalagevaisseau -> 1 `i 445  ]
+{
+"1032
+[; ;glcd.c: 1032:                 accueil[missile] = 0x00;
+[e = *U + &U _accueil * -> -> _missile `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1033
+[; ;glcd.c: 1033:                 accueil[missile + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1034
+[; ;glcd.c: 1034:                 accueil[missile - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _missile -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1035
+[; ;glcd.c: 1035:             }
 }
 [e :U 445 ]
-"1044
-[; ;glcd.c: 1044:         if (PORTEbits.RE0 == 1) {
-[e $ ! == -> . . _PORTEbits 0 0 `i -> 1 `i 450  ]
+"1036
+[; ;glcd.c: 1036:             decalagevaisseau = 1;
+[e = _decalagevaisseau -> 1 `i ]
+"1037
+[; ;glcd.c: 1037:             missile = missile - 128;
+[e = _missile - _missile -> 128 `i ]
+"1039
+[; ;glcd.c: 1039:             accueil[itest] = 0xFF;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1040
+[; ;glcd.c: 1040:             accueil[itest - 1] = accueil[itest + 1] = 0xFC;
+[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 252 `i `uc ]
+"1041
+[; ;glcd.c: 1041:             accueil[itest - 2] = accueil[itest + 2] = 0xF0;
+[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 240 `i `uc ]
+"1042
+[; ;glcd.c: 1042:         }
+}
+[e :U 435 ]
+"1043
+[; ;glcd.c: 1043:         if (accueil[itest] == 0x00 || accueil[itest - 1] == 0x00 || accueil[itest + 1] == 0x00 || accueil[itest + 2] == 0x00 || accueil[itest - 2] == 0x00) {
+[e $ ! || || || || == -> *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i == -> *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux `i -> 0 `i 446  ]
 {
+"1044
+[; ;glcd.c: 1044:             victoire = 2;
+[e = _victoire -> 2 `i ]
 "1045
-[; ;glcd.c: 1045:             if (itest < 1021) {
-[e $ ! < _itest -> 1021 `i 451  ]
+[; ;glcd.c: 1045:             if ((victoire == 2)&&(fin!=1)) {
+[e $ ! && == _victoire -> 2 `i != _fin -> 1 `i 447  ]
 {
 "1046
-[; ;glcd.c: 1046:                 accueil[itest + 3] = accueil[itest + 2];
-[e = *U + &U _accueil * -> -> + _itest -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"1047
-[; ;glcd.c: 1047:                 accueil[itest + 2] = accueil[itest + 1];
-[e = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 1046:                 fin=1;
+[e = _fin -> 1 `i ]
 "1048
-[; ;glcd.c: 1048:                 accueil[itest + 1] = accueil[itest] = 0xFF;
-[e = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"1049
-[; ;glcd.c: 1049:                 accueil[itest] = accueil[itest - 1];
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 1048:                     glcd_Init(0);
+[e ( _glcd_Init (1 -> -> 0 `i `uc ]
 "1050
-[; ;glcd.c: 1050:                 accueil[itest - 1] = accueil[itest - 2];
-[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+[; ;glcd.c: 1050:                     glcd_Init(1);
+[e ( _glcd_Init (1 -> -> 1 `i `uc ]
 "1051
-[; ;glcd.c: 1051:                 accueil[itest - 2] = 0x00;
-[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+[; ;glcd.c: 1051:                     glcd_FillScreen(0);
+[e ( _glcd_FillScreen (1 -> -> 0 `i `uc ]
+"1052
+[; ;glcd.c: 1052:                     accueil[itest] = 0x00;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1053
-[; ;glcd.c: 1053:                 itest++;
-[e ++ _itest -> 1 `i ]
+[; ;glcd.c: 1053:     accueil[itest - 1] = accueil[itest + 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
 "1054
-[; ;glcd.c: 1054:             }
+[; ;glcd.c: 1054:     accueil[itest - 2] = accueil[itest + 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1055
+[; ;glcd.c: 1055:                     accueil[invader1] = 0x00;
+[e = *U + &U _accueil * -> -> _invader1 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1056
+[; ;glcd.c: 1056:                     accueil[invader1 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1057
+[; ;glcd.c: 1057:                     accueil[invader1 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1058
+[; ;glcd.c: 1058:                     accueil[invader1 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1059
+[; ;glcd.c: 1059:                     accueil[invader1 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1060
+[; ;glcd.c: 1060:                     accueil[invader1 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1061
+[; ;glcd.c: 1061:                     accueil[invader1 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader1 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1062
+[; ;glcd.c: 1062:                     invdep2 = 0;accueil[invader3] = 0x00;
+[e = _invdep2 -> 0 `i ]
+[e = *U + &U _accueil * -> -> _invader3 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1063
+[; ;glcd.c: 1063:                     accueil[invader3 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1064
+[; ;glcd.c: 1064:                     accueil[invader3 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1065
+[; ;glcd.c: 1065:                     accueil[invader3 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1066
+[; ;glcd.c: 1066:                     accueil[invader3 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1067
+[; ;glcd.c: 1067:                     accueil[invader3- 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1068
+[; ;glcd.c: 1068:                     accueil[invader3 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader3 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1069
+[; ;glcd.c: 1069:                     invdep3 = 0;accueil[invader2] = 0x00;
+[e = _invdep3 -> 0 `i ]
+[e = *U + &U _accueil * -> -> _invader2 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1070
+[; ;glcd.c: 1070:                     accueil[invader2 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1071
+[; ;glcd.c: 1071:                     accueil[invader2 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1072
+[; ;glcd.c: 1072:                     accueil[invader2 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1073
+[; ;glcd.c: 1073:                     accueil[invader2 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1074
+[; ;glcd.c: 1074:                     accueil[invader2 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1075
+[; ;glcd.c: 1075:                     accueil[invader2 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader2 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1076
+[; ;glcd.c: 1076:                     invdep2 = 0;accueil[invader4] = 0x00;
+[e = _invdep2 -> 0 `i ]
+[e = *U + &U _accueil * -> -> _invader4 `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1077
+[; ;glcd.c: 1077:                     accueil[invader4 + 1] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1078
+[; ;glcd.c: 1078:                     accueil[invader4 + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1079
+[; ;glcd.c: 1079:                     accueil[invader4 + 3] = 0x00;
+[e = *U + &U _accueil * -> -> + _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1080
+[; ;glcd.c: 1080:                     accueil[invader4 - 1] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1081
+[; ;glcd.c: 1081:                     accueil[invader4 - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1082
+[; ;glcd.c: 1082:                     accueil[invader4 - 3] = 0x00;
+[e = *U + &U _accueil * -> -> - _invader4 -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1083
+[; ;glcd.c: 1083:                     invdep4 = 0;
+[e = _invdep4 -> 0 `i ]
+"1085
+[; ;glcd.c: 1085:                 accueil[posvictoire + 7] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 7 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1086
+[; ;glcd.c: 1086:                 accueil[posvictoire + 8] = accueil[posvictoire + 9] = 0x11;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 8 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 9 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 17 `i `uc ]
+"1087
+[; ;glcd.c: 1087:                 accueil[posvictoire + 10] = 0x1F;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 10 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 31 `i `uc ]
+"1090
+[; ;glcd.c: 1090:                 accueil[posvictoire + 14] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 14 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1091
+[; ;glcd.c: 1091:                 accueil[posvictoire + 15] = accueil[posvictoire + 16] = accueil[posvictoire + 17] = 0x91;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 15 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 16 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 17 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 145 `i `uc ]
+"1094
+[; ;glcd.c: 1094:                 accueil[posvictoire + 21] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 21 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1095
+[; ;glcd.c: 1095:                 accueil[posvictoire + 22] = 0x11;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 22 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 17 `i `uc ]
+"1096
+[; ;glcd.c: 1096:                 accueil[posvictoire + 23] = 0x31;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 23 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 49 `i `uc ]
+"1097
+[; ;glcd.c: 1097:                 accueil[posvictoire + 24] = 0x4A;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 24 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 74 `i `uc ]
+"1098
+[; ;glcd.c: 1098:                 accueil[posvictoire + 25] = 0x84;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 25 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 132 `i `uc ]
+"1102
+[; ;glcd.c: 1102:                 accueil[posvictoire + 29] = 0xFF;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 29 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1103
+[; ;glcd.c: 1103:                 accueil[posvictoire + 30] = 0x42;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 30 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 66 `i `uc ]
+"1104
+[; ;glcd.c: 1104:                 accueil[posvictoire + 31] = 0x24;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 31 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 36 `i `uc ]
+"1105
+[; ;glcd.c: 1105:                 accueil[posvictoire + 32] = 0x18;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 32 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 24 `i `uc ]
+"1110
+[; ;glcd.c: 1110:                 accueil[posvictoire + 36] = accueil[posvictoire + 43] = 0x1F;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 36 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 43 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 31 `i `uc ]
+"1111
+[; ;glcd.c: 1111:                 accueil[posvictoire + 37] = accueil[posvictoire + 42] = 0x20;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 37 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 42 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
+"1112
+[; ;glcd.c: 1112:                 accueil[posvictoire + 38] = accueil[posvictoire + 41] = 0x40;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 38 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 41 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
+"1113
+[; ;glcd.c: 1113:                 accueil[posvictoire + 39] = accueil[posvictoire + 40] = 0x80;
+[e = *U + &U _accueil * -> -> + _posvictoire -> 39 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> + _posvictoire -> 40 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
+"1114
+[; ;glcd.c: 1114:             }
+}
+[e :U 447 ]
+"1115
+[; ;glcd.c: 1115:         }
+}
+[e :U 446 ]
+"1116
+[; ;glcd.c: 1116:         if (PORTCbits.RC0 == 1) {
+[e $ ! == -> . . _PORTCbits 0 0 `i -> 1 `i 448  ]
+{
+"1117
+[; ;glcd.c: 1117:             if (itest < 1021) {
+[e $ ! < _itest -> 1021 `i 449  ]
+{
+"1118
+[; ;glcd.c: 1118:                 accueil[itest + 3] = accueil[itest + 2];
+[e = *U + &U _accueil * -> -> + _itest -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1119
+[; ;glcd.c: 1119:                 accueil[itest + 2] = accueil[itest + 1];
+[e = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1120
+[; ;glcd.c: 1120:                 accueil[itest + 1] = accueil[itest] = 0xFF;
+[e = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1121
+[; ;glcd.c: 1121:                 accueil[itest] = accueil[itest - 1];
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1122
+[; ;glcd.c: 1122:                 accueil[itest - 1] = accueil[itest - 2];
+[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1123
+[; ;glcd.c: 1123:                 accueil[itest - 2] = 0x00;
+[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1125
+[; ;glcd.c: 1125:                 itest++;
+[e ++ _itest -> 1 `i ]
+"1126
+[; ;glcd.c: 1126:             }
+}
+[e :U 449 ]
+"1127
+[; ;glcd.c: 1127:         }
+}
+[e :U 448 ]
+"1128
+[; ;glcd.c: 1128:         if (PORTCbits.RC1 == 1) {
+[e $ ! == -> . . _PORTCbits 0 1 `i -> 1 `i 450  ]
+{
+"1129
+[; ;glcd.c: 1129:             if (itest > 896) {
+[e $ ! > _itest -> 896 `i 451  ]
+{
+"1130
+[; ;glcd.c: 1130:                 accueil[itest - 3] = accueil[itest - 2];
+[e = *U + &U _accueil * -> -> - _itest -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1131
+[; ;glcd.c: 1131:                 accueil[itest - 2] = accueil[itest - 1];
+[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1132
+[; ;glcd.c: 1132:                 accueil[itest - 1] = accueil[itest] = 0xFF;
+[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
+"1133
+[; ;glcd.c: 1133:                 accueil[itest] = accueil[itest + 1];
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1134
+[; ;glcd.c: 1134:                 accueil[itest + 1] = accueil[itest + 2];
+[e = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
+"1135
+[; ;glcd.c: 1135:                 accueil[itest + 2] = 0x00;
+[e = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1136
+[; ;glcd.c: 1136:                 itest--;
+[e -- _itest -> 1 `i ]
+"1137
+[; ;glcd.c: 1137:             }
 }
 [e :U 451 ]
-"1055
-[; ;glcd.c: 1055:         }
+"1138
+[; ;glcd.c: 1138:         }
 }
 [e :U 450 ]
-"1056
-[; ;glcd.c: 1056:         if (PORTEbits.RE1 == 1) {
-[e $ ! == -> . . _PORTEbits 0 1 `i -> 1 `i 452  ]
+"1139
+[; ;glcd.c: 1139:         if (PORTCbits.RC2 == 1) {
+[e $ ! == -> . . _PORTCbits 0 2 `i -> 1 `i 452  ]
 {
-"1057
-[; ;glcd.c: 1057:             if (itest > 896) {
-[e $ ! > _itest -> 896 `i 453  ]
+"1140
+[; ;glcd.c: 1140:             switch (accueil[itest]) {
+[e $U 454  ]
 {
-"1058
-[; ;glcd.c: 1058:                 accueil[itest - 3] = accueil[itest - 2];
-[e = *U + &U _accueil * -> -> - _itest -> 3 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"1059
-[; ;glcd.c: 1059:                 accueil[itest - 2] = accueil[itest - 1];
-[e = *U + &U _accueil * -> -> - _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"1060
-[; ;glcd.c: 1060:                 accueil[itest - 1] = accueil[itest] = 0xFF;
-[e = *U + &U _accueil * -> -> - _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 255 `i `uc ]
-"1061
-[; ;glcd.c: 1061:                 accueil[itest] = accueil[itest + 1];
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"1062
-[; ;glcd.c: 1062:                 accueil[itest + 1] = accueil[itest + 2];
-[e = *U + &U _accueil * -> -> + _itest -> 1 `i `ui `ux -> -> # *U &U _accueil `ui `ux *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux ]
-"1063
-[; ;glcd.c: 1063:                 accueil[itest + 2] = 0x00;
-[e = *U + &U _accueil * -> -> + _itest -> 2 `i `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"1064
-[; ;glcd.c: 1064:                 itest--;
-[e -- _itest -> 1 `i ]
-"1065
-[; ;glcd.c: 1065:             }
+"1141
+[; ;glcd.c: 1141:                 case 0x00:
+[e :U 455 ]
+"1142
+[; ;glcd.c: 1142:                     accueil[itest] = 0x01;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
+"1143
+[; ;glcd.c: 1143:                     break;
+[e $U 453  ]
+"1145
+[; ;glcd.c: 1145:                 case 0x01:
+[e :U 456 ]
+"1146
+[; ;glcd.c: 1146:                     accueil[itest] = 0x02;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 2 `i `uc ]
+"1147
+[; ;glcd.c: 1147:                     break;
+[e $U 453  ]
+"1149
+[; ;glcd.c: 1149:                 case 0x02:
+[e :U 457 ]
+"1150
+[; ;glcd.c: 1150:                     accueil[itest] = 0x04;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 4 `i `uc ]
+"1151
+[; ;glcd.c: 1151:                     break;
+[e $U 453  ]
+"1153
+[; ;glcd.c: 1153:                 case 0x04:
+[e :U 458 ]
+"1154
+[; ;glcd.c: 1154:                     accueil[itest] = 0x08;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 8 `i `uc ]
+"1155
+[; ;glcd.c: 1155:                     break;
+[e $U 453  ]
+"1157
+[; ;glcd.c: 1157:                 case 0x08:
+[e :U 459 ]
+"1158
+[; ;glcd.c: 1158:                     accueil[itest] = 0x10;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 16 `i `uc ]
+"1159
+[; ;glcd.c: 1159:                     break;
+[e $U 453  ]
+"1161
+[; ;glcd.c: 1161:                 case 0x10:
+[e :U 460 ]
+"1162
+[; ;glcd.c: 1162:                     accueil[itest] = 0x20;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
+"1163
+[; ;glcd.c: 1163:                     break;
+[e $U 453  ]
+"1165
+[; ;glcd.c: 1165:                 case 0x20:
+[e :U 461 ]
+"1166
+[; ;glcd.c: 1166:                     accueil[itest] = 0x40;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
+"1167
+[; ;glcd.c: 1167:                     break;
+[e $U 453  ]
+"1169
+[; ;glcd.c: 1169:                 case 0x40:
+[e :U 462 ]
+"1170
+[; ;glcd.c: 1170:                     accueil[itest] = 0x80;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
+"1172
+[; ;glcd.c: 1172:                 case 0x80:
+[e :U 463 ]
+"1173
+[; ;glcd.c: 1173:                     accueil[itest] = 0x00;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1174
+[; ;glcd.c: 1174:                     itest = itest + 128;
+[e = _itest + _itest -> 128 `i ]
+"1175
+[; ;glcd.c: 1175:                     accueil[itest] = 0x01;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
+"1176
+[; ;glcd.c: 1176:                     break;
+[e $U 453  ]
+"1178
+[; ;glcd.c: 1178:             }
 }
+[e $U 453  ]
+[e :U 454 ]
+[e [\ -> *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux `i , $ -> 0 `i 455
+ , $ -> 1 `i 456
+ , $ -> 2 `i 457
+ , $ -> 4 `i 458
+ , $ -> 8 `i 459
+ , $ -> 16 `i 460
+ , $ -> 32 `i 461
+ , $ -> 64 `i 462
+ , $ -> 128 `i 463
+ 453 ]
 [e :U 453 ]
-"1066
-[; ;glcd.c: 1066:         }
+"1180
+[; ;glcd.c: 1180:         }
 }
 [e :U 452 ]
-"1067
-[; ;glcd.c: 1067:         if (PORTEbits.RE2 == 1) {
-[e $ ! == -> . . _PORTEbits 0 2 `i -> 1 `i 454  ]
+"1181
+[; ;glcd.c: 1181:         if (PORTCbits.RC7 == 1) {
+[e $ ! == -> . . _PORTCbits 0 7 `i -> 1 `i 464  ]
 {
-"1068
-[; ;glcd.c: 1068:             switch (accueil[itest]) {
-[e $U 456  ]
+"1182
+[; ;glcd.c: 1182:             switch (accueil[itest]) {
+[e $U 466  ]
 {
-"1069
-[; ;glcd.c: 1069:                 case 0x00:
-[e :U 457 ]
-"1070
-[; ;glcd.c: 1070:                     accueil[itest] = 0x01;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
-"1071
-[; ;glcd.c: 1071:                     break;
-[e $U 455  ]
-"1073
-[; ;glcd.c: 1073:                 case 0x01:
-[e :U 458 ]
-"1074
-[; ;glcd.c: 1074:                     accueil[itest] = 0x02;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 2 `i `uc ]
-"1075
-[; ;glcd.c: 1075:                     break;
-[e $U 455  ]
-"1077
-[; ;glcd.c: 1077:                 case 0x02:
-[e :U 459 ]
-"1078
-[; ;glcd.c: 1078:                     accueil[itest] = 0x04;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 4 `i `uc ]
-"1079
-[; ;glcd.c: 1079:                     break;
-[e $U 455  ]
-"1081
-[; ;glcd.c: 1081:                 case 0x04:
-[e :U 460 ]
-"1082
-[; ;glcd.c: 1082:                     accueil[itest] = 0x08;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 8 `i `uc ]
-"1083
-[; ;glcd.c: 1083:                     break;
-[e $U 455  ]
-"1085
-[; ;glcd.c: 1085:                 case 0x08:
-[e :U 461 ]
-"1086
-[; ;glcd.c: 1086:                     accueil[itest] = 0x10;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 16 `i `uc ]
-"1087
-[; ;glcd.c: 1087:                     break;
-[e $U 455  ]
-"1089
-[; ;glcd.c: 1089:                 case 0x10:
-[e :U 462 ]
-"1090
-[; ;glcd.c: 1090:                     accueil[itest] = 0x20;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
-"1091
-[; ;glcd.c: 1091:                     break;
-[e $U 455  ]
-"1093
-[; ;glcd.c: 1093:                 case 0x20:
-[e :U 463 ]
-"1094
-[; ;glcd.c: 1094:                     accueil[itest] = 0x40;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
-"1095
-[; ;glcd.c: 1095:                     break;
-[e $U 455  ]
-"1097
-[; ;glcd.c: 1097:                 case 0x40:
-[e :U 464 ]
-"1098
-[; ;glcd.c: 1098:                     accueil[itest] = 0x80;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
-"1100
-[; ;glcd.c: 1100:                 case 0x80:
-[e :U 465 ]
-"1101
-[; ;glcd.c: 1101:                     accueil[itest] = 0x00;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"1102
-[; ;glcd.c: 1102:                     itest = itest + 128;
-[e = _itest + _itest -> 128 `i ]
-"1103
-[; ;glcd.c: 1103:                     accueil[itest] = 0x01;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
-"1104
-[; ;glcd.c: 1104:                     break;
-[e $U 455  ]
-"1106
-[; ;glcd.c: 1106:             }
-}
-[e $U 455  ]
-[e :U 456 ]
-[e [\ -> *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux `i , $ -> 0 `i 457
- , $ -> 1 `i 458
- , $ -> 2 `i 459
- , $ -> 4 `i 460
- , $ -> 8 `i 461
- , $ -> 16 `i 462
- , $ -> 32 `i 463
- , $ -> 64 `i 464
- , $ -> 128 `i 465
- 455 ]
-[e :U 455 ]
-"1108
-[; ;glcd.c: 1108:         }
-}
-[e :U 454 ]
-"1109
-[; ;glcd.c: 1109:         if (PORTBbits.RB7 == 1) {
-[e $ ! == -> . . _PORTBbits 0 7 `i -> 1 `i 466  ]
-{
-"1110
-[; ;glcd.c: 1110:             switch (accueil[itest]) {
-[e $U 468  ]
-{
-"1111
-[; ;glcd.c: 1111:                 case 0x00:
-[e :U 469 ]
-"1112
-[; ;glcd.c: 1112:                     accueil[itest] = 0x80;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
-"1113
-[; ;glcd.c: 1113:                     break;
-[e $U 467  ]
-"1115
-[; ;glcd.c: 1115:                 case 0x80:
-[e :U 470 ]
-"1116
-[; ;glcd.c: 1116:                     accueil[itest] = 0x40;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
-"1117
-[; ;glcd.c: 1117:                     break;
-[e $U 467  ]
-"1119
-[; ;glcd.c: 1119:                 case 0x40:
-[e :U 471 ]
-"1120
-[; ;glcd.c: 1120:                     accueil[itest] = 0x20;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
-"1121
-[; ;glcd.c: 1121:                     break;
-[e $U 467  ]
-"1123
-[; ;glcd.c: 1123:                 case 0x20:
-[e :U 472 ]
-"1124
-[; ;glcd.c: 1124:                     accueil[itest] = 0x10;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 16 `i `uc ]
-"1125
-[; ;glcd.c: 1125:                     break;
-[e $U 467  ]
-"1127
-[; ;glcd.c: 1127:                 case 0x10:
-[e :U 473 ]
-"1128
-[; ;glcd.c: 1128:                     accueil[itest] = 0x08;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 8 `i `uc ]
-"1129
-[; ;glcd.c: 1129:                     break;
-[e $U 467  ]
-"1131
-[; ;glcd.c: 1131:                 case 0x08:
-[e :U 474 ]
-"1132
-[; ;glcd.c: 1132:                     accueil[itest] = 0x04;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 4 `i `uc ]
-"1133
-[; ;glcd.c: 1133:                     break;
-[e $U 467  ]
-"1135
-[; ;glcd.c: 1135:                 case 0x04:
-[e :U 475 ]
-"1136
-[; ;glcd.c: 1136:                     accueil[itest] = 0x02;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 2 `i `uc ]
-"1137
-[; ;glcd.c: 1137:                     break;
-[e $U 467  ]
-"1139
-[; ;glcd.c: 1139:                 case 0x02:
-[e :U 476 ]
-"1140
-[; ;glcd.c: 1140:                     accueil[itest] = 0x01;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
-"1142
-[; ;glcd.c: 1142:                 case 0x01:
-[e :U 477 ]
-"1143
-[; ;glcd.c: 1143:                     accueil[itest] = 0x00;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
-"1144
-[; ;glcd.c: 1144:                     itest = itest - 128;
-[e = _itest - _itest -> 128 `i ]
-"1145
-[; ;glcd.c: 1145:                     accueil[itest] = 0x80;
-[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
-"1146
-[; ;glcd.c: 1146:                     break;
-[e $U 467  ]
-"1148
-[; ;glcd.c: 1148:             }
-}
-[e $U 467  ]
-[e :U 468 ]
-[e [\ -> *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux `i , $ -> 0 `i 469
- , $ -> 128 `i 470
- , $ -> 64 `i 471
- , $ -> 32 `i 472
- , $ -> 16 `i 473
- , $ -> 8 `i 474
- , $ -> 4 `i 475
- , $ -> 2 `i 476
- , $ -> 1 `i 477
- 467 ]
+"1183
+[; ;glcd.c: 1183:                 case 0x00:
 [e :U 467 ]
-"1150
-[; ;glcd.c: 1150:         }
+"1184
+[; ;glcd.c: 1184:                     accueil[itest] = 0x80;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
+"1185
+[; ;glcd.c: 1185:                     break;
+[e $U 465  ]
+"1187
+[; ;glcd.c: 1187:                 case 0x80:
+[e :U 468 ]
+"1188
+[; ;glcd.c: 1188:                     accueil[itest] = 0x40;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 64 `i `uc ]
+"1189
+[; ;glcd.c: 1189:                     break;
+[e $U 465  ]
+"1191
+[; ;glcd.c: 1191:                 case 0x40:
+[e :U 469 ]
+"1192
+[; ;glcd.c: 1192:                     accueil[itest] = 0x20;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 32 `i `uc ]
+"1193
+[; ;glcd.c: 1193:                     break;
+[e $U 465  ]
+"1195
+[; ;glcd.c: 1195:                 case 0x20:
+[e :U 470 ]
+"1196
+[; ;glcd.c: 1196:                     accueil[itest] = 0x10;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 16 `i `uc ]
+"1197
+[; ;glcd.c: 1197:                     break;
+[e $U 465  ]
+"1199
+[; ;glcd.c: 1199:                 case 0x10:
+[e :U 471 ]
+"1200
+[; ;glcd.c: 1200:                     accueil[itest] = 0x08;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 8 `i `uc ]
+"1201
+[; ;glcd.c: 1201:                     break;
+[e $U 465  ]
+"1203
+[; ;glcd.c: 1203:                 case 0x08:
+[e :U 472 ]
+"1204
+[; ;glcd.c: 1204:                     accueil[itest] = 0x04;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 4 `i `uc ]
+"1205
+[; ;glcd.c: 1205:                     break;
+[e $U 465  ]
+"1207
+[; ;glcd.c: 1207:                 case 0x04:
+[e :U 473 ]
+"1208
+[; ;glcd.c: 1208:                     accueil[itest] = 0x02;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 2 `i `uc ]
+"1209
+[; ;glcd.c: 1209:                     break;
+[e $U 465  ]
+"1211
+[; ;glcd.c: 1211:                 case 0x02:
+[e :U 474 ]
+"1212
+[; ;glcd.c: 1212:                     accueil[itest] = 0x01;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 1 `i `uc ]
+"1214
+[; ;glcd.c: 1214:                 case 0x01:
+[e :U 475 ]
+"1215
+[; ;glcd.c: 1215:                     accueil[itest] = 0x00;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 0 `i `uc ]
+"1216
+[; ;glcd.c: 1216:                     itest = itest - 128;
+[e = _itest - _itest -> 128 `i ]
+"1217
+[; ;glcd.c: 1217:                     accueil[itest] = 0x80;
+[e = *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux -> -> 128 `i `uc ]
+"1218
+[; ;glcd.c: 1218:                     break;
+[e $U 465  ]
+"1220
+[; ;glcd.c: 1220:             }
 }
+[e $U 465  ]
 [e :U 466 ]
-"1151
-[; ;glcd.c: 1151:     }
+[e [\ -> *U + &U _accueil * -> -> _itest `ui `ux -> -> # *U &U _accueil `ui `ux `i , $ -> 0 `i 467
+ , $ -> 128 `i 468
+ , $ -> 64 `i 469
+ , $ -> 32 `i 470
+ , $ -> 16 `i 471
+ , $ -> 8 `i 472
+ , $ -> 4 `i 473
+ , $ -> 2 `i 474
+ , $ -> 1 `i 475
+ 465 ]
+[e :U 465 ]
+"1222
+[; ;glcd.c: 1222:         }
+}
+[e :U 464 ]
+"1223
+[; ;glcd.c: 1223:     }
 }
 [e :U 381 ]
 [e $U 382  ]
 [e :U 383 ]
-"1152
-[; ;glcd.c: 1152: }
+"1224
+[; ;glcd.c: 1224: }
 [e :UE 380 ]
 }
-"1157
-[; ;glcd.c: 1157: unsigned char glcd_ReadByte(unsigned char side) {
+"1229
+[; ;glcd.c: 1229: unsigned char glcd_ReadByte(unsigned char side) {
 [v _glcd_ReadByte `(uc ~T0 @X0 1 ef1`uc ]
 {
 [e :U _glcd_ReadByte ]
 [v _side `uc ~T0 @X0 1 r1 ]
 [f ]
-"1158
-[; ;glcd.c: 1158:     unsigned char data;
+"1230
+[; ;glcd.c: 1230:     unsigned char data;
 [v _data `uc ~T0 @X0 1 a ]
-"1160
-[; ;glcd.c: 1160:     if (side) {
-[e $ ! != -> _side `i -> 0 `i 479  ]
+"1232
+[; ;glcd.c: 1232:     if (side) {
+[e $ ! != -> _side `i -> 0 `i 477  ]
 {
-"1161
-[; ;glcd.c: 1161:         LATBbits.LATB0 = 1;
+"1233
+[; ;glcd.c: 1233:         LATBbits.LATB0 = 1;
 [e = . . _LATBbits 0 0 -> -> 1 `i `uc ]
-"1162
-[; ;glcd.c: 1162:         LATBbits.LATB1 = 0;
+"1234
+[; ;glcd.c: 1234:         LATBbits.LATB1 = 0;
 [e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
-"1163
-[; ;glcd.c: 1163:     } else {
+"1235
+[; ;glcd.c: 1235:     } else {
 }
-[e $U 480  ]
-[e :U 479 ]
+[e $U 478  ]
+[e :U 477 ]
 {
-"1164
-[; ;glcd.c: 1164:         LATBbits.LATB1 = 0;
+"1236
+[; ;glcd.c: 1236:         LATBbits.LATB1 = 0;
 [e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
-"1165
-[; ;glcd.c: 1165:         LATBbits.LATB1 = 1;
+"1237
+[; ;glcd.c: 1237:         LATBbits.LATB1 = 1;
 [e = . . _LATBbits 0 1 -> -> 1 `i `uc ]
-"1166
-[; ;glcd.c: 1166:     }
+"1238
+[; ;glcd.c: 1238:     }
 }
-[e :U 480 ]
-"1168
-[; ;glcd.c: 1168:     TRISD = 0xFF;
+[e :U 478 ]
+"1240
+[; ;glcd.c: 1240:     TRISD = 0xFF;
 [e = _TRISD -> -> 255 `i `uc ]
-"1169
-[; ;glcd.c: 1169:     LATBbits.LATB3 = 1;
+"1241
+[; ;glcd.c: 1241:     LATBbits.LATB3 = 1;
 [e = . . _LATBbits 0 3 -> -> 1 `i `uc ]
-"1173
-[; ;glcd.c: 1173:     LATBbits.LATB4 = 1;
+"1245
+[; ;glcd.c: 1245:     LATBbits.LATB4 = 1;
 [e = . . _LATBbits 0 4 -> -> 1 `i `uc ]
-"1174
-[; ;glcd.c: 1174:     _delay((unsigned long)((1)*(8000000/4000000.0)));
+"1246
+[; ;glcd.c: 1246:     _delay((unsigned long)((1)*(8000000/4000000.0)));
 [e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
-"1176
-[; ;glcd.c: 1176:     data = PORTD;
+"1248
+[; ;glcd.c: 1248:     data = PORTD;
 [e = _data _PORTD ]
-"1177
-[; ;glcd.c: 1177:     LATBbits.LATB4 = 0;
+"1249
+[; ;glcd.c: 1249:     LATBbits.LATB4 = 0;
 [e = . . _LATBbits 0 4 -> -> 0 `i `uc ]
-"1178
-[; ;glcd.c: 1178:     _delay((unsigned long)((1)*(8000000/4000000.0)));
+"1250
+[; ;glcd.c: 1250:     _delay((unsigned long)((1)*(8000000/4000000.0)));
 [e ( __delay (1 -> * -> -> 1 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
-"1180
-[; ;glcd.c: 1180:     LATBbits.LATB0 = 0;
+"1252
+[; ;glcd.c: 1252:     LATBbits.LATB0 = 0;
 [e = . . _LATBbits 0 0 -> -> 0 `i `uc ]
-"1181
-[; ;glcd.c: 1181:     LATBbits.LATB1 = 0;
+"1253
+[; ;glcd.c: 1253:     LATBbits.LATB1 = 0;
 [e = . . _LATBbits 0 1 -> -> 0 `i `uc ]
-"1183
-[; ;glcd.c: 1183:     return data;
+"1255
+[; ;glcd.c: 1255:     return data;
 [e ) _data ]
-[e $UE 478  ]
-"1184
-[; ;glcd.c: 1184: }
-[e :UE 478 ]
+[e $UE 476  ]
+"1256
+[; ;glcd.c: 1256: }
+[e :UE 476 ]
 }
-"1190
-[; ;glcd.c: 1190: void glcd_PlotPixel(unsigned char xpos, unsigned char ypos, unsigned char color) {
+"1262
+[; ;glcd.c: 1262: void glcd_PlotPixel(unsigned char xpos, unsigned char ypos, unsigned char color) {
 [v _glcd_PlotPixel `(v ~T0 @X0 1 ef3`uc`uc`uc ]
 {
 [e :U _glcd_PlotPixel ]
@@ -8820,401 +9019,401 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _ypos `uc ~T0 @X0 1 r2 ]
 [v _color `uc ~T0 @X0 1 r3 ]
 [f ]
-"1191
-[; ;glcd.c: 1191:     unsigned char data;
+"1263
+[; ;glcd.c: 1263:     unsigned char data;
 [v _data `uc ~T0 @X0 1 a ]
-"1192
-[; ;glcd.c: 1192:     unsigned char side = 0;
+"1264
+[; ;glcd.c: 1264:     unsigned char side = 0;
 [v _side `uc ~T0 @X0 1 a ]
 [e = _side -> -> 0 `i `uc ]
-"1194
-[; ;glcd.c: 1194:     if (xpos > 63)
-[e $ ! > -> _xpos `i -> 63 `i 482  ]
-"1195
-[; ;glcd.c: 1195:     {
+"1266
+[; ;glcd.c: 1266:     if (xpos > 63)
+[e $ ! > -> _xpos `i -> 63 `i 480  ]
+"1267
+[; ;glcd.c: 1267:     {
 {
-"1196
-[; ;glcd.c: 1196:         xpos -= 64;
+"1268
+[; ;glcd.c: 1268:         xpos -= 64;
 [e =- _xpos -> -> 64 `i `uc ]
-"1197
-[; ;glcd.c: 1197:         side = 1;
+"1269
+[; ;glcd.c: 1269:         side = 1;
 [e = _side -> -> 1 `i `uc ]
-"1198
-[; ;glcd.c: 1198:     }
+"1270
+[; ;glcd.c: 1270:     }
 }
-[e :U 482 ]
-"1199
-[; ;glcd.c: 1199:     LATBbits.LATB2 = 0;
+[e :U 480 ]
+"1271
+[; ;glcd.c: 1271:     LATBbits.LATB2 = 0;
 [e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
-"1201
-[; ;glcd.c: 1201:     xpos &= 0b01111111;
+"1273
+[; ;glcd.c: 1273:     xpos &= 0b01111111;
 [e =& _xpos -> -> 127 `i `uc ]
-"1202
-[; ;glcd.c: 1202:     xpos |= 0b01000000;
+"1274
+[; ;glcd.c: 1274:     xpos |= 0b01000000;
 [e =| _xpos -> -> 64 `i `uc ]
-"1203
-[; ;glcd.c: 1203:     glcd_WriteByte(side, (xpos));
+"1275
+[; ;glcd.c: 1275:     glcd_WriteByte(side, (xpos));
 [e ( _glcd_WriteByte (2 , _side _xpos ]
-"1204
-[; ;glcd.c: 1204:     glcd_WriteByte(side, (((ypos / 8)) & 0xBF) | 0xB8);
+"1276
+[; ;glcd.c: 1276:     glcd_WriteByte(side, (((ypos / 8)) & 0xBF) | 0xB8);
 [e ( _glcd_WriteByte (2 , _side -> | & / -> _ypos `i -> 8 `i -> 191 `i -> 184 `i `uc ]
-"1206
-[; ;glcd.c: 1206:     LATBbits.LATB2 = 1;
+"1278
+[; ;glcd.c: 1278:     LATBbits.LATB2 = 1;
 [e = . . _LATBbits 0 2 -> -> 1 `i `uc ]
-"1208
-[; ;glcd.c: 1208:     glcd_ReadByte(side);
+"1280
+[; ;glcd.c: 1280:     glcd_ReadByte(side);
 [e ( _glcd_ReadByte (1 _side ]
-"1209
-[; ;glcd.c: 1209:     data = glcd_ReadByte(side);
+"1281
+[; ;glcd.c: 1281:     data = glcd_ReadByte(side);
 [e = _data ( _glcd_ReadByte (1 _side ]
-"1211
-[; ;glcd.c: 1211:     LATBbits.LATB2 = 0;
+"1283
+[; ;glcd.c: 1283:     LATBbits.LATB2 = 0;
 [e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
-"1213
-[; ;glcd.c: 1213:     glcd_WriteByte(side, xpos);
+"1285
+[; ;glcd.c: 1285:     glcd_WriteByte(side, xpos);
 [e ( _glcd_WriteByte (2 , _side _xpos ]
-"1215
-[; ;glcd.c: 1215:     if (color)
-[e $ ! != -> _color `i -> 0 `i 483  ]
-"1216
-[; ;glcd.c: 1216:         data = (data) | (1 << (ypos % 8));
+"1287
+[; ;glcd.c: 1287:     if (color)
+[e $ ! != -> _color `i -> 0 `i 481  ]
+"1288
+[; ;glcd.c: 1288:         data = (data) | (1 << (ypos % 8));
 [e = _data -> | -> _data `i << -> 1 `i % -> _ypos `i -> 8 `i `uc ]
-[e $U 484  ]
-"1217
-[; ;glcd.c: 1217:     else
-[e :U 483 ]
-"1218
-[; ;glcd.c: 1218:         data = (data)&(~(1 << (ypos % 8)));
+[e $U 482  ]
+"1289
+[; ;glcd.c: 1289:     else
+[e :U 481 ]
+"1290
+[; ;glcd.c: 1290:         data = (data)&(~(1 << (ypos % 8)));
 [e = _data -> & -> _data `i ~ << -> 1 `i % -> _ypos `i -> 8 `i `uc ]
-[e :U 484 ]
-"1220
-[; ;glcd.c: 1220:     LATBbits.LATB2 = 1;
+[e :U 482 ]
+"1292
+[; ;glcd.c: 1292:     LATBbits.LATB2 = 1;
 [e = . . _LATBbits 0 2 -> -> 1 `i `uc ]
-"1222
-[; ;glcd.c: 1222:     glcd_WriteByte(side, data);
+"1294
+[; ;glcd.c: 1294:     glcd_WriteByte(side, data);
 [e ( _glcd_WriteByte (2 , _side _data ]
-"1223
-[; ;glcd.c: 1223: }
-[e :UE 481 ]
+"1295
+[; ;glcd.c: 1295: }
+[e :UE 479 ]
 }
-"1229
-[; ;glcd.c: 1229: void glcd_SetCursor(unsigned char xpos, unsigned char ypos) {
+"1301
+[; ;glcd.c: 1301: void glcd_SetCursor(unsigned char xpos, unsigned char ypos) {
 [v _glcd_SetCursor `(v ~T0 @X0 1 ef2`uc`uc ]
 {
 [e :U _glcd_SetCursor ]
 [v _xpos `uc ~T0 @X0 1 r1 ]
 [v _ypos `uc ~T0 @X0 1 r2 ]
 [f ]
-"1230
-[; ;glcd.c: 1230:     unsigned char side = 0;
+"1302
+[; ;glcd.c: 1302:     unsigned char side = 0;
 [v _side `uc ~T0 @X0 1 a ]
 [e = _side -> -> 0 `i `uc ]
-"1232
-[; ;glcd.c: 1232:     if (xpos > 127 | ypos > 7)
-[e $ ! | > -> _xpos `i -> 127 `i > -> _ypos `i -> 7 `i 486  ]
-"1233
-[; ;glcd.c: 1233:         return;
-[e $UE 485  ]
-[e :U 486 ]
-"1235
-[; ;glcd.c: 1235:     x = xpos;
+"1304
+[; ;glcd.c: 1304:     if (xpos > 127 | ypos > 7)
+[e $ ! | > -> _xpos `i -> 127 `i > -> _ypos `i -> 7 `i 484  ]
+"1305
+[; ;glcd.c: 1305:         return;
+[e $UE 483  ]
+[e :U 484 ]
+"1307
+[; ;glcd.c: 1307:     x = xpos;
 [e = _x _xpos ]
-"1236
-[; ;glcd.c: 1236:     y = ypos;
+"1308
+[; ;glcd.c: 1308:     y = ypos;
 [e = _y _ypos ]
-"1238
-[; ;glcd.c: 1238:     if (xpos > 63)
-[e $ ! > -> _xpos `i -> 63 `i 487  ]
-"1239
-[; ;glcd.c: 1239:     {
+"1310
+[; ;glcd.c: 1310:     if (xpos > 63)
+[e $ ! > -> _xpos `i -> 63 `i 485  ]
+"1311
+[; ;glcd.c: 1311:     {
 {
-"1240
-[; ;glcd.c: 1240:         xpos -= 64;
+"1312
+[; ;glcd.c: 1312:         xpos -= 64;
 [e =- _xpos -> -> 64 `i `uc ]
-"1241
-[; ;glcd.c: 1241:         side = 1;
+"1313
+[; ;glcd.c: 1313:         side = 1;
 [e = _side -> -> 1 `i `uc ]
-"1242
-[; ;glcd.c: 1242:     }
+"1314
+[; ;glcd.c: 1314:     }
 }
-[e :U 487 ]
-"1244
-[; ;glcd.c: 1244:     LATBbits.LATB2 = 0;
+[e :U 485 ]
+"1316
+[; ;glcd.c: 1316:     LATBbits.LATB2 = 0;
 [e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
-"1245
-[; ;glcd.c: 1245:     glcd_WriteByte(side, 0x40 | xpos);
+"1317
+[; ;glcd.c: 1317:     glcd_WriteByte(side, 0x40 | xpos);
 [e ( _glcd_WriteByte (2 , _side -> | -> 64 `i -> _xpos `i `uc ]
-"1246
-[; ;glcd.c: 1246:     glcd_WriteByte(side, 0xB8 | ypos);
+"1318
+[; ;glcd.c: 1318:     glcd_WriteByte(side, 0xB8 | ypos);
 [e ( _glcd_WriteByte (2 , _side -> | -> 184 `i -> _ypos `i `uc ]
-"1247
-[; ;glcd.c: 1247:     LATBbits.LATB2 = 1;
+"1319
+[; ;glcd.c: 1319:     LATBbits.LATB2 = 1;
 [e = . . _LATBbits 0 2 -> -> 1 `i `uc ]
-"1248
-[; ;glcd.c: 1248: }
-[e :UE 485 ]
+"1320
+[; ;glcd.c: 1320: }
+[e :UE 483 ]
 }
-"1255
-[; ;glcd.c: 1255: void glcd_WriteChar8X8(unsigned char ch, unsigned char color) {
+"1327
+[; ;glcd.c: 1327: void glcd_WriteChar8X8(unsigned char ch, unsigned char color) {
 [v _glcd_WriteChar8X8 `(v ~T0 @X0 1 ef2`uc`uc ]
 {
 [e :U _glcd_WriteChar8X8 ]
 [v _ch `uc ~T0 @X0 1 r1 ]
 [v _color `uc ~T0 @X0 1 r2 ]
 [f ]
-"1256
-[; ;glcd.c: 1256:     unsigned char i, xpos;
+"1328
+[; ;glcd.c: 1328:     unsigned char i, xpos;
 [v _i `uc ~T0 @X0 1 a ]
 [v _xpos `uc ~T0 @X0 1 a ]
-"1257
-[; ;glcd.c: 1257:     unsigned char side = 0;
+"1329
+[; ;glcd.c: 1329:     unsigned char side = 0;
 [v _side `uc ~T0 @X0 1 a ]
 [e = _side -> -> 0 `i `uc ]
-"1258
-[; ;glcd.c: 1258:     unsigned int chr;
+"1330
+[; ;glcd.c: 1330:     unsigned int chr;
 [v _chr `ui ~T0 @X0 1 a ]
-"1260
-[; ;glcd.c: 1260:     if (ch == '\n')
-[e $ ! == -> _ch `ui -> 10 `ui 489  ]
-"1261
-[; ;glcd.c: 1261:     {
+"1332
+[; ;glcd.c: 1332:     if (ch == '\n')
+[e $ ! == -> _ch `ui -> 10 `ui 487  ]
+"1333
+[; ;glcd.c: 1333:     {
 {
-"1262
-[; ;glcd.c: 1262:         x = 0;
+"1334
+[; ;glcd.c: 1334:         x = 0;
 [e = _x -> -> 0 `i `uc ]
-"1263
-[; ;glcd.c: 1263:         y++;
+"1335
+[; ;glcd.c: 1335:         y++;
 [e ++ _y -> -> 1 `i `uc ]
-"1264
-[; ;glcd.c: 1264:         return;
-[e $UE 488  ]
-"1265
-[; ;glcd.c: 1265:     }
+"1336
+[; ;glcd.c: 1336:         return;
+[e $UE 486  ]
+"1337
+[; ;glcd.c: 1337:     }
 }
-[e :U 489 ]
-"1267
-[; ;glcd.c: 1267:     if (x > 63)
-[e $ ! > -> _x `i -> 63 `i 490  ]
-"1268
-[; ;glcd.c: 1268:     {
+[e :U 487 ]
+"1339
+[; ;glcd.c: 1339:     if (x > 63)
+[e $ ! > -> _x `i -> 63 `i 488  ]
+"1340
+[; ;glcd.c: 1340:     {
 {
-"1269
-[; ;glcd.c: 1269:         side = 1;
+"1341
+[; ;glcd.c: 1341:         side = 1;
 [e = _side -> -> 1 `i `uc ]
-"1270
-[; ;glcd.c: 1270:         xpos = x - 64;
+"1342
+[; ;glcd.c: 1342:         xpos = x - 64;
 [e = _xpos -> - -> _x `i -> 64 `i `uc ]
-"1271
-[; ;glcd.c: 1271:     }
+"1343
+[; ;glcd.c: 1343:     }
 }
-[e $U 491  ]
-"1272
-[; ;glcd.c: 1272:     else
-[e :U 490 ]
-"1273
-[; ;glcd.c: 1273:         xpos = x;
+[e $U 489  ]
+"1344
+[; ;glcd.c: 1344:     else
+[e :U 488 ]
+"1345
+[; ;glcd.c: 1345:         xpos = x;
 [e = _xpos _x ]
-[e :U 491 ]
-"1275
-[; ;glcd.c: 1275:     chr = (int) ch * 8;
+[e :U 489 ]
+"1347
+[; ;glcd.c: 1347:     chr = (int) ch * 8;
 [e = _chr -> * -> _ch `i -> 8 `i `ui ]
-"1277
-[; ;glcd.c: 1277:     for (i = 0; i < 8; i++)
+"1349
+[; ;glcd.c: 1349:     for (i = 0; i < 8; i++)
 {
 [e = _i -> -> 0 `i `uc ]
-[e $ < -> _i `i -> 8 `i 492  ]
-[e $U 493  ]
-[e :U 492 ]
-"1278
-[; ;glcd.c: 1278:     {
+[e $ < -> _i `i -> 8 `i 490  ]
+[e $U 491  ]
+[e :U 490 ]
+"1350
+[; ;glcd.c: 1350:     {
 {
-"1280
-[; ;glcd.c: 1280:         if (xpos > 63) {
-[e $ ! > -> _xpos `i -> 63 `i 495  ]
+"1352
+[; ;glcd.c: 1352:         if (xpos > 63) {
+[e $ ! > -> _xpos `i -> 63 `i 493  ]
 {
-"1281
-[; ;glcd.c: 1281:             xpos -= 64;
+"1353
+[; ;glcd.c: 1353:             xpos -= 64;
 [e =- _xpos -> -> 64 `i `uc ]
-"1282
-[; ;glcd.c: 1282:             side = 1;
+"1354
+[; ;glcd.c: 1354:             side = 1;
 [e = _side -> -> 1 `i `uc ]
-"1283
-[; ;glcd.c: 1283:             LATBbits.LATB2 = 0;
+"1355
+[; ;glcd.c: 1355:             LATBbits.LATB2 = 0;
 [e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
-"1284
-[; ;glcd.c: 1284:             glcd_WriteByte(side, 0x40 | xpos);
+"1356
+[; ;glcd.c: 1356:             glcd_WriteByte(side, 0x40 | xpos);
 [e ( _glcd_WriteByte (2 , _side -> | -> 64 `i -> _xpos `i `uc ]
-"1285
-[; ;glcd.c: 1285:             glcd_WriteByte(side, 0xB8 | y);
+"1357
+[; ;glcd.c: 1357:             glcd_WriteByte(side, 0xB8 | y);
 [e ( _glcd_WriteByte (2 , _side -> | -> 184 `i -> _y `i `uc ]
-"1286
-[; ;glcd.c: 1286:             LATBbits.LATB2 = 1;
+"1358
+[; ;glcd.c: 1358:             LATBbits.LATB2 = 1;
 [e = . . _LATBbits 0 2 -> -> 1 `i `uc ]
-"1287
-[; ;glcd.c: 1287:         }
+"1359
+[; ;glcd.c: 1359:         }
 }
-[e :U 495 ]
-"1288
-[; ;glcd.c: 1288:         if (color)
-[e $ ! != -> _color `i -> 0 `i 496  ]
-"1289
-[; ;glcd.c: 1289:             glcd_WriteByte(side, Font8x8[chr + i]);
+[e :U 493 ]
+"1360
+[; ;glcd.c: 1360:         if (color)
+[e $ ! != -> _color `i -> 0 `i 494  ]
+"1361
+[; ;glcd.c: 1361:             glcd_WriteByte(side, Font8x8[chr + i]);
 [e ( _glcd_WriteByte (2 , _side *U + &U _Font8x8 * -> + _chr -> _i `ui `ux -> -> # *U &U _Font8x8 `ui `ux ]
-[e $U 497  ]
-"1290
-[; ;glcd.c: 1290:         else
-[e :U 496 ]
-"1291
-[; ;glcd.c: 1291:             glcd_WriteByte(side, ~(Font8x8[chr + i]));
+[e $U 495  ]
+"1362
+[; ;glcd.c: 1362:         else
+[e :U 494 ]
+"1363
+[; ;glcd.c: 1363:             glcd_WriteByte(side, ~(Font8x8[chr + i]));
 [e ( _glcd_WriteByte (2 , _side -> ~ -> *U + &U _Font8x8 * -> + _chr -> _i `ui `ux -> -> # *U &U _Font8x8 `ui `ux `i `uc ]
-[e :U 497 ]
-"1292
-[; ;glcd.c: 1292:         xpos++;
+[e :U 495 ]
+"1364
+[; ;glcd.c: 1364:         xpos++;
 [e ++ _xpos -> -> 1 `i `uc ]
-"1293
-[; ;glcd.c: 1293:     }
+"1365
+[; ;glcd.c: 1365:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
-[e $ < -> _i `i -> 8 `i 492  ]
-[e :U 493 ]
+[e $ < -> _i `i -> 8 `i 490  ]
+[e :U 491 ]
 }
-"1294
-[; ;glcd.c: 1294:     x += 8;
+"1366
+[; ;glcd.c: 1366:     x += 8;
 [e =+ _x -> -> 8 `i `uc ]
-"1295
-[; ;glcd.c: 1295: }
-[e :UE 488 ]
+"1367
+[; ;glcd.c: 1367: }
+[e :UE 486 ]
 }
-"1302
-[; ;glcd.c: 1302: void glcd_WriteChar3x6(unsigned char ch, unsigned char color) {
+"1374
+[; ;glcd.c: 1374: void glcd_WriteChar3x6(unsigned char ch, unsigned char color) {
 [v _glcd_WriteChar3x6 `(v ~T0 @X0 1 ef2`uc`uc ]
 {
 [e :U _glcd_WriteChar3x6 ]
 [v _ch `uc ~T0 @X0 1 r1 ]
 [v _color `uc ~T0 @X0 1 r2 ]
 [f ]
-"1303
-[; ;glcd.c: 1303:     unsigned char i, xpos;
+"1375
+[; ;glcd.c: 1375:     unsigned char i, xpos;
 [v _i `uc ~T0 @X0 1 a ]
 [v _xpos `uc ~T0 @X0 1 a ]
-"1304
-[; ;glcd.c: 1304:     unsigned char side = 0;
+"1376
+[; ;glcd.c: 1376:     unsigned char side = 0;
 [v _side `uc ~T0 @X0 1 a ]
 [e = _side -> -> 0 `i `uc ]
-"1306
-[; ;glcd.c: 1306:     if (ch == '\n')
-[e $ ! == -> _ch `ui -> 10 `ui 499  ]
-"1307
-[; ;glcd.c: 1307:     {
+"1378
+[; ;glcd.c: 1378:     if (ch == '\n')
+[e $ ! == -> _ch `ui -> 10 `ui 497  ]
+"1379
+[; ;glcd.c: 1379:     {
 {
-"1308
-[; ;glcd.c: 1308:         x = 0;
+"1380
+[; ;glcd.c: 1380:         x = 0;
 [e = _x -> -> 0 `i `uc ]
-"1309
-[; ;glcd.c: 1309:         y++;
+"1381
+[; ;glcd.c: 1381:         y++;
 [e ++ _y -> -> 1 `i `uc ]
-"1310
-[; ;glcd.c: 1310:         return;
-[e $UE 498  ]
-"1311
-[; ;glcd.c: 1311:     }
+"1382
+[; ;glcd.c: 1382:         return;
+[e $UE 496  ]
+"1383
+[; ;glcd.c: 1383:     }
 }
-[e :U 499 ]
-"1313
-[; ;glcd.c: 1313:     if (x > 63)
-[e $ ! > -> _x `i -> 63 `i 500  ]
-"1314
-[; ;glcd.c: 1314:     {
+[e :U 497 ]
+"1385
+[; ;glcd.c: 1385:     if (x > 63)
+[e $ ! > -> _x `i -> 63 `i 498  ]
+"1386
+[; ;glcd.c: 1386:     {
 {
-"1315
-[; ;glcd.c: 1315:         side = 1;
+"1387
+[; ;glcd.c: 1387:         side = 1;
 [e = _side -> -> 1 `i `uc ]
-"1316
-[; ;glcd.c: 1316:         xpos = x - 64;
+"1388
+[; ;glcd.c: 1388:         xpos = x - 64;
 [e = _xpos -> - -> _x `i -> 64 `i `uc ]
-"1317
-[; ;glcd.c: 1317:     }
+"1389
+[; ;glcd.c: 1389:     }
 }
-[e $U 501  ]
-"1318
-[; ;glcd.c: 1318:     else
-[e :U 500 ]
-"1319
-[; ;glcd.c: 1319:         xpos = x;
+[e $U 499  ]
+"1390
+[; ;glcd.c: 1390:     else
+[e :U 498 ]
+"1391
+[; ;glcd.c: 1391:         xpos = x;
 [e = _xpos _x ]
-[e :U 501 ]
-"1321
-[; ;glcd.c: 1321:     ch -= 32;
+[e :U 499 ]
+"1393
+[; ;glcd.c: 1393:     ch -= 32;
 [e =- _ch -> -> 32 `i `uc ]
-"1323
-[; ;glcd.c: 1323:     for (i = 0; i < 3; i++)
+"1395
+[; ;glcd.c: 1395:     for (i = 0; i < 3; i++)
 {
 [e = _i -> -> 0 `i `uc ]
-[e $ < -> _i `i -> 3 `i 502  ]
-[e $U 503  ]
-[e :U 502 ]
-"1324
-[; ;glcd.c: 1324:     {
+[e $ < -> _i `i -> 3 `i 500  ]
+[e $U 501  ]
+[e :U 500 ]
+"1396
+[; ;glcd.c: 1396:     {
 {
-"1325
-[; ;glcd.c: 1325:         if (xpos > 63) {
-[e $ ! > -> _xpos `i -> 63 `i 505  ]
+"1397
+[; ;glcd.c: 1397:         if (xpos > 63) {
+[e $ ! > -> _xpos `i -> 63 `i 503  ]
 {
-"1326
-[; ;glcd.c: 1326:             xpos -= 64;
+"1398
+[; ;glcd.c: 1398:             xpos -= 64;
 [e =- _xpos -> -> 64 `i `uc ]
-"1327
-[; ;glcd.c: 1327:             side = 1;
+"1399
+[; ;glcd.c: 1399:             side = 1;
 [e = _side -> -> 1 `i `uc ]
-"1328
-[; ;glcd.c: 1328:             LATBbits.LATB2 = 0;
+"1400
+[; ;glcd.c: 1400:             LATBbits.LATB2 = 0;
 [e = . . _LATBbits 0 2 -> -> 0 `i `uc ]
-"1329
-[; ;glcd.c: 1329:             glcd_WriteByte(side, 0x40 | xpos);
+"1401
+[; ;glcd.c: 1401:             glcd_WriteByte(side, 0x40 | xpos);
 [e ( _glcd_WriteByte (2 , _side -> | -> 64 `i -> _xpos `i `uc ]
-"1330
-[; ;glcd.c: 1330:             glcd_WriteByte(side, 0xB8 | y);
+"1402
+[; ;glcd.c: 1402:             glcd_WriteByte(side, 0xB8 | y);
 [e ( _glcd_WriteByte (2 , _side -> | -> 184 `i -> _y `i `uc ]
-"1331
-[; ;glcd.c: 1331:             LATBbits.LATB2 = 1;
+"1403
+[; ;glcd.c: 1403:             LATBbits.LATB2 = 1;
 [e = . . _LATBbits 0 2 -> -> 1 `i `uc ]
-"1332
-[; ;glcd.c: 1332:         }
+"1404
+[; ;glcd.c: 1404:         }
 }
-[e :U 505 ]
-"1333
-[; ;glcd.c: 1333:         if (color)
-[e $ ! != -> _color `i -> 0 `i 506  ]
-"1334
-[; ;glcd.c: 1334:             glcd_WriteByte(side, Font3x6[ch][i]);
+[e :U 503 ]
+"1405
+[; ;glcd.c: 1405:         if (color)
+[e $ ! != -> _color `i -> 0 `i 504  ]
+"1406
+[; ;glcd.c: 1406:             glcd_WriteByte(side, Font3x6[ch][i]);
 [e ( _glcd_WriteByte (2 , _side *U + &U *U + &U _Font3x6 * -> _ch `ux -> * -> # *U &U *U &U _Font3x6 `ui -> -> 3 `i `ui `ux * -> _i `ux -> -> # *U &U *U + &U _Font3x6 * -> _ch `ux -> * -> # *U &U *U &U _Font3x6 `ui -> -> 3 `i `ui `ux `ui `ux ]
-[e $U 507  ]
-"1335
-[; ;glcd.c: 1335:         else
-[e :U 506 ]
-"1336
-[; ;glcd.c: 1336:             glcd_WriteByte(side, ~(Font3x6[ch][i]));
+[e $U 505  ]
+"1407
+[; ;glcd.c: 1407:         else
+[e :U 504 ]
+"1408
+[; ;glcd.c: 1408:             glcd_WriteByte(side, ~(Font3x6[ch][i]));
 [e ( _glcd_WriteByte (2 , _side -> ~ -> *U + &U *U + &U _Font3x6 * -> _ch `ux -> * -> # *U &U *U &U _Font3x6 `ui -> -> 3 `i `ui `ux * -> _i `ux -> -> # *U &U *U + &U _Font3x6 * -> _ch `ux -> * -> # *U &U *U &U _Font3x6 `ui -> -> 3 `i `ui `ux `ui `ux `i `uc ]
-[e :U 507 ]
-"1337
-[; ;glcd.c: 1337:         xpos++;
+[e :U 505 ]
+"1409
+[; ;glcd.c: 1409:         xpos++;
 [e ++ _xpos -> -> 1 `i `uc ]
-"1338
-[; ;glcd.c: 1338:     }
+"1410
+[; ;glcd.c: 1410:     }
 }
 [e ++ _i -> -> 1 `i `uc ]
-[e $ < -> _i `i -> 3 `i 502  ]
-[e :U 503 ]
+[e $ < -> _i `i -> 3 `i 500  ]
+[e :U 501 ]
 }
-"1339
-[; ;glcd.c: 1339:     x += 5;
+"1411
+[; ;glcd.c: 1411:     x += 5;
 [e =+ _x -> -> 5 `i `uc ]
-"1340
-[; ;glcd.c: 1340: }
-[e :UE 498 ]
+"1412
+[; ;glcd.c: 1412: }
+[e :UE 496 ]
 }
-"1346
-[; ;glcd.c: 1346: void glcd_WriteString(unsigned char str[], unsigned char font, unsigned char color) {
+"1418
+[; ;glcd.c: 1418: void glcd_WriteString(unsigned char str[], unsigned char font, unsigned char color) {
 [v _glcd_WriteString `(v ~T0 @X0 1 ef3`*uc`uc`uc ]
 {
 [e :U _glcd_WriteString ]
@@ -9222,37 +9421,37 @@ Version 4.0 HI-TECH Software Intermediate Code
 [v _font `uc ~T0 @X0 1 r2 ]
 [v _color `uc ~T0 @X0 1 r3 ]
 [f ]
-"1347
-[; ;glcd.c: 1347:     while (*str) {
-[e $U 509  ]
-[e :U 510 ]
+"1419
+[; ;glcd.c: 1419:     while (*str) {
+[e $U 507  ]
+[e :U 508 ]
 {
-"1348
-[; ;glcd.c: 1348:         if (font)
-[e $ ! != -> _font `i -> 0 `i 512  ]
-"1349
-[; ;glcd.c: 1349:             glcd_WriteChar8X8(*str, color);
+"1420
+[; ;glcd.c: 1420:         if (font)
+[e $ ! != -> _font `i -> 0 `i 510  ]
+"1421
+[; ;glcd.c: 1421:             glcd_WriteChar8X8(*str, color);
 [e ( _glcd_WriteChar8X8 (2 , *U _str _color ]
-[e $U 513  ]
-"1350
-[; ;glcd.c: 1350:         else
-[e :U 512 ]
-"1351
-[; ;glcd.c: 1351:             glcd_WriteChar3x6(*str, color);
+[e $U 511  ]
+"1422
+[; ;glcd.c: 1422:         else
+[e :U 510 ]
+"1423
+[; ;glcd.c: 1423:             glcd_WriteChar3x6(*str, color);
 [e ( _glcd_WriteChar3x6 (2 , *U _str _color ]
-[e :U 513 ]
-"1352
-[; ;glcd.c: 1352:         str++;
-[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
-"1353
-[; ;glcd.c: 1353:     }
-}
-[e :U 509 ]
-"1347
-[; ;glcd.c: 1347:     while (*str) {
-[e $ != -> *U _str `i -> 0 `i 510  ]
 [e :U 511 ]
-"1354
-[; ;glcd.c: 1354: }
-[e :UE 508 ]
+"1424
+[; ;glcd.c: 1424:         str++;
+[e ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+"1425
+[; ;glcd.c: 1425:     }
+}
+[e :U 507 ]
+"1419
+[; ;glcd.c: 1419:     while (*str) {
+[e $ != -> *U _str `i -> 0 `i 508  ]
+[e :U 509 ]
+"1426
+[; ;glcd.c: 1426: }
+[e :UE 506 ]
 }

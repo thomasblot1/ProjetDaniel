@@ -564,8 +564,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;init.c: 12:     TRISB = 0x00;
 [e = _TRISB -> -> 0 `i `uc ]
 "13
-[; ;init.c: 13:     TRISC = 0x00;
-[e = _TRISC -> -> 0 `i `uc ]
+[; ;init.c: 13:     TRISC = 0xFF;
+[e = _TRISC -> -> 255 `i `uc ]
 "14
 [; ;init.c: 14:     TRISD = 0x00;
 [e = _TRISD -> -> 0 `i `uc ]

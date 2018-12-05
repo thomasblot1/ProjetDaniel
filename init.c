@@ -10,7 +10,7 @@ void initMyPIC18F(void) {
     // set all ports as OUTPUTS only the screen will be considered as output
     TRISA = 0x00;
     TRISB = 0x00;
-    TRISC = 0x00;
+    TRISC = 0xFF;
     TRISD = 0x00;
     TRISE = 0x00;
     // thomas travaille sur le tris pour el port e et le port b des boutons
