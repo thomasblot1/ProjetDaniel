@@ -25,6 +25,8 @@ void main(void) {
     __delay_ms(500);
     glcd_SetCursor(30, 3);
 
+    
+
     //glcd_SetCursor(53,60);
     glcd_WriteString("Made by", f8X8, 1);
     glcd_SetCursor(10, 5);
